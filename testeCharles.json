@@ -1,12 +1,16 @@
 {
-    "9346953261085205": {
-        "docente": "Charles Henrique Porto Ferreira",
-        "departamento": "Ciência da Computação",
-        "link_lattes": "http://lattes.cnpq.br/9346953261085205",
-        "Instituição_doutorado": "Universidade Federal do ABC, UFABC, Brasil",
-        "Orientador_doutorado": "0803731316406727",
-        "link_orientador": "http://lattes.cnpq.br/0803731316406727",
-        "Instituição_orientador": "Universidade de São Paulo, USP, Brasil",
-        "Orientados": ""
+    "4570923990252346": {
+        "docente": "Calebe de Paula Bianchini",
+        "link_lattes": "http://lattes.cnpq.br/4570923990252346",
+        "Instituição_doutorado": "Universidade de São Paulo, USP, Brasil.",
+        "Orientador_doutorado": "",
+        "Instituição_orientador": " "
+    },
+    "0803731316406727": {
+        "docente": "Debora Maria Rossi de Medeiros",
+        "link_lattes": "http://lattes.cnpq.br/{orientador_id}",
+        "Instituição_doutorado": "Universidade de São Paulo, USP, Brasil",
+        "Orientador_doutorado": "Witold Pedrycz)",
+        "Instituição_orientador": ""
     }
 }
