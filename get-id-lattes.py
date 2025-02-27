@@ -1,72 +1,80 @@
-import requests
-from bs4 import BeautifulSoup
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+import time
 
-def parse_lattes_url(lattes_url):
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
-    }
+def extrair_info_lattes(driver):
+    """
+    Após o CAPTCHA ser resolvido e a página estar carregada,
+    extrai as informações da seção "Formação acadêmica/titulação".
+    """
+    try:
+        # Aguarda até que a âncora com name "FormacaoAcademicaTitulacao" esteja presente
+        formacao_anchor = WebDriverWait(driver, 40).until(
+            EC.presence_of_element_located((By.XPATH, "//a[@name='FormacaoAcademicaTitulacao']"))
+        )
+        print("Anchora encontrada:", formacao_anchor.get_attribute("outerHTML"))
+        
+        # A partir dela, procura o container com os dados
+        container = formacao_anchor.find_element(By.XPATH, "following::div[contains(@class, 'layout-cell-12 data-cell')]")
+        print("Container encontrado:", container.get_attribute("outerHTML")[:300])
+        
+        # Dentro do container, busca o primeiro <div> com a classe "layout-cell-pad-5"
+        info_div = container.find_element(By.CLASS_NAME, "layout-cell-pad-5")
+        texto_extraido = info_div.text
+        print("Texto extraído do info_div:")
+        print(texto_extraido)
+        
+        linhas = texto_extraido.splitlines()
+        print("Linhas extraídas:", linhas)
+        
+        if len(linhas) < 3:
+            print("Informações insuficientes extraídas.")
+            return {}
+        
+        titulacao = linhas[0]
+        instituicao = linhas[1]
+        orientador = "Não encontrado"
+        for linha in linhas:
+            if linha.startswith("Orientador:"):
+                orientador = linha.split("Orientador:")[-1].strip()
+                break
+
+        return {
+            "titulacao": titulacao,
+            "instituicao": instituicao,
+            "orientador": orientador
+        }
+    except Exception as e:
+        print("Erro durante a extração com Selenium:", e)
+        return {}
+
+def main():
+    # Configuração das opções do Chrome
+    chrome_options = Options()
+    chrome_options.add_argument("--start-maximized")
+    # Não usar modo headless para que seja possível resolver o CAPTCHA
+    # chrome_options.add_argument("--headless")
     
-    # Realiza a requisição HTTP para obter o conteúdo da página com cabeçalho de User-Agent
-    response = requests.get(lattes_url, headers=headers)
+    driver = webdriver.Chrome(options=chrome_options)
     
-    if response.status_code != 200:
-        print(f"Erro ao acessar o Lattes: {lattes_url}")
-        return None
-
-    # Usa BeautifulSoup para parsear o conteúdo HTML
-    soup = BeautifulSoup(response.content, 'html.parser')
+    # URL do currículo Lattes (exemplo: Valter Fernandes Avelino)
+    url = "http://lattes.cnpq.br/8003431098276221"
+    driver.get(url)
     
-    # Cria um dicionário para armazenar as informações extraídas
-    data = {}
+    print("Caso apareça um CAPTCHA, por favor, resolva-o manualmente no navegador.")
+    input("Depois de resolver o CAPTCHA e a página estiver carregada, pressione Enter para continuar...")
 
-    # Nome do titular do currículo
-    name_tag = soup.find('span', {'class': 'nome'})
-    if name_tag:
-        data['nome'] = name_tag.get_text(strip=True)
+    info = extrair_info_lattes(driver)
+    print("\n=== Informações Extraídas ===")
+    print("Titulação/Formação Acadêmica:", info.get("titulacao"))
+    print("Instituição Acadêmica:", info.get("instituicao"))
+    print("Orientador:", info.get("orientador"))
+    
+    time.sleep(5)  # Tempo para visualização dos dados extraídos
+    driver.quit()
 
-    # Titulação
-    titulation_tag = soup.find('span', {'class': 'titulacao'})
-    if titulation_tag:
-        data['titulacao'] = titulation_tag.get_text(strip=True)
-
-    # Formação acadêmica e informações sobre a instituição e orientador
-    education_section = soup.find_all('section', {'class': 'titulo_secao'})
-    for section in education_section:
-        if "Formação Acadêmica" in section.get_text():
-            # Dentro dessa seção, procure detalhes como curso, instituição e orientador
-            education_details = section.find_next('div', {'class': 'dados_secao'})
-            if education_details:
-                for item in education_details.find_all('p'):
-                    if "Instituição:" in item.get_text():
-                        data['instituicao'] = item.get_text(strip=True).replace("Instituição:", "").strip()
-                    if "Orientador:" in item.get_text():
-                        data['orientador'] = item.get_text(strip=True).replace("Orientador:", "").strip()
-
-    return data
-
-def parse_multiple_lattes(urls):
-    # Recebe uma lista de URLs do Lattes e retorna um dicionário com todas as informações
-    parsed_data = []
-    for url in urls:
-        data = parse_lattes_url(url)
-        if data:
-            parsed_data.append(data)
-    return parsed_data
-
-# Lista de links do Lattes
-lattes_links = [
-    "https://lattes.cnpq.br/1234567890123456",  # Substitua com links reais
-    "https://lattes.cnpq.br/6543210987654321",
-    "http://lattes.cnpq.br/2252524078791196",
-    "http://lattes.cnpq.br/1299755265131677",
-    "http://lattes.cnpq.br/2737250182959127",
-    "http://lattes.cnpq.br/4313823172445184",
-    "http://lattes.cnpq.br/9168416334175028"
-]
-
-# Chama a função para processar os links
-curriculos = parse_multiple_lattes(lattes_links)
-
-# Exibe os resultados
-for curriculo in curriculos:
-    print(curriculo)
+if __name__ == "__main__":
+    main()
