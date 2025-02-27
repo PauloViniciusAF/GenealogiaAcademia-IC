@@ -1,13 +1,12 @@
-
 {
-        "9346953261085205" : [
-        {
+    "9346953261085205": {
         "docente": "Charles Henrique Porto Ferreira",
         "departamento": "Ciência da Computação",
         "link_lattes": "http://lattes.cnpq.br/9346953261085205",
-        "Instituição_doutorado" : "Universidade Federal do ABC",
-        "Orientador_doutorado" : "0803731316406727",
-        "Orientados" : ""
-        }
-        ]           
+        "Instituição_doutorado": "Universidade Federal do ABC, UFABC, Brasil",
+        "Orientador_doutorado": "0803731316406727",
+        "link_orientador": "http://lattes.cnpq.br/0803731316406727",
+        "Instituição_orientador": "Universidade de São Paulo, USP, Brasil",
+        "Orientados": ""
+    }
 }

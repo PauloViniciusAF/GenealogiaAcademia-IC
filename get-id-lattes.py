@@ -1,167 +1,165 @@
 import json
 import time
 from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-def ler_json(arquivo_json):
+def read_json(filename):
     """
-    Lê o arquivo JSON e retorna o dicionário com os dados.
-    Exemplo de estrutura:
+    Lê o arquivo JSON e retorna o dicionário de dados.
+    Estrutura esperada:
     {
-      "9346953261085205": [
-         {
-            "docente": "Charles Henrique Porto Ferreira",
-            "departamento": "Ciência da Computação",
-            "link_lattes": "http://lattes.cnpq.br/9346953261085205",
-            "Instituição_doutorado" : "Universidade Federal do ABC",
-            "Orientador_doutorado" : "0803731316406727",
-            "Orientados" : ""
-         }
-      ]
+        "9346953261085205" : [
+            {
+                "docente": "Charles Henrique Porto Ferreira",
+                "departamento": "Ciência da Computação",
+                "link_lattes": "http://lattes.cnpq.br/9346953261085205",
+                "Instituição_doutorado": "Universidade Federal do ABC",
+                "Orientador_doutorado": "0803731316406727",
+                "orientados": ""
+            }
+        ]
     }
     """
     try:
-        with open(arquivo_json, "r", encoding="utf-8") as f:
-            dados = json.load(f)
-            return dados
+        with open(filename, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return data
     except Exception as e:
         print("Erro ao ler o arquivo JSON:", e)
         return {}
 
-def obter_link_lattes_do_json(registro):
+def write_json(filename, data):
     """
-    Recebe um registro (dicionário) e retorna o link Lattes.
+    Escreve o dicionário 'data' no arquivo JSON indicado.
     """
-    return registro.get("link_lattes")
+    try:
+        with open(filename, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=4, ensure_ascii=False)
+        print(f"Arquivo atualizado salvo em: {filename}")
+    except Exception as e:
+        print("Erro ao escrever o arquivo JSON:", e)
 
-def inicializar_driver():
+def initialize_driver():
     """
-    Inicializa o Selenium WebDriver para o Chrome.
+    Inicializa o WebDriver do Chrome.
+    Como é necessário resolver o CAPTCHA manualmente, não usamos modo headless.
     """
     chrome_options = Options()
     chrome_options.add_argument("--start-maximized")
-    # Não usamos o modo headless pois precisamos resolver o CAPTCHA manualmente.
-    driver = webdriver.Chrome(options=chrome_options)
+    service = Service("chromedriver.exe")  # ajuste conforme seu ambiente (Linux/Mac: "chromedriver")
+    driver = webdriver.Chrome(service=service, options=chrome_options)
     return driver
 
-def abrir_lattes(driver, link):
+def open_lattes_page(driver, url):
     """
-    Abre o link Lattes com o Selenium e aguarda o usuário resolver o CAPTCHA.
+    Abre a página do Lattes com a URL dada e pausa para que o usuário resolva o CAPTCHA.
     """
-    driver.get(link)
-    print(f"Acessando: {link}")
+    driver.get(url)
+    print(f"Acessando: {url}")
     print("Caso apareça um CAPTCHA, por favor, resolva-o manualmente no navegador.")
     input("Depois de resolver o CAPTCHA e a página estiver carregada, pressione Enter para continuar...")
 
-def extrair_info_lattes(driver):
+def extract_lattes_info(driver):
     """
-    Utiliza o Selenium para extrair as informações da seção "Formação acadêmica/titulação".
-    Retorna um dicionário com:
-      - "instituicao": a instituição extraída (segunda linha)
-      - "orientador": o nome extraído da linha que começa com "Orientador:"
+    Extrai informações básicas da página do Lattes atual.
+    Retorna um dicionário com as chaves:
+      "docente", "link_lattes", "Instituição_doutorado", "orientador_doutorado", "orientados"
+    A extração é feita a partir da seção "FormacaoAcademicaTitulacao" e do elemento <h2 class="nome">.
     """
+    info = {}
+    # Extrai o nome (geralmente em <h2 class="nome">)
     try:
-        # Procura o elemento que contenha o texto "Doutorado em" na div com a classe "layout-cell-pad-5"
-        elemento = WebDriverWait(driver, 40).until(
-            EC.presence_of_element_located(
-                (By.XPATH, "//div[contains(@class, 'layout-cell-pad-5') and contains(., 'Doutorado em')]")
-            )
+        nome_elem = WebDriverWait(driver, 20).until(
+            EC.presence_of_element_located((By.XPATH, "//h2[contains(@class, 'nome')]"))
         )
-        texto = elemento.text
-        partes = texto.split('.')
-        doutorado = partes[0].strip() if len(partes) > 0 else ""
-        instituicao = partes[1].strip() if len(partes) > 1 else ""
-
-        return {
-            "instituicao": instituicao,
-            "doutorado": doutorado
-        }
+        info["docente"] = nome_elem.text.strip() if nome_elem else ""
     except Exception as e:
-        print("Erro durante a extração com Selenium:", e)
-        return {}
+        print("Erro ao extrair o nome:", e)
+        info["docente"] = ""
+    info["link_lattes"] = driver.current_url
+    # Extrai dados da seção de formação (considera que o bloco de doutorado contém o texto "Doutorado")
+    try:
+        anchor = WebDriverWait(driver, 40).until(
+            EC.presence_of_element_located((By.XPATH, "//a[@name='FormacaoAcademicaTitulacao']"))
+        )
+        container = anchor.find_element(By.XPATH, "following::div[contains(@class, 'layout-cell-12 data-cell')]")
+        blocks = container.find_elements(By.CLASS_NAME, "layout-cell-pad-5")
+        for block in blocks:
+            text = block.text
+            if "Doutorado" in text:
+                parts = text.split('.')
+                info["Instituição_doutorado"] = parts[1].strip() if len(parts) >= 2 else ""
+                orientador = ""
+                for part in parts:
+                    if "Orientador:" in part:
+                        orientador = part.split("Orientador:")[-1].strip()
+                        break
+                info["orientador_doutorado"] = orientador
+                break
+        if "Instituição_doutorado" not in info:
+            info["Instituição_doutorado"] = ""
+        if "orientador_doutorado" not in info:
+            info["orientador_doutorado"] = ""
+    except Exception as e:
+        print("Erro ao extrair informações de formação:", e)
+        info["Instituição_doutorado"] = ""
+        info["orientador_doutorado"] = ""
+    info["orientados"] = ""
+    return info
 
-def processar_docente(registro, driver):
+def extract_orientador_info(driver, orientador_id):
     """
-    Processa um registro do docente:
-      - Abre o site Lattes do docente e extrai as informações.
-      - A partir do ID do orientador (campo "Orientador_doutorado"), constrói o link do orientador,
-        abre a página do orientador, solicita a resolução do CAPTCHA e extrai as informações.
-      - Retorna um dicionário formatado conforme desejado.
+    Dado o ID do orientador, abre a página correspondente e extrai as informações usando extract_lattes_info.
+    Retorna o dicionário de informações do orientador.
     """
-    # Obter dados do docente
-    docente = registro.get("docente", "")
-    departamento = registro.get("departamento", "")
-    link_docente = obter_link_lattes_do_json(registro)
-    
-    if not link_docente:
-        print("Link Lattes do docente não encontrado no registro.")
-        return None
-    
-    # Processa o docente
-    print("\n=== Processando Docente ===")
-    abrir_lattes(driver, link_docente)
-    info_docente = extrair_info_lattes(driver)
-    
-    # Processa o orientador
-    orientador_id = registro.get("Orientador_doutorado", "")
-    if orientador_id:
-        orientador_link = "http://lattes.cnpq.br/" + orientador_id
-        print("\n=== Processando Orientador ===")
-        abrir_lattes(driver, orientador_link)
-        info_orientador = extrair_info_lattes(driver)
-    else:
-        info_orientador = {}
-    
-    # Monta o dicionário final utilizando o ID do docente como chave
-    docente_id = link_docente.rstrip('/').split('/')[-1]
-    resultado = {
-        docente_id: {
-            "docente": docente,
-            "departamento": departamento,
-            "link_lattes": link_docente,
-            "Instituição_doutorado": info_docente.get("instituicao", ""),
-            "Orientador_doutorado": orientador_id,
-            "link_orientador": orientador_link if orientador_id else "",
-            "Instituição_orientador": info_orientador.get("instituicao", ""),
-            "Orientados": registro.get("Orientados", "")
-        }
-    }
-    
-    # Atualiza o arquivo JSON com os novos dados
-    with open("testeCharles.json", "r+", encoding="utf-8") as f:
-        dados_existentes = json.load(f)
-        dados_existentes.update(resultado)
-        f.seek(0)
-        json.dump(dados_existentes, f, indent=4, ensure_ascii=False)
-        f.truncate()
-    return resultado
+    orientador_url = f"http://lattes.cnpq.br/{orientador_id}"
+    open_lattes_page(driver, orientador_url)
+    orient_info = extract_lattes_info(driver)
+    return orient_info
+
+def update_record_with_orientador(data, driver):
+    """
+    Para cada registro do JSON, se existir o campo "Orientador_doutorado" (ID do orientador),
+    extrai as informações do orientador e adiciona (ou atualiza) uma nova chave "orientador_info" com os dados extraídos.
+    Retorna o dicionário atualizado.
+    """
+    for key, records in data.items():
+        for record in records:
+            orientador_id = record.get("Orientador_doutorado", "").strip()
+            if orientador_id:
+                print(f"\nProcessando orientador para o docente: {record.get('docente')}")
+                orient_info = extract_orientador_info(driver, orientador_id)
+                # Atualiza o registro com os dados do orientador extraídos
+                record["orientador_info"] = orient_info
+            else:
+                print(f"\nNenhum ID de orientador para o docente: {record.get('docente')}")
+    return data
 
 def main():
-    # Lê os dados do JSON (arquivo com a estrutura especificada)
-    dados = ler_json("testeCharles.json")
-    if not dados:
+    # Lê os dados do JSON original
+    data = read_json("testeCharles.json")
+    if not data:
+        print("Nenhum dado lido do JSON.")
         return
 
-    # Inicializa o Selenium WebDriver
-    driver = inicializar_driver()
+    # Inicializa o driver (para navegar nas páginas do Lattes)
+    driver = initialize_driver()
     
-    resultados_finais = {}
-    
-    # Itera sobre cada chave do JSON (cada docente)
-    for docente_id, lista_registros in dados.items():
-        # Aqui, supomos que há um registro por chave (pode ser adaptado se houver mais de um)
-        for registro in lista_registros:
-            resultado = processar_docente(registro, driver)
-            if resultado:
-                resultados_finais.update(resultado)
+    # Atualiza os registros com as informações do orientador
+    updated_data = update_record_with_orientador(data, driver)
     
     driver.quit()
     
-    print("\n=== Resultado Final ===")
-    print(json.dumps(resultados_finais, indent=4, ensure_ascii=False))
+    # Exibe o resultado final (pode ser escrito em um novo arquivo)
+    print("\n=== Dados Atualizados ===")
+    print(json.dumps(updated_data, indent=4, ensure_ascii=False))
+    
+    # Opcional: escreva os dados atualizados em um novo arquivo JSON
+    write_json("testeCharles_updated.json", updated_data)
 
 if __name__ == "__main__":
     main()
