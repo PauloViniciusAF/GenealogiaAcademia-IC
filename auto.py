@@ -34,7 +34,7 @@ def criar_json_com_tabela(pdf_path, json_path):
     
     # Cria o dicionário com a lista de docentes
     dados = {
-        "Semente": tabela
+        tabela
     }
     
     # Salva os dados no formato JSON
