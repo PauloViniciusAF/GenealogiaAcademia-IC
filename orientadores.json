@@ -1,40 +1,44 @@
 {
     "4570923990252346": {
-        "docente": "Calebe de Paula Bianchini",
+        "docente": "",
         "link_lattes": "http://lattes.cnpq.br/4570923990252346",
         "Instituição_doutorado": "Universidade de São Paulo, USP, Brasil",
-        "Orientador_doutorado": "http://lattes.cnpq.br/9538024465319850",
+        "Orientador_doutorado": "9538024465319850",
         "Instituição_orientador": "Universidade de São Paulo, USP, Brasil."
     },
     "4231401119207209": {
-        "docente": "Luciano Rossi",
+        "docente": "",
         "link_lattes": "http://lattes.cnpq.br/4231401119207209",
-        "Instituição_doutorado": "Universidade Federal do ABC, UFABC, Brasil.",
-        "Orientador_doutorado": "http://lattes.cnpq.br/4727357182510680",
+        "Instituição_doutorado": "Universidade Federal do ABC, UFABC, Brasil",
+        "Orientador_doutorado": "4727357182510680",
         "Instituição_orientador": "Universidade de São Paulo, USP, Brasil."
     },
     "9538024465319850": {
-        "docente": "Liria Matsumoto Sato",
+        "docente": "",
         "link_lattes": "http://lattes.cnpq.br/9538024465319850",
         "Instituição_orientador": "Universidade de São Paulo, USP, Brasil",
-        "Orientador_doutorado": "Dr. Paulo Rogério Foina."
+        "Orientador_doutorado": "Dr",
+        "Instituição_doutorado": "Universidade de São Paulo, USP, Brasil"
     },
     "4727357182510680": {
-        "docente": "Jesús Pascual Mena Chalco",
+        "docente": "",
         "link_lattes": "http://lattes.cnpq.br/4727357182510680",
         "Instituição_orientador": "Universidade de São Paulo, USP, Brasil",
-        "Orientador_doutorado": "http://lattes.cnpq.br/2240951178648368"
+        "Orientador_doutorado": "2240951178648368",
+        "Instituição_doutorado": "Universidade de São Paulo, USP, Brasil"
     },
     "2240951178648368": {
-        "docente": "Roberto Marcondes Cesar Junior",
+        "docente": "",
         "link_lattes": "http://lattes.cnpq.br/2240951178648368",
         "Instituição_orientador": "Universidade de São Paulo, USP, Brasil",
-        "Orientador_doutorado": "http://lattes.cnpq.br/5337976093923686"
+        "Orientador_doutorado": "5337976093923686",
+        "Instituição_doutorado": "Universidade de São Paulo, USP, Brasil"
     },
     "5337976093923686": {
-        "docente": "Luciano da Fontoura Costa",
+        "docente": "",
         "link_lattes": "http://lattes.cnpq.br/5337976093923686",
         "Instituição_orientador": "University of London, UL, Inglaterra",
-        "Orientador_doutorado": "Prof Mark Sandler."
+        "Orientador_doutorado": "Prof Mark Sandler",
+        "Instituição_doutorado": "University of London, UL, Inglaterra"
     }
 }

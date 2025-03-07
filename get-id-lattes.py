@@ -169,7 +169,7 @@ def update_json_with_orientador(data, driver):
 
 def main():
     # Lê o arquivo JSON com os dados
-    data = read_json("testeCharles.json")
+    data = read_json("orientadores.json")
     if not data:
         print("Nenhum dado lido do JSON.")
         return
@@ -183,7 +183,7 @@ def main():
     
     print("\n=== Dados Atualizados ===")
     print(json.dumps(updated_data, indent=4, ensure_ascii=False))
-    write_json("testeCharles_updated.json", updated_data)
+    write_json("orientadores.json", updated_data)
 
 if __name__ == "__main__":
     main()
