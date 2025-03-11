@@ -1,10 +1,18 @@
 {
     "4727357182510680": {
+        "role": "pivo",
         "link_lattes": "http://lattes.cnpq.br/4727357182510680",
         "Instituição_doutorado": "Universidade de São Paulo, USP, Brasil",
         "id_pai": "2240951178648368",
         "Nome": "Jesús Pascual Mena Chalco",
-        "orientações": {},
-        "Instituição_orientador": "Universidade de São Paulo, USP, Brasil"
+        "orientações": null
+    },
+    "2240951178648368": {
+        "role": "pai",
+        "link_lattes": "http://lattes.cnpq.br/2240951178648368",
+        "Instituição_doutorado": "Universidade de São Paulo, USP, Brasil",
+        "id_pai": "5337976093923686",
+        "Nome": "Roberto Marcondes Cesar Junior",
+        "orientações": {}
     }
 }
