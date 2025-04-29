@@ -66,5 +66,5 @@ python3 main.py
 * Para ver todos os dados do banco, mude o valor do limite para a quantidade de nós do grafo.
 #### Exemplo de grafo com somente 10 nós
 ![image](Exemplo/grafo-10.png)
-#### Exemplo de grafo com todos os nós 
+#### Exemplo de grafo com mais de 200 nós 
 ![image](Exemplo/grafoNeo4j.png)
