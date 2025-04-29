@@ -50,7 +50,7 @@ NEO4J_PASSWORD={SENHA_NEO4J}"
 
 ## 5. Preparação dos pesquisadores
 * Crie um arquivo .list no diretório do repositório com o id e nome completo dos pesquisadores que serão analisados
-* Um exemplo fictício pode ser encontrado na pasta Exemplos/exemplo-docentes.list
+* Um exemplo fictício pode ser encontrado na pasta Exemplo/exemplo-docentes.list
 ## 6. Execução do programa
 * Antes de executar, verifique se os arquivos .list têm somente os dados necessários
 * ATENÇÃO: Tenha ciência que, se tiver um grande número de pesquisadores, o programa pode custar bastante tempo
@@ -65,6 +65,6 @@ python3 main.py
 ```
 * Para ver todos os dados do banco, mude o valor do limite para a quantidade de nós do grafo.
 #### Exemplo de grafo com somente 10 nós
-![image](Exemplos/grafo-10.png)
+![image](Exemplo/grafo-10.png)
 #### Exemplo de grafo com todos os nós 
-![image](Exemplos/grafoNeo4j.png)
+![image](Exemplo/grafoNeo4j.png)
