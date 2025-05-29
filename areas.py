@@ -3,10 +3,6 @@ import csv
 from collections import defaultdict
 
 
-
-
-print("Arquivo CSV 'relacoes_influencia_areas.csv' gerado com sucesso!")
-
 # Carregar os dados do arquivo JSON
 with open('tabelas/exemplo-geral-table.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
@@ -19,12 +15,20 @@ for entry in data:
     try:
         # Obter informações do orientador (start node)
         orientador = entry['p']['start']['properties']
-        grande_area_orientador = orientador.get('grandeArea', 'Não Informada')
-        
+        grande_area_orientador = orientador.get('grandeArea')
+        if not grande_area_orientador:
+            grande_area_orientador = orientador.get('area')
+        if not grande_area_orientador:
+            grande_area_orientador = 'Área não informada'
+
         # Obter informações do orientado (end node)
         orientado = entry['p']['end']['properties']
-        grande_area_orientado = orientado.get('grandeArea', 'Não Informada')
-        
+        grande_area_orientado = orientado.get('grandeArea')
+        if not grande_area_orientado:
+            grande_area_orientado = orientado.get('area')
+        if not grande_area_orientado:
+            grande_area_orientado = 'Área não informada'
+       
         # Contabilizar a relação
         relacoes[grande_area_orientador][grande_area_orientado] += 1
         
