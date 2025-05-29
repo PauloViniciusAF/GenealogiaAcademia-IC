@@ -39,7 +39,7 @@ for area_orientador, influencias in relacoes.items():
 resultado_ordenado = sorted(resultado, key=lambda x: x['Ocorrências'], reverse=True)
 
 # Salvar em CSV
-with open('relacoes_influencia_areas-tradadas.csv', 'w', newline='', encoding='utf-8') as csvfile:
+with open('relacoes_influencia_areas-tratadas.csv', 'w', newline='', encoding='utf-8') as csvfile:
     fieldnames = ['Área Influenciadora', 'Área Influenciada', 'Ocorrências']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
     writer.writeheader()
