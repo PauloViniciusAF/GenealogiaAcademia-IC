@@ -2,4 +2,4 @@
 *.log
 /venv/*
 /__pycache__/*
-*.list
+docentes/*.list

@@ -1,6 +1,7 @@
 from datetime import datetime
 import pytz
 import logging
+import os
 
 _logger = None
 
@@ -16,7 +17,9 @@ def get_logger():
     tz_sp = pytz.timezone("America/Sao_Paulo")
     log_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 
-    log_filename = 'log-' + datetime.now(tz_sp).strftime('%Y-%m-%d_%H-%M-%S') + '.log'
+    log_dir = 'logs'
+    os.makedirs(log_dir, exist_ok=True)
+    log_filename = os.path.join(log_dir, 'log-' + datetime.now(tz_sp).strftime('%Y-%m-%d_%H-%M-%S') + '.log')
     file_handler = logging.FileHandler(log_filename, encoding='utf-8')
     file_handler.setFormatter(log_formatter)
     file_handler.setLevel(logging.DEBUG)

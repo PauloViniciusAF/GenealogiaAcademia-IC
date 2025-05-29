@@ -1,0 +1,2615 @@
+[
+  {
+    "p": {
+      "identity": 1,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Física",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesFIS",
+        "palavrasChaveDoutorado": [
+          "Corrosao por plasma",
+          "Silicio",
+          "microdispositivos",
+          "microcanais",
+          "Sensores",
+          "micromaquinas"
+        ],
+        "anoDoutorado": "1994 - 1998",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4728155Z7",
+        "nome": "Ronaldo Domingues Mansano",
+        "areaDoutorado": "Doutorado em Engenharia Elétrica",
+        "instituicaoLotacao": "Universidade de São Paulo",
+        "tituloDoutorado": "Corrosao de silicio por plasma para aplicacao em microcanais",
+        "idLattes": "5052583113565041",
+        "subArea": "Física da Matéria Condensada / Especialidade: Materiais Dielétricos e Propriedades Dielétricas",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Ciências Exatas e da Terra"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:1"
+    },
+    "r": {
+      "identity": 1152921504606846977,
+      "start": 1,
+      "end": 2,
+      "type": "ORIENTOU",
+      "properties": {},
+      "elementId": "5:449655c4-162a-4cb5-a8c8-1929f182874b:1152921504606846977",
+      "startNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:1",
+      "endNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:2"
+    },
+    "orientado": {
+      "identity": 2,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharia Elétrica",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesFIS",
+        "palavrasChaveDoutorado": [
+          "sputtering",
+          "deposição",
+          "Diamante",
+          "carbono amorfo",
+          "caracterização",
+          "microeletrônica"
+        ],
+        "anoDoutorado": "1999 - 2003",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4798546Y9",
+        "nome": "Simone Camargo Trippe",
+        "areaDoutorado": "Doutorado em Engenharia Elétrica",
+        "instituicaoLotacao": "FUNDACAO EDUCACIONAL INACIANA PADRE SABOIA DE MEDEIROS",
+        "tituloDoutorado": "Estudo e caracterização de filmes de carbono do tipo diamante(diamond Like Carbon-DLC)depositados pela técnica de sputtering reativo",
+        "idLattes": "6654417106049661",
+        "subArea": "Materiais Elétricos / Especialidade: Materiais e Componentes Semicondutores",
+        "indicador_semente": true,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Engenharias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:2"
+    }
+  },
+  {
+    "p": {
+      "identity": 7,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharia Mecânica",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesENG-MEC",
+        "palavrasChaveDoutorado": [
+          "aluminio",
+          "atrito",
+          "Conformacao Mecanica",
+          "Metais Duros",
+          "Metalurgia do Po",
+          "Propriedades Mecanicas"
+        ],
+        "anoDoutorado": "1989 - 1995",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4780788T2",
+        "nome": "Gilmar Ferreira Batalha",
+        "areaDoutorado": "Doutorado em Engenharia Mecânica",
+        "instituicaoLotacao": "Universidade de São Paulo",
+        "tituloDoutorado": "Influência da camada anodizada sobre o atrito na conformação plástica do alumínio",
+        "idLattes": "6266559761245923",
+        "subArea": "Processos de Fabricação / Especialidade: Matrizes e Ferramentas",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Engenharias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:7"
+    },
+    "r": {
+      "identity": 1155173304420532231,
+      "start": 7,
+      "end": 33,
+      "type": "ORIENTOU",
+      "properties": {},
+      "elementId": "5:449655c4-162a-4cb5-a8c8-1929f182874b:1155173304420532231",
+      "startNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:7",
+      "endNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:33"
+    },
+    "orientado": {
+      "identity": 33,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharia Mecânica",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesENG-MEC",
+        "palavrasChaveDoutorado": [
+          "Centro de Usinagem",
+          "Erros Térmicos",
+          "Compensação Térmica",
+          "Método dos Elementos Finitos",
+          "Redes Neurais Artificiais"
+        ],
+        "anoDoutorado": "2013 - 2018",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4970147J7",
+        "nome": "Marcelo Otávio dos Santos",
+        "areaDoutorado": "Doutorado em Engenharia Mecânica",
+        "instituicaoLotacao": "Instituto Mauá de Tecnologia",
+        "tituloDoutorado": "Modelagem Numérica e Experimental dos Erros Térmicos de um Centro de Usinagem CNC 5 eixos",
+        "idLattes": "2699726784191421",
+        "subArea": "Comportamento Estrutural",
+        "indicador_semente": true,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Engenharias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:33"
+    }
+  },
+  {
+    "p": {
+      "identity": 15,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharia de Materiais e Metalúrgica",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesENG-MEC",
+        "palavrasChaveDoutorado": [
+          "Aços inoxidáveis dúplex",
+          "Comportamento eletroquímico",
+          "Metalurgia física",
+          "Polarização potenciodinâmica",
+          "Polarização cíclica",
+          "Polarização potenciostática"
+        ],
+        "anoDoutorado": "1997 - 2001",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4707663Y1",
+        "nome": "Rodrigo Magnabosco",
+        "areaDoutorado": "Doutorado em Engenharia Metalúrgica",
+        "instituicaoLotacao": "Centro Universitário da Fei",
+        "tituloDoutorado": "Influência da microestrutura no comportamento eletroquímico do aço inoxidável dúplex UNS S31803 (SAF 2205).",
+        "idLattes": "0327037150655150",
+        "subArea": "Metalurgia Física / Especialidade: Transformação de Fases",
+        "indicador_semente": true,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Engenharias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:15"
+    },
+    "r": {
+      "identity": 1155173304420532239,
+      "start": 15,
+      "end": 66,
+      "type": "ORIENTOU",
+      "properties": {},
+      "elementId": "5:449655c4-162a-4cb5-a8c8-1929f182874b:1155173304420532239",
+      "startNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:15",
+      "endNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:66"
+    },
+    "orientado": {
+      "identity": 66,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharias",
+        "instituicaoDoutorado": "Instituto Tecnológico de Aeronáutica",
+        "setor": "DocentesENG-MEC",
+        "palavrasChaveDoutorado": [
+          "Aço inoxidável dúplex",
+          "fase alfa linha",
+          "fase sigma",
+          "sensitização",
+          "DL-EPR"
+        ],
+        "anoDoutorado": "2010 - 2013",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4202993A0",
+        "nome": "Evelin Barbosa de Melo",
+        "areaDoutorado": "Doutorado em Engenharia Aeronâutica e Mecânica",
+        "instituicaoLotacao": "",
+        "tituloDoutorado": "Influência das Transformações de Fase a 475 C e a 650 C no Comportamento Eletroquímico do Aço UNS S31803",
+        "idLattes": "1205904022386602",
+        "subArea": "Metalurgia Física / Especialidade: Corrosão",
+        "indicador_semente": false,
+        "nacionalidade": "",
+        "grandeArea": "Engenharia de Materiais e Metalúrgica"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:66"
+    }
+  },
+  {
+    "p": {
+      "identity": 20,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharia Naval e Oceânica",
+        "instituicaoDoutorado": "Universidade de Osaka",
+        "setor": "DocentesENG-MEC",
+        "palavrasChaveDoutorado": [
+          "fratura frágil",
+          "tenacidade",
+          "integridade estrutural",
+          "tensão de Weibull",
+          "juntas soldadas",
+          "modelo micromecânico"
+        ],
+        "anoDoutorado": "1990 - 1994",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4793330A2",
+        "nome": "Claudio Ruggieri",
+        "areaDoutorado": "Doutorado em Mecanica da Fratura",
+        "instituicaoLotacao": "Universidade de São Paulo",
+        "tituloDoutorado": "A Local Approach to Elastic-Plastic Analysis of Cracks and Applications to Brittle Fracture",
+        "idLattes": "2050116282937572",
+        "subArea": "Estruturas Navais e Oceânicas / Especialidade: Integridade Estrutural",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Engenharias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:20"
+    },
+    "r": {
+      "identity": 1152921504606846996,
+      "start": 20,
+      "end": 21,
+      "type": "ORIENTOU",
+      "properties": {},
+      "elementId": "5:449655c4-162a-4cb5-a8c8-1929f182874b:1152921504606846996",
+      "startNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:20",
+      "endNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:21"
+    },
+    "orientado": {
+      "identity": 21,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharia Mecânica",
+        "instituicaoDoutorado": "Escola Politécnica da Universidade de São Paulo",
+        "setor": "DocentesENG-MEC",
+        "palavrasChaveDoutorado": [
+          "Elementos Finitos",
+          "Mecânica da fratura",
+          "Juntas soldadas",
+          "Weld mismatch",
+          "Dutos"
+        ],
+        "anoDoutorado": "2005 - 2008",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4261755Y0",
+        "nome": "Gustavo Henrique Bolognesi Donato",
+        "areaDoutorado": "Doutorado em Engenharia",
+        "instituicaoLotacao": "FUNDACAO EDUCACIONAL INACIANA PADRE SABOIA DE MEDEIROS",
+        "tituloDoutorado": "Efeitos de Heterogeneidades Mecânicas sobre Forças Motrizes de Trinca em Juntas Soldadas: Determinação Experimental de Tenacidade e Extensão de Metodologias de Avaliação de Criticidade de Defeitos",
+        "idLattes": "4230969931642680",
+        "subArea": "Mecânica dos Sólidos / Especialidade: Mecânica dos Corpos Sólidos, Elásticos e Plásticos",
+        "indicador_semente": true,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Engenharias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:21"
+    }
+  },
+  {
+    "p": {
+      "identity": 22,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Ciência da Computação",
+        "instituicaoDoutorado": "Imperial College London",
+        "setor": "DocentesENG-ELE",
+        "palavrasChaveDoutorado": [
+          "Pattern Recognition",
+          "Small Sample Size",
+          "Object Recognition"
+        ],
+        "anoDoutorado": "2000 - 2004",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4761662H7",
+        "nome": "Carlos Eduardo Thomaz",
+        "areaDoutorado": "Doutorado em Ciencia da Computacao",
+        "instituicaoLotacao": "FUNDACAO EDUCACIONAL INACIANA PADRE SABOIA DE MEDEIROS",
+        "tituloDoutorado": "Maximum Entropy Covariance Estimate for Statistical Pattern Recognition",
+        "idLattes": "1787052168477889",
+        "subArea": "Sistemas de Computação / Especialidade: Inteligência Computacional",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Ciências Exatas e da Terra"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:22"
+    },
+    "r": {
+      "identity": 1164180503675273238,
+      "start": 22,
+      "end": 203,
+      "type": "ORIENTOU",
+      "properties": {},
+      "elementId": "5:449655c4-162a-4cb5-a8c8-1929f182874b:1164180503675273238",
+      "startNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:22",
+      "endNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:203"
+    },
+    "orientado": {
+      "identity": 203,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharia Biomédica",
+        "instituicaoDoutorado": "Centro Universitário FEI",
+        "setor": "DocentesENG-ELE",
+        "palavrasChaveDoutorado": [
+          "Música",
+          "EEG",
+          "Reconhecimento de padrões",
+          "Características acústicas"
+        ],
+        "anoDoutorado": "2017 - 2020",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K8467849Z3",
+        "nome": "Estela Ribeiro",
+        "areaDoutorado": "Doutorado em Engenharia Elétrica em Processamento de Sinais",
+        "instituicaoLotacao": "",
+        "tituloDoutorado": "Análise e reconhecimento de padrões cognitivos em escutas musicais e sonoros em áudios",
+        "idLattes": "8097672354321654",
+        "subArea": "Bioengenharia / Especialidade: Processamento de Sinais Biológicos",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Engenharias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:203"
+    }
+  },
+  {
+    "p": {
+      "identity": 39,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharia de Materiais e Metalúrgica",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesENG-MEC",
+        "palavrasChaveDoutorado": [
+          "redes neurais artificiais",
+          "viscoelasticidade"
+        ],
+        "anoDoutorado": "1991 - 1998",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4703650Y3",
+        "nome": "Marcelo Massarani",
+        "areaDoutorado": "Doutorado em Engenharia Mecânica",
+        "instituicaoLotacao": "Universidade de São Paulo",
+        "tituloDoutorado": "Uso de Redes Neurais Artificiais para Representar o Comportamento Viscoelástico de Materiais",
+        "idLattes": "6818684765377794",
+        "subArea": "Materiais Não-Metálicos / Especialidade: Polímeros, Aplicações",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Engenharias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:39"
+    },
+    "r": {
+      "identity": 1152921504606847015,
+      "start": 39,
+      "end": 40,
+      "type": "ORIENTOU",
+      "properties": {},
+      "elementId": "5:449655c4-162a-4cb5-a8c8-1929f182874b:1152921504606847015",
+      "startNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:39",
+      "endNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:40"
+    },
+    "orientado": {
+      "identity": 40,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharia Mecânica",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesENG-MEC",
+        "palavrasChaveDoutorado": [
+          "pneus",
+          "qualidade",
+          "desenvolvimento de produto",
+          "gestão de projetos",
+          "gestão de processos"
+        ],
+        "anoDoutorado": "2003 - 2008",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4253929U6",
+        "nome": "William Manjud Maluf Filho",
+        "areaDoutorado": "Doutorado em Engenharia Mecânica",
+        "instituicaoLotacao": "Universidade de São Paulo",
+        "tituloDoutorado": "Modelo para gestão do desenvolvimento e produção de pneus fornecidos para indústria automobilística",
+        "idLattes": "9888914170875821",
+        "subArea": "Projetos de Máquinas",
+        "indicador_semente": true,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Engenharias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:40"
+    }
+  },
+  {
+    "p": {
+      "identity": 68,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharia Elétrica",
+        "instituicaoDoutorado": "University of Michigan",
+        "setor": "DocentesENG-MEC",
+        "palavrasChaveDoutorado": [
+          "otimização topológica",
+          "material piezocomposto",
+          "atuador flextensional piezoelétrico",
+          "método de homogeneização",
+          "método de elementos finitos"
+        ],
+        "anoDoutorado": "1994 - 1998",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4728760P4",
+        "nome": "Emílio Carlos Nelli Silva",
+        "areaDoutorado": "Doutorado em Mechanical Engineering and Applied Mechanics",
+        "instituicaoLotacao": "Universidade de São Paulo",
+        "tituloDoutorado": "Design of Piezocomposite Materials and Piezoelectric Transducers Using Topology Optimization",
+        "idLattes": "4065779842533056",
+        "subArea": "Materiais Elétricos / Especialidade: Materiais Dielétricos, Piezoelétricos e Ferroelétricos",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Engenharias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:68"
+    },
+    "r": {
+      "identity": 1152921504606847044,
+      "start": 68,
+      "end": 69,
+      "type": "ORIENTOU",
+      "properties": {},
+      "elementId": "5:449655c4-162a-4cb5-a8c8-1929f182874b:1152921504606847044",
+      "startNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:68",
+      "endNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:69"
+    },
+    "orientado": {
+      "identity": 69,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharia de Materiais e Metalúrgica",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesENG-MEC",
+        "palavrasChaveDoutorado": [
+          "Materiais piezocompósitos",
+          "Materiais gradados funcionais",
+          "Otimização topológica",
+          "Método da homogeneização",
+          "Método de elementos finitos"
+        ],
+        "anoDoutorado": "2008 - 2012",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4551484E3",
+        "nome": "Sandro Luis Vatanabe",
+        "areaDoutorado": "Doutorado em Engenharia Mecânica",
+        "instituicaoLotacao": "Centro Universitário FEI",
+        "tituloDoutorado": "Projeto de materiais piezocompósitos baseados no conceito de gradação funcional utilizando o método de otimização topológica",
+        "idLattes": "1421200700605291",
+        "subArea": "Materiais Não-Metálicos / Especialidade: Cerâmicos",
+        "indicador_semente": true,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Engenharias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:69"
+    }
+  },
+  {
+    "p": {
+      "identity": 102,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Física",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesFIS",
+        "palavrasChaveDoutorado": [
+          "correlacao angular",
+          "fragmentacao",
+          "fusão incompleta",
+          "processos dissipativos",
+          "decaimento sequencial"
+        ],
+        "anoDoutorado": "1987 - 1991",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4793398T0",
+        "nome": "Nemitala Added",
+        "areaDoutorado": "Doutorado em Física",
+        "instituicaoLotacao": "Universidade de São Paulo",
+        "tituloDoutorado": "Identificação do limiar dos processos de fragmentação e fusão incompleta",
+        "idLattes": "4996084483609574",
+        "subArea": "Física Nuclear / Especialidade: Reações Nucleares e Espalhamento (Reações Específicas)",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Ciências Exatas e da Terra"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:102"
+    },
+    "r": {
+      "identity": 1152921504606847078,
+      "start": 102,
+      "end": 103,
+      "type": "ORIENTOU",
+      "properties": {},
+      "elementId": "5:449655c4-162a-4cb5-a8c8-1929f182874b:1152921504606847078",
+      "startNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:102",
+      "endNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:103"
+    },
+    "orientado": {
+      "identity": 103,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Física",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesFIS",
+        "palavrasChaveDoutorado": [
+          "PIXE",
+          "Ion Beam Analysis",
+          "cerâmica",
+          "arqueometria",
+          "RBS",
+          "xrf"
+        ],
+        "anoDoutorado": "2007 - 2012",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4777819E6",
+        "nome": "Jessica Fleury Curado",
+        "areaDoutorado": "Doutorado em Física",
+        "instituicaoLotacao": "FUNDACAO EDUCACIONAL INACIANA PADRE SABOIA DE MEDEIROS",
+        "tituloDoutorado": "Estudo e Caracterização de cerãmicas indigenas brasileiras",
+        "idLattes": "2652321067356086",
+        "subArea": "Física Nuclear / Especialidade: Física Nuclear Aplicada com Aceleradores",
+        "indicador_semente": true,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Ciências Exatas e da Terra"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:103"
+    }
+  },
+  {
+    "p": {
+      "identity": 106,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Física",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesFIS",
+        "palavrasChaveDoutorado": [
+          "momentos magnéticos",
+          "159tb",
+          "perturbação da distribuição angular",
+          "campo magnético transiente",
+          "excitação coulombiana",
+          "modelos nucleares"
+        ],
+        "anoDoutorado": "1988 - 1992",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4786949Z6",
+        "nome": "Nilberto Heder Medina",
+        "areaDoutorado": "Doutorado em Física",
+        "instituicaoLotacao": "Universidade de São Paulo",
+        "tituloDoutorado": "momentos magnéticos de estados nucleares do 159Tb",
+        "idLattes": "1082603694267325",
+        "subArea": "Física Nuclear / Especialidade: Estrutura Nuclear",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Ciências Exatas e da Terra"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:106"
+    },
+    "r": {
+      "identity": 1152921504606847082,
+      "start": 106,
+      "end": 104,
+      "type": "ORIENTOU",
+      "properties": {},
+      "elementId": "5:449655c4-162a-4cb5-a8c8-1929f182874b:1152921504606847082",
+      "startNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:106",
+      "endNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:104"
+    },
+    "orientado": {
+      "identity": 104,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Física",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesFIS",
+        "palavrasChaveDoutorado": [
+          "Estrutura Nuclear",
+          "espectroscopia de raios gama",
+          "propriedades eletromagnéticas"
+        ],
+        "anoDoutorado": "2002 - 2004",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4797288T5",
+        "nome": "Marcilei Aparecida Guazzelli",
+        "areaDoutorado": "Doutorado em Física",
+        "instituicaoLotacao": "FUNDACAO EDUCACIONAL INACIANA PADRE SABOIA DE MEDEIROS",
+        "tituloDoutorado": "58Co: Estudo de um núcleo ímpar-ímpar na camada pf",
+        "idLattes": "9247358432242782",
+        "subArea": "Física Nuclear / Especialidade: Estrutura Nuclear",
+        "indicador_semente": true,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Ciências Exatas e da Terra"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:104"
+    }
+  },
+  {
+    "p": {
+      "identity": 111,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharia Mecânica",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesENG-MEC",
+        "palavrasChaveDoutorado": [
+          "tribologia",
+          "Fieiras Hidrodinâmicas",
+          "Esforços e Potencias Trefiladoras"
+        ],
+        "anoDoutorado": "1985 - 1989",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4770892Z7",
+        "nome": "Marco Stipkovic Filho",
+        "areaDoutorado": "Doutorado em Engenharia Mecânica",
+        "instituicaoLotacao": "Universidade de São Paulo",
+        "tituloDoutorado": "Trefilação Hidrodinâmica",
+        "idLattes": "9316920224105682",
+        "subArea": "Projetos de Máquinas / Especialidade: Métodos de Síntese e Otimização Aplicados ao Projeto Mecânico",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Engenharias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:111"
+    },
+    "r": {
+      "identity": 1152921504606847087,
+      "start": 111,
+      "end": 112,
+      "type": "ORIENTOU",
+      "properties": {},
+      "elementId": "5:449655c4-162a-4cb5-a8c8-1929f182874b:1152921504606847087",
+      "startNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:111",
+      "endNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:112"
+    },
+    "orientado": {
+      "identity": 112,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharia Mecânica",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesENG-MEC",
+        "palavrasChaveDoutorado": [
+          "aço inoxidável super-duplex",
+          "torneamento",
+          "tensão residual",
+          "integridade superficial"
+        ],
+        "anoDoutorado": "2003 - 2006",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4776186Y2",
+        "nome": "Éd Claudio Bordinassi",
+        "areaDoutorado": "Doutorado em Engenharia Mecânica",
+        "instituicaoLotacao": "Instituto Mauá de Tecnologia",
+        "tituloDoutorado": "Contribuição ao estudo da integridade superficial de um aço inoxidável super-duplex após usinagem",
+        "idLattes": "3584284754366652",
+        "subArea": "Processos de Fabricação / Especialidade: Processos de Fabricação, Seleção Econômica",
+        "indicador_semente": true,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Engenharias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:112"
+    }
+  },
+  {
+    "p": {
+      "identity": 115,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharia Mecânica",
+        "instituicaoDoutorado": "Rensselaer Polytechnic Institute",
+        "setor": "DocentesENG-MEC",
+        "palavrasChaveDoutorado": [
+          "ondas de evaporação",
+          "evaporation wave",
+          "metaestável",
+          "líquido superaquecido",
+          "ondas de choque",
+          "mudança de fase"
+        ],
+        "anoDoutorado": "1990 - 1994",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4788524U5",
+        "nome": "Jose Roberto Simoes Moreira",
+        "areaDoutorado": "Doutorado em Engenharia Mecânica",
+        "instituicaoLotacao": "Universidade de São Paulo",
+        "tituloDoutorado": "Adiabatic Evaporaton Waves",
+        "idLattes": "2457667975987644",
+        "subArea": "Fenômenos de Transporte / Especialidade: Transferência de Calor",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Engenharias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:115"
+    },
+    "r": {
+      "identity": 1152921504606847091,
+      "start": 115,
+      "end": 116,
+      "type": "ORIENTOU",
+      "properties": {},
+      "elementId": "5:449655c4-162a-4cb5-a8c8-1929f182874b:1152921504606847091",
+      "startNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:115",
+      "endNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:116"
+    },
+    "orientado": {
+      "identity": 116,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharia Mecânica",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesENG-MEC",
+        "palavrasChaveDoutorado": [
+          "Jatos Evaporativos",
+          "Metaestabilidade",
+          "Ondas de Evaporação",
+          "Dispositivos de Expansão",
+          "Hidrocarboneto",
+          "Métodos Numéricos"
+        ],
+        "anoDoutorado": "2000 - 2004",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4703650P5",
+        "nome": "Edvaldo Angelo",
+        "areaDoutorado": "Doutorado em Engenharia Mecânica",
+        "instituicaoLotacao": "Universidade Presbiteriana Mackenzie",
+        "tituloDoutorado": "Análise Numérica da Dinâmica da Expansão de Líquidos Superaquecidos em Evaporação Rápida",
+        "idLattes": "3051029504172940",
+        "subArea": "Fenômenos de Transporte / Especialidade: Mecânica dos Fluídos",
+        "indicador_semente": true,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Engenharias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:116"
+    }
+  },
+  {
+    "p": {
+      "identity": 139,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Sociologia",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesADM",
+        "palavrasChaveDoutorado": [
+          "Sociologia"
+        ],
+        "anoDoutorado": "1990 - 1998",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4700007U3",
+        "nome": "Roberto Carlos Bernardes",
+        "areaDoutorado": "Doutorado em Sociologia",
+        "instituicaoLotacao": "Centro Universitário da Fei",
+        "tituloDoutorado": "Análise dos fatores sistêmicos de competitividade: Um estudo de caso da indústria aeronáutica brasileira",
+        "idLattes": "8441249529400604",
+        "subArea": "Outras Sociologias Específicas",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Ciências Humanas"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:139"
+    },
+    "r": {
+      "identity": 1155173304420532363,
+      "start": 139,
+      "end": 141,
+      "type": "ORIENTOU",
+      "properties": {},
+      "elementId": "5:449655c4-162a-4cb5-a8c8-1929f182874b:1155173304420532363",
+      "startNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:139",
+      "endNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:141"
+    },
+    "orientado": {
+      "identity": 141,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Economia",
+        "instituicaoDoutorado": "Centro Universitário  FEI",
+        "setor": "DocentesADM",
+        "palavrasChaveDoutorado": [
+          "INOVAÇÃO",
+          "PROCESSO DE INOVAÇÃO",
+          "setor de defesa"
+        ],
+        "anoDoutorado": "2018 - 2022",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K8988465H2",
+        "nome": "Tarso de Souza Ramalho",
+        "areaDoutorado": "Doutorado em Doutorado em Administração",
+        "instituicaoLotacao": "Faculdade FIA de Administração e Negócios",
+        "tituloDoutorado": "A gestão de projetos estratégicos de Defesa e o papel dos ecossistemas de inovação.",
+        "idLattes": "6654057100121354",
+        "subArea": "Economia Industrial / Especialidade: Mudança Tecnológica",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Ciências Sociais Aplicadas"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:141"
+    }
+  },
+  {
+    "p": {
+      "identity": 139,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Sociologia",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesADM",
+        "palavrasChaveDoutorado": [
+          "Sociologia"
+        ],
+        "anoDoutorado": "1990 - 1998",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4700007U3",
+        "nome": "Roberto Carlos Bernardes",
+        "areaDoutorado": "Doutorado em Sociologia",
+        "instituicaoLotacao": "Centro Universitário da Fei",
+        "tituloDoutorado": "Análise dos fatores sistêmicos de competitividade: Um estudo de caso da indústria aeronáutica brasileira",
+        "idLattes": "8441249529400604",
+        "subArea": "Outras Sociologias Específicas",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Ciências Humanas"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:139"
+    },
+    "r": {
+      "identity": 1157425104234217611,
+      "start": 139,
+      "end": 142,
+      "type": "ORIENTOU",
+      "properties": {},
+      "elementId": "5:449655c4-162a-4cb5-a8c8-1929f182874b:1157425104234217611",
+      "startNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:139",
+      "endNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:142"
+    },
+    "orientado": {
+      "identity": 142,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Administração. Grande",
+        "instituicaoDoutorado": "FUNDACAO EDUCACIONAL INACIANA PADRE SABOIA DE MEDEIROS",
+        "setor": "DocentesADM",
+        "palavrasChaveDoutorado": [
+          "mercados emergentes",
+          "Inovação Frugal",
+          "Manufatura verde",
+          "Green Manufacturing",
+          "Ecoinovação",
+          "Ecoinnovation"
+        ],
+        "anoDoutorado": "2017 - 2020",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4822410Y6",
+        "nome": "Elisangela Lazarou Tarraço",
+        "areaDoutorado": "Doutorado em Administração",
+        "instituicaoLotacao": "",
+        "tituloDoutorado": "O EFEITO DA MODERAÇÃO DA INOVAÇÃO FRUGAL SOBRE A ORIENTAÇÃO ESTRATÉGICA PARA ECO INOVAÇÃO E MANUFATURA VERDE EM PAÍSES EMERGENTES E DESENVOLVIDOS",
+        "idLattes": "7831882755766902",
+        "subArea": "Administração de Empresas",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Ciências Sociais Aplicadas"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:142"
+    }
+  },
+  {
+    "p": {
+      "identity": 139,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Sociologia",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesADM",
+        "palavrasChaveDoutorado": [
+          "Sociologia"
+        ],
+        "anoDoutorado": "1990 - 1998",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4700007U3",
+        "nome": "Roberto Carlos Bernardes",
+        "areaDoutorado": "Doutorado em Sociologia",
+        "instituicaoLotacao": "Centro Universitário da Fei",
+        "tituloDoutorado": "Análise dos fatores sistêmicos de competitividade: Um estudo de caso da indústria aeronáutica brasileira",
+        "idLattes": "8441249529400604",
+        "subArea": "Outras Sociologias Específicas",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Ciências Humanas"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:139"
+    },
+    "r": {
+      "identity": 1164180503675273355,
+      "start": 139,
+      "end": 145,
+      "type": "ORIENTOU",
+      "properties": {},
+      "elementId": "5:449655c4-162a-4cb5-a8c8-1929f182874b:1164180503675273355",
+      "startNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:139",
+      "endNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:145"
+    },
+    "orientado": {
+      "identity": 145,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Economia. Grande",
+        "instituicaoDoutorado": "Universidade Estadual de Campinas",
+        "setor": "DocentesADM",
+        "palavrasChaveDoutorado": [
+          "Setor Aeronautico, tecnologia",
+          "Embraer",
+          "inovação",
+          "Setor aeronautico, tecnologia, sistemas complexos"
+        ],
+        "anoDoutorado": "2001 - 2005",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4779617D1",
+        "nome": "Luiz Guilherme de Oliveira",
+        "areaDoutorado": "Doutorado em Política Científica e Tecnológica",
+        "instituicaoLotacao": "Universidade de Brasília",
+        "tituloDoutorado": "A Cadeia de Produção Aeronáutica no Brasil: uma análise sobre os fornecedores da Embraer",
+        "idLattes": "8270727532393747",
+        "subArea": "Economia Industrial / Especialidade: Organização Industrial e  Estudos Industriais",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Ciências Sociais Aplicadas"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:145"
+    }
+  },
+  {
+    "p": {
+      "identity": 150,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Ciência da Computação",
+        "instituicaoDoutorado": "Universidade Federal do Rio de Janeiro",
+        "setor": "DocentesENG-CIV",
+        "palavrasChaveDoutorado": [
+          "Violência Urbana",
+          "Geoprocessamento",
+          "Sistema de Informação geográfica",
+          "Gestão Urbana"
+        ],
+        "anoDoutorado": "1999 - 2004",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4761312Z6",
+        "nome": "Lauro Luiz Francisco Filho",
+        "areaDoutorado": "Doutorado em Geografia",
+        "instituicaoLotacao": "Universidade Estadual de Campinas",
+        "tituloDoutorado": "Distribuição Espacial da Violência em Campinas: uma análise por geoprocessamento",
+        "idLattes": "4192453681310858",
+        "subArea": "Metodologia e Técnicas da Computação / Especialidade: Sistemas de Informação",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Ciências Exatas e da Terra"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:150"
+    },
+    "r": {
+      "identity": 1152921504606847126,
+      "start": 150,
+      "end": 151,
+      "type": "ORIENTOU",
+      "properties": {},
+      "elementId": "5:449655c4-162a-4cb5-a8c8-1929f182874b:1152921504606847126",
+      "startNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:150",
+      "endNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:151"
+    },
+    "orientado": {
+      "identity": 151,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Planejamento Urbano e Regional",
+        "instituicaoDoutorado": "Universidade Estadual de Campinas",
+        "setor": "DocentesENG-CIV",
+        "palavrasChaveDoutorado": [
+          "Cidades",
+          "Qualidade de Vida",
+          "Densidade Populacional"
+        ],
+        "anoDoutorado": "2016 - 2021",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4711263Y8",
+        "nome": "Alda Paulina dos Santos",
+        "areaDoutorado": "Doutorado em Arquitetura - Tecnologia e Cidade",
+        "instituicaoLotacao": "",
+        "tituloDoutorado": "Densidade Urbana e Qualidade de Vida: Estudo Estatístico Sobre o Índice Numbeo",
+        "idLattes": "1076000241476862",
+        "subArea": "Métodos e Técnicas do Planejamento Urbano e Regional / Especialidade: Técnicas de Análise e Avaliação Urbana e Regional",
+        "indicador_semente": true,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Ciências Sociais Aplicadas"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:151"
+    }
+  },
+  {
+    "p": {
+      "identity": 167,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Ciência da Computação",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesENG-ELE",
+        "palavrasChaveDoutorado": [
+          "Inteligência Artificial",
+          "Sistemas Multi-Agentes",
+          "Aprendizado de Máquina",
+          "Sistemas Robóticos Autônomos"
+        ],
+        "anoDoutorado": "1999 - 2004",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4795177U0",
+        "nome": "Reinaldo Augusto da Costa Bianchi",
+        "areaDoutorado": "Doutorado em Engenharia Elétrica",
+        "instituicaoLotacao": "FUNDACAO EDUCACIONAL INACIANA PADRE SABOIA DE MEDEIROS",
+        "tituloDoutorado": "Uso de heurísticas para a aceleração do aprendizado por reforço",
+        "idLattes": "2305603694791405",
+        "subArea": "Inteligência Artificial",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Ciências Exatas e da Terra"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:167"
+    },
+    "r": {
+      "identity": 1152921504606847143,
+      "start": 167,
+      "end": 168,
+      "type": "ORIENTOU",
+      "properties": {},
+      "elementId": "5:449655c4-162a-4cb5-a8c8-1929f182874b:1152921504606847143",
+      "startNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:167",
+      "endNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:168"
+    },
+    "orientado": {
+      "identity": 168,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharia Elétrica",
+        "instituicaoDoutorado": "FUNDACAO EDUCACIONAL INACIANA PADRE SABOIA DE MEDEIROS",
+        "setor": "DocentesENG-ELE",
+        "palavrasChaveDoutorado": [
+          "Inteligência Artificial",
+          "Navegação Guiada",
+          "Filtro de Partículas",
+          "Raciocínio Espacial Qualitativo",
+          "Agentes Autônomos"
+        ],
+        "anoDoutorado": "2013 - 2017",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4457310D9",
+        "nome": "Danilo Hernani Perico",
+        "areaDoutorado": "Doutorado em Engenharia Elétrica",
+        "instituicaoLotacao": "FUNDACAO EDUCACIONAL INACIANA PADRE SABOIA DE MEDEIROS",
+        "tituloDoutorado": "Navegação guiada de um agente autônomo por meio de relações projetivas obtidas por múltiplas perspectivas espaciais",
+        "idLattes": "5676806579817092",
+        "subArea": "Inteligência Artificial Aplicada à Automação",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Engenharias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:168"
+    }
+  },
+  {
+    "p": {
+      "identity": 169,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Ciência da Computação",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesCC",
+        "palavrasChaveDoutorado": [
+          "Alto Desempenho",
+          "Processamento Paralelo e Distribuido",
+          "Simulacao Paralela"
+        ],
+        "anoDoutorado": "1984 - 1989",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4787468P8",
+        "nome": "Liria Matsumoto Sato",
+        "areaDoutorado": "Doutorado em Engenharia Elétrica",
+        "instituicaoLotacao": "Universidade de São Paulo",
+        "tituloDoutorado": "A máquina abstrata ALFA: uma máquina para ambientes altamente paralelos",
+        "idLattes": "9538024465319850",
+        "subArea": "Metodologia e Técnicas da Computação",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Ciências Exatas e da Terra"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:169"
+    },
+    "r": {
+      "identity": 1152921504606847145,
+      "start": 169,
+      "end": 170,
+      "type": "ORIENTOU",
+      "properties": {},
+      "elementId": "5:449655c4-162a-4cb5-a8c8-1929f182874b:1152921504606847145",
+      "startNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:169",
+      "endNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:170"
+    },
+    "orientado": {
+      "identity": 170,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Ciência da Computação",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesCC",
+        "palavrasChaveDoutorado": [
+          "Grades Computacionais",
+          "Sistemas Distribuídos",
+          "Ambiente de Programação",
+          "Java"
+        ],
+        "anoDoutorado": "2004 - 2009",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4768567D3",
+        "nome": "Calebe de Paula Bianchini",
+        "areaDoutorado": "Doutorado em Engenharia Elétrica",
+        "instituicaoLotacao": "",
+        "tituloDoutorado": "Um Ambiente para Programação Orientada a Objetos Distribuídos e Paralelos em Grades Computacionais",
+        "idLattes": "4570923990252346",
+        "subArea": "Metodologia e Técnicas da Computação / Especialidade: Linguagens de Programação",
+        "indicador_semente": true,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Ciências Exatas e da Terra"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:170"
+    }
+  },
+  {
+    "p": {
+      "identity": 181,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Ciência da Computação",
+        "instituicaoDoutorado": "Imperial College, London",
+        "setor": "DocentesCC",
+        "palavrasChaveDoutorado": [
+          "Spatial reasoning",
+          "Cognitive robotics",
+          "Abduction"
+        ],
+        "anoDoutorado": "2000 - 2003",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4791726D0",
+        "nome": "Paulo Eduardo Santos",
+        "areaDoutorado": "Doutorado em Electrical Engineering",
+        "instituicaoLotacao": "Centro Universitário da FEI",
+        "tituloDoutorado": "Spatial Reasoning and Abductive Interpretation of Sensor Data Obtained by a Mobile Robot in Dynamic Environment",
+        "idLattes": "7449349735977862",
+        "subArea": "Sistemas de Computação / Especialidade: Arquitetura de Sistemas de Computação",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Ciências Exatas e da Terra"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:181"
+    },
+    "r": {
+      "identity": 1152921504606847157,
+      "start": 181,
+      "end": 182,
+      "type": "ORIENTOU",
+      "properties": {},
+      "elementId": "5:449655c4-162a-4cb5-a8c8-1929f182874b:1152921504606847157",
+      "startNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:181",
+      "endNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:182"
+    },
+    "orientado": {
+      "identity": 182,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Ciência da Computação",
+        "instituicaoDoutorado": "FUNDACAO EDUCACIONAL INACIANA PADRE SABOIA DE MEDEIROS",
+        "setor": "DocentesCC",
+        "palavrasChaveDoutorado": [
+          "Aprendizado por Reforço",
+          "Processos Markovianos de Decisão",
+          "Answer Set Programming",
+          "Programação Lógica"
+        ],
+        "anoDoutorado": "2012 - 2016",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4404022E0",
+        "nome": "Leonardo Anjoletto Ferreira",
+        "areaDoutorado": "Doutorado em Engenharia Elétrica",
+        "instituicaoLotacao": "",
+        "tituloDoutorado": "Programação em Lógica Não-Monotônica Aplicada à Redução do Espaço de Planos em Processos de Decisão de Markov",
+        "idLattes": "4379356574346576",
+        "subArea": "Inteligência Artificial",
+        "indicador_semente": true,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Ciências Exatas e da Terra"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:182"
+    }
+  },
+  {
+    "p": {
+      "identity": 185,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Ciência da Computação",
+        "instituicaoDoutorado": "Universidade Federal de Minas Gerais",
+        "setor": "DocentesCC",
+        "palavrasChaveDoutorado": [
+          "Processamento de Imagens",
+          "Reconhecimento de Padrões",
+          "Visão Computacional",
+          "Recuperação de Imagens com Base no Conteúdo",
+          "Redes Bayesianas",
+          "Anãlise Semântica latente"
+        ],
+        "anoDoutorado": "1999 - 2003",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4795813P3",
+        "nome": "Paulo Sergio Silva Rodrigues",
+        "areaDoutorado": "Doutorado em Ciências da Computação",
+        "instituicaoLotacao": "FUNDACAO EDUCACIONAL INACIANA PADRE SABOIA DE MEDEIROS",
+        "tituloDoutorado": "Um Modelo Bayesiano Combinando Análise Semântica Latente e Atributos Espaciais para Recuperação de Informação Visual",
+        "idLattes": "0302011461580302",
+        "subArea": "Metodologia e Técnicas da Computação / Especialidade: Visão Computacional",
+        "indicador_semente": true,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Ciências Exatas e da Terra"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:185"
+    },
+    "r": {
+      "identity": 1155173304420532409,
+      "start": 185,
+      "end": 187,
+      "type": "ORIENTOU",
+      "properties": {},
+      "elementId": "5:449655c4-162a-4cb5-a8c8-1929f182874b:1155173304420532409",
+      "startNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:185",
+      "endNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:187"
+    },
+    "orientado": {
+      "identity": 187,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Ciência da Computação",
+        "instituicaoDoutorado": "FUNDACAO EDUCACIONAL INACIANA PADRE SABOIA DE MEDEIROS",
+        "setor": "DocentesCC",
+        "palavrasChaveDoutorado": [
+          "Entropia",
+          "Inteligência Artificial",
+          "Shannon",
+          "Tsallis",
+          "q-Gaussiana"
+        ],
+        "anoDoutorado": "2012 - 2016",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4258658J5",
+        "nome": "Celso Denis Gallão",
+        "areaDoutorado": "Doutorado em Engenharia Elétrica",
+        "instituicaoLotacao": "Centro Estadual de Educação Tecnológica Paula Souza",
+        "tituloDoutorado": "Definição da Função q-Gaussiana Bidimensional no Processamento Digital de Imagens",
+        "idLattes": "5952835378962822",
+        "subArea": "Inteligência Artificial / Especialidade: Visão Computacional",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Ciências Exatas e da Terra"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:187"
+    }
+  },
+  {
+    "p": {
+      "identity": 207,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharia Elétrica",
+        "instituicaoDoutorado": "Escola Politécnica da Universidade de São Paulo",
+        "setor": "DocentesENG-ELE",
+        "palavrasChaveDoutorado": [
+          "Compatibilidade eletromagnética",
+          "Análise de ambientes eletromagnéticos",
+          "Descargas atmosféricas",
+          "Método numérico - Aplicações"
+        ],
+        "anoDoutorado": "1994 - 1999",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4796302P2",
+        "nome": "Carlos Antonio França Sartori",
+        "areaDoutorado": "Doutorado em Engenharia de Energia e Automação Elétricas",
+        "instituicaoLotacao": "Comissão Nacional de Energia Nuclear Em São Paulo",
+        "tituloDoutorado": "Aspectos de Compatibilidade Eletromagnética em Estruturas Atingidas por Descargas Atmosféricas",
+        "idLattes": "7994504454961355",
+        "subArea": "Sistemas Elétricos de Potência / Especialidade: Instalações Elétricas e Industriais",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Engenharias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:207"
+    },
+    "r": {
+      "identity": 1152921504606847183,
+      "start": 207,
+      "end": 208,
+      "type": "ORIENTOU",
+      "properties": {},
+      "elementId": "5:449655c4-162a-4cb5-a8c8-1929f182874b:1152921504606847183",
+      "startNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:207",
+      "endNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:208"
+    },
+    "orientado": {
+      "identity": 208,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharia Elétrica",
+        "instituicaoDoutorado": "Escola politécnica da usp",
+        "setor": "DocentesENG-ELE",
+        "palavrasChaveDoutorado": [
+          "Assinatura Magnética",
+          "Análise de Sinais",
+          "Transformada Wavelet",
+          "Detecção de Faltas em Sistemas Elétricos",
+          "Qualidade de Energia Elétrica",
+          "compatibilidade eletromagnética"
+        ],
+        "anoDoutorado": "2004 - 2009",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4774165J6",
+        "nome": "Francisco Xavier Sevegnani",
+        "areaDoutorado": "Doutorado em Engenharia de Energia e Automação Elétricas",
+        "instituicaoLotacao": "Pontifícia Universidade Católica de São Paulo",
+        "tituloDoutorado": "Análise da assinatura magnética resultante de faltas em sistemas elétricos via wavelets.",
+        "idLattes": "4030671442404283",
+        "subArea": "Sistemas Elétricos de Potência / Especialidade: Medição, Controle, Correção e Proteção de Sistemas Elétricos  de Potência",
+        "indicador_semente": true,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Engenharias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:208"
+    }
+  },
+  {
+    "p": {
+      "identity": 209,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Probabilidade e Estatística",
+        "instituicaoDoutorado": "Imperial College of Science, Technology and Medicine",
+        "setor": "DocentesENG-ELE",
+        "palavrasChaveDoutorado": [
+          "Markov",
+          "noise",
+          "speech",
+          "recognition",
+          "automatic"
+        ],
+        "anoDoutorado": "1990 - 1994",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4788558D5",
+        "nome": "Ivandro Sanches",
+        "areaDoutorado": "Doutorado em Electrical Engineering",
+        "instituicaoLotacao": "FUNDACAO EDUCACIONAL INACIANA PADRE SABOIA DE MEDEIROS",
+        "tituloDoutorado": "Improved speech recognition through the use of noise-compensated hidden Markov models",
+        "idLattes": "0157360718680640",
+        "subArea": "Probabilidade e Estatística Aplicadas",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Ciências Exatas e da Terra"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:209"
+    },
+    "r": {
+      "identity": 1155173304420532433,
+      "start": 209,
+      "end": 211,
+      "type": "ORIENTOU",
+      "properties": {},
+      "elementId": "5:449655c4-162a-4cb5-a8c8-1929f182874b:1155173304420532433",
+      "startNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:209",
+      "endNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:211"
+    },
+    "orientado": {
+      "identity": 211,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharia Elétrica",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesENG-ELE",
+        "palavrasChaveDoutorado": [
+          "Reconhecimento de Voz",
+          "Informação Mútua",
+          "HMM",
+          "Ruído Telefônico"
+        ],
+        "anoDoutorado": "1995 - 1998",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4782350H0",
+        "nome": "Mario Minami",
+        "areaDoutorado": "Doutorado em Doutorado em Engenharia Elétrica",
+        "instituicaoLotacao": "Universidade Federal do ABC",
+        "tituloDoutorado": "Modelamento e Ajuste por Regra sub-ótima de Maximização da Informação Mútua de um Sistema Reconhecedor de Palavras Isoladas",
+        "idLattes": "5882877274227409",
+        "subArea": "Telecomunicações",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Engenharias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:211"
+    }
+  },
+  {
+    "p": {
+      "identity": 224,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharia Elétrica",
+        "instituicaoDoutorado": "Escola Politécnica da Universidade de São Paulo",
+        "setor": "DocentesENG-ELE",
+        "palavrasChaveDoutorado": [
+          "Baixas temperaturas",
+          "Caracterização elétrica",
+          "Circuitos analógicos",
+          "Modelagem",
+          "Tecnologia SOI",
+          "Transistores GC SOI"
+        ],
+        "anoDoutorado": "2005 - 2008",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4732939D3",
+        "nome": "Michelly de Souza",
+        "areaDoutorado": "Doutorado em Engenharia Elétrica",
+        "instituicaoLotacao": "FUNDACAO EDUCACIONAL INACIANA PADRE SABOIA DE MEDEIROS",
+        "tituloDoutorado": "Modelagem",
+        "idLattes": "8323425577292100",
+        "subArea": "Materiais Elétricos / Especialidade: Materiais e Componentes Semicondutores",
+        "indicador_semente": true,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Engenharias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:224"
+    },
+    "r": {
+      "identity": 1152921504606847200,
+      "start": 224,
+      "end": 232,
+      "type": "ORIENTOU",
+      "properties": {},
+      "elementId": "5:449655c4-162a-4cb5-a8c8-1929f182874b:1152921504606847200",
+      "startNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:224",
+      "endNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:232"
+    },
+    "orientado": {
+      "identity": 232,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharia Elétrica",
+        "instituicaoDoutorado": "FUNDACAO EDUCACIONAL INACIANA PADRE SABOIA DE MEDEIROS",
+        "setor": "DocentesENG-ELE",
+        "palavrasChaveDoutorado": [
+          "Associação Série Assimétrica",
+          "UTBB",
+          "Tecnologia SOI",
+          "Eletrônica Analógica"
+        ],
+        "anoDoutorado": "2015 - 2020",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4327081Y6",
+        "nome": "Lígia Martins D'Oliveira",
+        "areaDoutorado": "Doutorado em Engenharia Elétrica",
+        "instituicaoLotacao": "",
+        "tituloDoutorado": "ASSOCIAÇÃO SÉRIE ASSIMÉTRICA DE TRANSISTORES SOI MOS DE CAMADA DE SILÍCIO E ÓXIDO ENTERRADO ULTRAFINOS (UTBB) PARA APLICAÇÕES ANALÓGICAS DE ALTO DESEMPENHO",
+        "idLattes": "9380468534759041",
+        "subArea": "Materiais Elétricos / Especialidade: Materiais e Componentes Semicondutores",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Engenharias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:232"
+    }
+  },
+  {
+    "p": {
+      "identity": 224,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharia Elétrica",
+        "instituicaoDoutorado": "Escola Politécnica da Universidade de São Paulo",
+        "setor": "DocentesENG-ELE",
+        "palavrasChaveDoutorado": [
+          "Baixas temperaturas",
+          "Caracterização elétrica",
+          "Circuitos analógicos",
+          "Modelagem",
+          "Tecnologia SOI",
+          "Transistores GC SOI"
+        ],
+        "anoDoutorado": "2005 - 2008",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4732939D3",
+        "nome": "Michelly de Souza",
+        "areaDoutorado": "Doutorado em Engenharia Elétrica",
+        "instituicaoLotacao": "FUNDACAO EDUCACIONAL INACIANA PADRE SABOIA DE MEDEIROS",
+        "tituloDoutorado": "Modelagem",
+        "idLattes": "8323425577292100",
+        "subArea": "Materiais Elétricos / Especialidade: Materiais e Componentes Semicondutores",
+        "indicador_semente": true,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Engenharias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:224"
+    },
+    "r": {
+      "identity": 1155173304420532448,
+      "start": 224,
+      "end": 233,
+      "type": "ORIENTOU",
+      "properties": {},
+      "elementId": "5:449655c4-162a-4cb5-a8c8-1929f182874b:1155173304420532448",
+      "startNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:224",
+      "endNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:233"
+    },
+    "orientado": {
+      "identity": 233,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharia Elétrica",
+        "instituicaoDoutorado": "Fundação Educacional Inaciana Padre Sabóia de Medeiros",
+        "setor": "DocentesENG-ELE",
+        "palavrasChaveDoutorado": [
+          "Tecnologia SOI",
+          "Associação séria assimétrica",
+          "Ruído de baixa frequência",
+          "Circuitos Analógicos",
+          "Modelagem",
+          "Nanofios transistores"
+        ],
+        "anoDoutorado": "2015 - 2018",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4060682J9",
+        "nome": "Rafael Assalti",
+        "areaDoutorado": "Doutorado em Engenharia Elétrica",
+        "instituicaoLotacao": "Fundação Educacional Inaciana Padre Sabóia de Medeiros",
+        "tituloDoutorado": "Modelagem",
+        "idLattes": "4588633161715158",
+        "subArea": "Materiais Elétricos / Especialidade: Materiais e Componentes Semicondutores",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Engenharias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:233"
+    }
+  },
+  {
+    "p": {
+      "identity": 225,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharia Elétrica",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesENG-ELE",
+        "palavrasChaveDoutorado": [
+          "tecnologia CMOS",
+          "Fabricação de circuitos integrados MOS"
+        ],
+        "anoDoutorado": "1984 - 1988",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4780112A6",
+        "nome": "João Antonio Martino",
+        "areaDoutorado": "Doutorado em Engenharia Elétrica",
+        "instituicaoLotacao": "Universidade de São Paulo",
+        "tituloDoutorado": "Um Processo CMOS Cavidade Dupla para Comprimento de Porta de 2 Micrometros",
+        "idLattes": "1029892667445223",
+        "subArea": "Materiais Elétricos / Especialidade: Materiais e Componentes Semicondutores",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Engenharias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:225"
+    },
+    "r": {
+      "identity": 1157425104234217697,
+      "start": 225,
+      "end": 231,
+      "type": "ORIENTOU",
+      "properties": {},
+      "elementId": "5:449655c4-162a-4cb5-a8c8-1929f182874b:1157425104234217697",
+      "startNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:225",
+      "endNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:231"
+    },
+    "orientado": {
+      "identity": 231,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharia Elétrica",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesENG-ELE",
+        "palavrasChaveDoutorado": [
+          "Caracterização Elétrica",
+          "FinFET",
+          "Curva C-V",
+          "Capacitância",
+          "Multiplas portas",
+          "Tecnologia SOI"
+        ],
+        "anoDoutorado": "2006 - 2010",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4737499T6",
+        "nome": "Michele Rodrigues",
+        "areaDoutorado": "Doutorado em Engenharia Elétrica",
+        "instituicaoLotacao": "FUNDACAO EDUCACIONAL INACIANA PADRE SABOIA DE MEDEIROS",
+        "tituloDoutorado": "ESTUDO DE TRANSISTORES SOI DE MÚLTIPLAS PORTAS COM ÓXIDOS DE PORTA DE ALTA CONSTANTE DIELÉTRICA E ELETRODO DE PORTA METÁLICO",
+        "idLattes": "8479258115451930",
+        "subArea": "Microeletrônica",
+        "indicador_semente": true,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Engenharias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:231"
+    }
+  },
+  {
+    "p": {
+      "identity": 236,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharia Elétrica. Grande",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesENG-ELE",
+        "palavrasChaveDoutorado": [
+          "MPEG",
+          "ATM",
+          "Vídeo sob Demanda",
+          "Coeficientes de quantização"
+        ],
+        "anoDoutorado": "1995 - 2000",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4763866H6",
+        "nome": "Regina Melo Silveira",
+        "areaDoutorado": "Doutorado em Engenharia Elétrica",
+        "instituicaoLotacao": "Universidade de São Paulo",
+        "tituloDoutorado": "Método para Ajuste dos Coeficientes de Quantização da Compressão MPEG em Tempo-Real",
+        "idLattes": "4788702298711499",
+        "subArea": "Computação e Sistemas Digitais",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Engenharias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:236"
+    },
+    "r": {
+      "identity": 1152921504606847212,
+      "start": 236,
+      "end": 237,
+      "type": "ORIENTOU",
+      "properties": {},
+      "elementId": "5:449655c4-162a-4cb5-a8c8-1929f182874b:1152921504606847212",
+      "startNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:236",
+      "endNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:237"
+    },
+    "orientado": {
+      "identity": 237,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharia Elétrica",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesENG-ELE",
+        "palavrasChaveDoutorado": [
+          "Redes Definidas por Software",
+          "Redes Ópticas Passivas"
+        ],
+        "anoDoutorado": "2018",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4273129Y2",
+        "nome": "Ricardo Girnis Tombi",
+        "areaDoutorado": "Doutorado em andamento em Doutorado em Engenharia Elétrica",
+        "instituicaoLotacao": "Universidade São Judas Tadeu",
+        "tituloDoutorado": "Redes PON Definidas por Software com Controle FuzzyOrientador: Regina Melo Silveira. Palavras-chave: Redes Definidas por Software; Redes Ópticas Passivas.Grande área: EngenhariasGrande Área: Engenharias / Área: Engenharia Elétrica / Subárea: Telecomunicações. Setores de atividade: Telecomunicações; Atividades dos serviços de tecnologia da informação.",
+        "idLattes": "3583733036106550",
+        "subArea": "Telecomunicações",
+        "indicador_semente": true,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Engenharias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:237"
+    }
+  },
+  {
+    "p": {
+      "identity": 243,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharia Elétrica",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesENG-ELE",
+        "palavrasChaveDoutorado": [
+          "Reconhecimento de Objetos"
+        ],
+        "anoDoutorado": "1990 - 1994",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4784164J7",
+        "nome": "Anna Helena Reali Costa",
+        "areaDoutorado": "Doutorado em Engenharia Elétrica",
+        "instituicaoLotacao": "Universidade de São Paulo",
+        "tituloDoutorado": "RECTRI - um sistema de reconhecimento tridimensional a partir de uma única imagem de intensidade luminosa",
+        "idLattes": "5116213374235632",
+        "subArea": "Visão Computacional",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Engenharias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:243"
+    },
+    "r": {
+      "identity": 1152921504606847219,
+      "start": 243,
+      "end": 167,
+      "type": "ORIENTOU",
+      "properties": {},
+      "elementId": "5:449655c4-162a-4cb5-a8c8-1929f182874b:1152921504606847219",
+      "startNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:243",
+      "endNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:167"
+    },
+    "orientado": {
+      "identity": 167,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Ciência da Computação",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesENG-ELE",
+        "palavrasChaveDoutorado": [
+          "Inteligência Artificial",
+          "Sistemas Multi-Agentes",
+          "Aprendizado de Máquina",
+          "Sistemas Robóticos Autônomos"
+        ],
+        "anoDoutorado": "1999 - 2004",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4795177U0",
+        "nome": "Reinaldo Augusto da Costa Bianchi",
+        "areaDoutorado": "Doutorado em Engenharia Elétrica",
+        "instituicaoLotacao": "FUNDACAO EDUCACIONAL INACIANA PADRE SABOIA DE MEDEIROS",
+        "tituloDoutorado": "Uso de heurísticas para a aceleração do aprendizado por reforço",
+        "idLattes": "2305603694791405",
+        "subArea": "Inteligência Artificial",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Ciências Exatas e da Terra"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:167"
+    }
+  },
+  {
+    "p": {
+      "identity": 264,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharia Elétrica",
+        "instituicaoDoutorado": "University of London",
+        "setor": "DocentesENG-ELE",
+        "palavrasChaveDoutorado": [
+          "Multiplos Objetivos e Incertezas",
+          "Planejamento de Sistemas de Distribuicao",
+          "Programacao Matematica",
+          "Conjuntos difusos"
+        ],
+        "anoDoutorado": "1988 - 1993",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4781422Y3",
+        "nome": "Nelson Kagan",
+        "areaDoutorado": "Doutorado em Engenharia Elétrica",
+        "instituicaoLotacao": "Universidade de São Paulo",
+        "tituloDoutorado": "Electric Power Distribution Systems Planning using Multiobjective and Fuzzy Mathematical Programming",
+        "idLattes": "4099429752287231",
+        "subArea": "Sistemas Elétricos de Potência / Especialidade: Transmissão da Energia Elétrica, Distribuição da Energia Elétrica",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Engenharias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:264"
+    },
+    "r": {
+      "identity": 1152921504606847240,
+      "start": 264,
+      "end": 265,
+      "type": "ORIENTOU",
+      "properties": {},
+      "elementId": "5:449655c4-162a-4cb5-a8c8-1929f182874b:1152921504606847240",
+      "startNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:264",
+      "endNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:265"
+    },
+    "orientado": {
+      "identity": 265,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharia Elétrica",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesENG-ELE",
+        "palavrasChaveDoutorado": [
+          "Quanlidade de energia",
+          "Protocolos de medição",
+          "Indicador de qualidade de tensão"
+        ],
+        "anoDoutorado": "2001 - 2006",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4777144T4",
+        "nome": "Silvio Xavier Duarte",
+        "areaDoutorado": "Doutorado em Engenharia Elétrica",
+        "instituicaoLotacao": "Universidade de São Paulo",
+        "tituloDoutorado": "Proposta de indicador de qualidade de tensão a partir do impacto de distorções harmônicas e desequilíbrios sobre motores de indução",
+        "idLattes": "7429914005440115",
+        "subArea": "Medidas Elétricas, Magnéticas e Eletrônicas; Instrumentação / Especialidade: Medidas Elétricas",
+        "indicador_semente": true,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Engenharias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:265"
+    }
+  },
+  {
+    "p": {
+      "identity": 266,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharia Elétrica",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesENG-ELE",
+        "palavrasChaveDoutorado": [
+          "engenharia de software",
+          "ambiente de desenvolvimento",
+          "sistema distribuído"
+        ],
+        "anoDoutorado": "1977 - 1982",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4794347Z3",
+        "nome": "Selma Shin Shimizu Melnikoff",
+        "areaDoutorado": "Doutorado em Engenharia Elétrica",
+        "instituicaoLotacao": "Universidade de São Paulo",
+        "tituloDoutorado": "Sistema AP2:um Ambiente para Programação Paralela",
+        "idLattes": "7390536888473418",
+        "subArea": "Sistemas Digitais / Especialidade: Sistema Distribuído",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Engenharias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:266"
+    },
+    "r": {
+      "identity": 1152921504606847242,
+      "start": 266,
+      "end": 267,
+      "type": "ORIENTOU",
+      "properties": {},
+      "elementId": "5:449655c4-162a-4cb5-a8c8-1929f182874b:1152921504606847242",
+      "startNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:266",
+      "endNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:267"
+    },
+    "orientado": {
+      "identity": 267,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharia Elétrica",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesENG-ELE",
+        "palavrasChaveDoutorado": [
+          "Engenharia de Software",
+          "Engenharia de Requisitos",
+          "Segurança",
+          "ODP",
+          "Metodologia de Desenvolvimento de Sistema",
+          "Usabilidade"
+        ],
+        "anoDoutorado": "2000 - 2005",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4701667E6",
+        "nome": "Valter Fernandes Avelino",
+        "areaDoutorado": "Doutorado em Engenharia Elétrica",
+        "instituicaoLotacao": "FUNDACAO EDUCACIONAL INACIANA PADRE SABOIA DE MEDEIROS",
+        "tituloDoutorado": "MERUSA: Metodologia de Especificação de Requisitos de Usabilidade e Segurança orientada para Arquitetura",
+        "idLattes": "8003431098276221",
+        "subArea": "Eletrônica Industrial, Sistemas e Controles Eletrônicos",
+        "indicador_semente": true,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Engenharias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:267"
+    }
+  },
+  {
+    "p": {
+      "identity": 283,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Ciência e Tecnologia de Alimentos",
+        "instituicaoDoutorado": "Universidade Estadual de Campinas",
+        "setor": "DocentesENG-QUI",
+        "palavrasChaveDoutorado": [
+          "refrigeração",
+          "controle de processo",
+          "controle fuzzy",
+          "chiller"
+        ],
+        "anoDoutorado": "1998 - 2003",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4798968T2",
+        "nome": "Flávio Vasconcelos da Silva",
+        "areaDoutorado": "Doutorado em Engenharia de Alimentos",
+        "instituicaoLotacao": "Universidade Estadual de Campinas",
+        "tituloDoutorado": "Comparação do desempenho de um sistema de refrigeração para resfriamento de líquido",
+        "idLattes": "1108208002886617",
+        "subArea": "Engenharia de Alimentos / Especialidade: Controle de Processos de Alimentos",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Ciências Agrárias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:283"
+    },
+    "r": {
+      "identity": 1152921504606847259,
+      "start": 283,
+      "end": 284,
+      "type": "ORIENTOU",
+      "properties": {},
+      "elementId": "5:449655c4-162a-4cb5-a8c8-1929f182874b:1152921504606847259",
+      "startNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:283",
+      "endNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:284"
+    },
+    "orientado": {
+      "identity": 284,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharia Química",
+        "instituicaoDoutorado": "Universidade Estadual de Campinas",
+        "setor": "DocentesENG-QUI",
+        "palavrasChaveDoutorado": [
+          "Refrigeração",
+          "ANFIS",
+          "Identificação de sistema",
+          "Controle Preditivo"
+        ],
+        "anoDoutorado": "2007 - 2012",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4734426D8",
+        "nome": "Ivan Carlos Franco",
+        "areaDoutorado": "Doutorado em Engenharia Química",
+        "instituicaoLotacao": "FUNDACAO EDUCACIONAL INACIANA PADRE SABOIA DE MEDEIROS",
+        "tituloDoutorado": "CONTROLE PREDITIVO BASEADO EM MODELO NEURO-FUZZY DE SISTEMAS NÃO-LINEARES APLICADO EM SISTEMA DE REFRIGERAÇÃO",
+        "idLattes": "1824542004734318",
+        "subArea": "Refrigeração",
+        "indicador_semente": true,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Engenharias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:284"
+    }
+  },
+  {
+    "p": {
+      "identity": 288,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Bioquímica",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesENG-QUI",
+        "palavrasChaveDoutorado": [
+          "Extração Líquido-Líquido",
+          "Fermentação",
+          "Micelas Reversas",
+          "Leito Fluidizado",
+          "Inulinase",
+          "Purificação"
+        ],
+        "anoDoutorado": "1991 - 1995",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4786130D0",
+        "nome": "Adalberto Pessoa Junior",
+        "areaDoutorado": "Doutorado em Tecnologia Bioquímico-Farmacêutica",
+        "instituicaoLotacao": "Universidade de São Paulo",
+        "tituloDoutorado": "Obtenção de Inulinase: recuperação e ampliação de escala (doutorado Sanduíche - GBF/Alemanha)",
+        "idLattes": "2793740911505627",
+        "subArea": "Enzimologia / Especialidade: Purificação de Enzimas",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Ciências Biológicas"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:288"
+    },
+    "r": {
+      "identity": 1152921504606847264,
+      "start": 288,
+      "end": 289,
+      "type": "ORIENTOU",
+      "properties": {},
+      "elementId": "5:449655c4-162a-4cb5-a8c8-1929f182874b:1152921504606847264",
+      "startNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:288",
+      "endNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:289"
+    },
+    "orientado": {
+      "identity": 289,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharia Química",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesENG-QUI",
+        "palavrasChaveDoutorado": [
+          "extração líquido-líquido",
+          "micelas reversas",
+          "extração contínua",
+          "colunas de recheio",
+          "enzimas",
+          "glicose oxidase"
+        ],
+        "anoDoutorado": "2000 - 2004",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4706334H7",
+        "nome": "Luis Fernando Peffi Ferreira",
+        "areaDoutorado": "Doutorado em Biotecnologia",
+        "instituicaoLotacao": "FUNDACAO EDUCACIONAL INACIANA PADRE SABOIA DE MEDEIROS",
+        "tituloDoutorado": "Extração líquido líquido de glicose oxidase por sistema micelar reverso",
+        "idLattes": "6804165720476976",
+        "subArea": "Operações Industriais e Equipamentos para Engenharia Química / Especialidade: Operações Características de Processos Bioquímicos",
+        "indicador_semente": true,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Engenharias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:289"
+    }
+  },
+  {
+    "p": {
+      "identity": 290,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Química. Grande",
+        "instituicaoDoutorado": "Universidade Estadual de Campinas",
+        "setor": "DocentesENG-QUI",
+        "palavrasChaveDoutorado": [
+          "calorimetria",
+          "lantanídeos",
+          "par-iônico",
+          "solvente não aquoso",
+          "entalpia de interação",
+          "titulação calorimétrica"
+        ],
+        "anoDoutorado": "1974 - 1978",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4727268T1",
+        "nome": "Pedro Luiz Onófrio Volpe",
+        "areaDoutorado": "Doutorado em Química",
+        "instituicaoLotacao": "Universidade Estadual de Campinas",
+        "tituloDoutorado": "Estudo Termodinâmico da Interação de Íons Lantanídeos (III) e Ânions Cloreto em N",
+        "idLattes": "8326249312509660",
+        "subArea": "Físico-Química",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Ciências Exatas e da Terra"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:290"
+    },
+    "r": {
+      "identity": 1152921504606847266,
+      "start": 290,
+      "end": 291,
+      "type": "ORIENTOU",
+      "properties": {},
+      "elementId": "5:449655c4-162a-4cb5-a8c8-1929f182874b:1152921504606847266",
+      "startNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:290",
+      "endNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:291"
+    },
+    "orientado": {
+      "identity": 291,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Química. Grande",
+        "instituicaoDoutorado": "Universidade Estadual de Campinas",
+        "setor": "DocentesENG-QUI",
+        "palavrasChaveDoutorado": [
+          "Efeitos Hidrofóbicos",
+          "Água",
+          "Álcool",
+          "Modelagem",
+          "Experimentos",
+          "Grandezas Excesso"
+        ],
+        "anoDoutorado": "1998 - 2004",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4794644A1",
+        "nome": "Ricardo Belchior Torres",
+        "areaDoutorado": "Doutorado em Química (Conceito CAPES 7)",
+        "instituicaoLotacao": "FUNDACAO EDUCACIONAL INACIANA PADRE SABOIA DE MEDEIROS",
+        "tituloDoutorado": "EFEITO DA HIDRATAÇÃO HIDROFÓBICA E DA INTERAÇÃO HIDROFÓBICA SOBRE O VOLUME MOLAR EM EXCESSO DE SOLUÇÕES LÍQUIDAS BINÁRIAS DE ÁGUA-ÁLCOOL A DIFERENTES TEMPERATURAS E À PRESSÃO ATMOSFÉRICA: ESTUDO EXPERIMENTAL E MODELAGEM",
+        "idLattes": "8343664478307856",
+        "subArea": "Termodinâmica Química",
+        "indicador_semente": true,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Ciências Exatas e da Terra"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:291"
+    }
+  },
+  {
+    "p": {
+      "identity": 323,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharia de Transportes",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesENG-PRO",
+        "palavrasChaveDoutorado": [
+          "roteirização",
+          "logística"
+        ],
+        "anoDoutorado": "1992 - 1997",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4723208A6",
+        "nome": "Claudio Barbieri da Cunha",
+        "areaDoutorado": "Doutorado em Engenharia de Transportes",
+        "instituicaoLotacao": "Universidade de São Paulo",
+        "tituloDoutorado": "Contribuição para o Problema de Roteirização de Veículos com Restrições Operacionais",
+        "idLattes": "5689491238283383",
+        "subArea": "Logística",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Engenharias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:323"
+    },
+    "r": {
+      "identity": 1152921504606847299,
+      "start": 323,
+      "end": 324,
+      "type": "ORIENTOU",
+      "properties": {},
+      "elementId": "5:449655c4-162a-4cb5-a8c8-1929f182874b:1152921504606847299",
+      "startNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:323",
+      "endNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:324"
+    },
+    "orientado": {
+      "identity": 324,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharia de Transportes",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesENG-PRO",
+        "palavrasChaveDoutorado": [
+          "Logística Urbana",
+          "Microssimulação",
+          "Políticas e restrições",
+          "Impactos locais"
+        ],
+        "anoDoutorado": "2010 - 2015",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4717900E1",
+        "nome": "Nathalia de Castro Zambuzi",
+        "areaDoutorado": "Doutorado em Engenharia de Transportes",
+        "instituicaoLotacao": "FUNDACAO EDUCACIONAL INACIANA PADRE SABOIA DE MEDEIROS",
+        "tituloDoutorado": "Metodologia para a Avaliação de Medidas Voltadas à Distribuição Urbana de Cargas Através do Uso da Microssimulação de Tráfego",
+        "idLattes": "1881316601555752",
+        "subArea": "Operações de Transportes",
+        "indicador_semente": true,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Engenharias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:324"
+    }
+  },
+  {
+    "p": {
+      "identity": 325,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Engenharia Elétrica",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesENG-PRO",
+        "palavrasChaveDoutorado": [
+          "Enfoque Probabilístico",
+          "Estudos de Instalação de Transformadores",
+          "Instalações Elétricas de Potência",
+          "Sobrecargas em Transformadores"
+        ],
+        "anoDoutorado": "1978 - 1980",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4787829Y5",
+        "nome": "Augusto Ferreira Brandão Júnior",
+        "areaDoutorado": "Doutorado em Engenharia Elétrica",
+        "instituicaoLotacao": "Universidade de São Paulo",
+        "tituloDoutorado": "ASPECTOS ECONÔMICOS E PROBABILÍSTICOS EM ESTUDOS DE INSTALAÇÃO DE TRANSFORMADORES",
+        "idLattes": "6767774746786435",
+        "subArea": "Sistemas Elétricos de Potência",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Engenharias"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:325"
+    },
+    "r": {
+      "identity": 1152921504606847301,
+      "start": 325,
+      "end": 326,
+      "type": "ORIENTOU",
+      "properties": {},
+      "elementId": "5:449655c4-162a-4cb5-a8c8-1929f182874b:1152921504606847301",
+      "startNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:325",
+      "endNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:326"
+    },
+    "orientado": {
+      "identity": 326,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Ciência da Computação",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesENG-PRO",
+        "palavrasChaveDoutorado": [
+          "Biometria",
+          "Processamento de Imagens",
+          "Inteligência Artificial",
+          "Mineração de dados",
+          "Redes Neurais"
+        ],
+        "anoDoutorado": "2009 - 2015",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4504159H5",
+        "nome": "Ricardo Janes",
+        "areaDoutorado": "Doutorado em Engenharia Elétrica",
+        "instituicaoLotacao": "FUNDACAO EDUCACIONAL INACIANA PADRE SABOIA DE MEDEIROS",
+        "tituloDoutorado": "PROPOSIÇÃO DE UM ALGORITMO PARA IDENTIFICAÇÃO BIOMÉTRICA DE PESSOAS BASEADO NOS PADRÕES DE VEIAS DAS MÃOS",
+        "idLattes": "3206925830268389",
+        "subArea": "Teoria da Computação / Especialidade: Análise de Algoritmos e Complexidade de Computação",
+        "indicador_semente": true,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Ciências Exatas e da Terra"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:326"
+    }
+  },
+  {
+    "p": {
+      "identity": 329,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Administração",
+        "instituicaoDoutorado": "Fundação Getulio Vargas - SP",
+        "setor": "DocentesENG-PRO",
+        "palavrasChaveDoutorado": [
+          "estratégia",
+          "performance",
+          "vantagem competitiva",
+          "crescimento",
+          "desempenho",
+          "componentes de variância"
+        ],
+        "anoDoutorado": "2002 - 2005",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4778817Y2",
+        "nome": "Luiz Artur Ledur Brito",
+        "areaDoutorado": "Doutorado em Administração de Empresas",
+        "instituicaoLotacao": "Fundação Getulio Vargas - SP",
+        "tituloDoutorado": "Os componentes de variância da taxa de crescimento da firma",
+        "idLattes": "1414078365813012",
+        "subArea": "Administração de Empresas / Especialidade: Estratégia",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Ciências Sociais Aplicadas"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:329"
+    },
+    "r": {
+      "identity": 1152921504606847305,
+      "start": 329,
+      "end": 327,
+      "type": "ORIENTOU",
+      "properties": {},
+      "elementId": "5:449655c4-162a-4cb5-a8c8-1929f182874b:1152921504606847305",
+      "startNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:329",
+      "endNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:327"
+    },
+    "orientado": {
+      "identity": 327,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Administração",
+        "instituicaoDoutorado": "Fundação Getúlio Vargas",
+        "setor": "DocentesENG-PRO",
+        "palavrasChaveDoutorado": [
+          "Absorptive Capacity",
+          "Potential and Realized Absorptive Capacity",
+          "Project Management Practices",
+          "Performance",
+          "Technical and Market Performance"
+        ],
+        "anoDoutorado": "2011 - 2015",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4216645E7",
+        "nome": "Ronaldo Gomes Dultra-de-Lima",
+        "areaDoutorado": "Doutorado em Administração de Empresas (Conceito CAPES 7)",
+        "instituicaoLotacao": "Universidade Presbiteriana Mackenzie",
+        "tituloDoutorado": "Does Absorptive Capacity Affect Project Performance? A study based on project management practices",
+        "idLattes": "2612427384247044",
+        "subArea": "Operations Management",
+        "indicador_semente": true,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Ciências Sociais Aplicadas"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:327"
+    }
+  },
+  {
+    "p": {
+      "identity": 336,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Educação",
+        "instituicaoDoutorado": "New York University",
+        "setor": "DocentesMAT",
+        "palavrasChaveDoutorado": [
+          "Educação matemática",
+          "Tecnologia",
+          "Teoria da Inovação"
+        ],
+        "anoDoutorado": "1990 - 1993",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4721264P5",
+        "nome": "Janete Bolite Frant",
+        "areaDoutorado": "Doutorado em Educação Matemática",
+        "instituicaoLotacao": "Universidade Federal do Rio de Janeiro",
+        "tituloDoutorado": "Educational Computer Technology in Brasil: The implementation and diffusion of an inovation",
+        "idLattes": "6448067915827359",
+        "subArea": "Educacao Matematica / Especialidade: Educação Matemática",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Ciências Humanas"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:336"
+    },
+    "r": {
+      "identity": 1152921504606847312,
+      "start": 336,
+      "end": 337,
+      "type": "ORIENTOU",
+      "properties": {},
+      "elementId": "5:449655c4-162a-4cb5-a8c8-1929f182874b:1152921504606847312",
+      "startNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:336",
+      "endNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:337"
+    },
+    "orientado": {
+      "identity": 337,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Matemática. Grande",
+        "instituicaoDoutorado": "Pontifícia Universidade Católica de São Paulo",
+        "setor": "DocentesMAT",
+        "palavrasChaveDoutorado": [
+          "embodiment cognition",
+          "aprendizagem",
+          "derivada",
+          "linguagem",
+          "metáfora conceitual"
+        ],
+        "anoDoutorado": "2002 - 2006",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4777767J1",
+        "nome": "Claudio Dall'Anese",
+        "areaDoutorado": "Doutorado em Educação Matemática",
+        "instituicaoLotacao": "Universidade Municipal de São Caetano do Sul",
+        "tituloDoutorado": "Argumentos e Metáforas Conceituais para a Taxa de Variação",
+        "idLattes": "6099414992018190",
+        "subArea": "Educação",
+        "indicador_semente": true,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Ciências Exatas e da Terra"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:337"
+    }
+  },
+  {
+    "p": {
+      "identity": 338,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Medicina",
+        "instituicaoDoutorado": "Faculdade de Medicina Veterinária da Universidade de São Paulo",
+        "setor": "DocentesMAT",
+        "palavrasChaveDoutorado": [
+
+        ],
+        "anoDoutorado": "1980 - 1984",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4783644T6",
+        "nome": "Eduardo Massad",
+        "areaDoutorado": "Doutorado em Patologia Experimental",
+        "instituicaoLotacao": "Fundação Getúlio Vargas",
+        "tituloDoutorado": "Estudo comparativo da toxidade dos gases de escapamento de automotores estacionários movidos a álcool hidratado e gasolina; uma contribuição à metodologia da intoxicação por exaustão de automotores",
+        "idLattes": "4918480082833198",
+        "subArea": "Epidemiologia",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Ciências da Saúde"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:338"
+    },
+    "r": {
+      "identity": 1152921504606847314,
+      "start": 338,
+      "end": 339,
+      "type": "ORIENTOU",
+      "properties": {},
+      "elementId": "5:449655c4-162a-4cb5-a8c8-1929f182874b:1152921504606847314",
+      "startNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:338",
+      "endNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:339"
+    },
+    "orientado": {
+      "identity": 339,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Matemática",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesMAT",
+        "palavrasChaveDoutorado": [
+          "Biomatemática",
+          "Epidemiologia Matemática",
+          "temperatura",
+          "virulencia"
+        ],
+        "anoDoutorado": "2007 - 2010",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4508319T6",
+        "nome": "Daniel Rodrigues da Silva",
+        "areaDoutorado": "Doutorado em Ciências (subárea: Matemática Aplicada)",
+        "instituicaoLotacao": "FUNDACAO EDUCACIONAL INACIANA PADRE SABOIA DE MEDEIROS",
+        "tituloDoutorado": "Um modelo matemático para avaliação do impacto do aumento da temperatura na evolução da virulência",
+        "idLattes": "3978630378086677",
+        "subArea": "Estatística / Especialidade: Estatística Aplicada",
+        "indicador_semente": true,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Ciências Exatas e da Terra"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:339"
+    }
+  },
+  {
+    "p": {
+      "identity": 350,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Matemática",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesMAT",
+        "palavrasChaveDoutorado": [
+          "Grupo",
+          "Anel de Grupo",
+          "Grupo de Unidades",
+          "nilpotência"
+        ],
+        "anoDoutorado": "1972 - 1974",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4787064U4",
+        "nome": "Francisco Cesar Polcino Milies",
+        "areaDoutorado": "Doutorado em Matemática",
+        "instituicaoLotacao": "Universidade de São Paulo",
+        "tituloDoutorado": "A nilpotência do grupo das unidades de um anel de grupo",
+        "idLattes": "6912823669386029",
+        "subArea": "Álgebra / Especialidade: Teoria de Grupos",
+        "indicador_semente": false,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Ciências Exatas e da Terra"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:350"
+    },
+    "r": {
+      "identity": 1152921504606847326,
+      "start": 350,
+      "end": 351,
+      "type": "ORIENTOU",
+      "properties": {},
+      "elementId": "5:449655c4-162a-4cb5-a8c8-1929f182874b:1152921504606847326",
+      "startNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:350",
+      "endNodeElementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:351"
+    },
+    "orientado": {
+      "identity": 351,
+      "labels": [
+        "Pesquisador"
+      ],
+      "properties": {
+        "area": "Matemática",
+        "instituicaoDoutorado": "Universidade de São Paulo",
+        "setor": "DocentesMAT",
+        "palavrasChaveDoutorado": [
+          "Grupos Metacíclicos",
+          "Códigos Metacíclicos",
+          "Idempotentes não centrais primitivos"
+        ],
+        "anoDoutorado": "2009 - 2013",
+        "imagePath": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4295299Y8",
+        "nome": "Samir Assuena",
+        "areaDoutorado": "Doutorado em Matemática",
+        "instituicaoLotacao": "",
+        "tituloDoutorado": "Códigos Metacíclicos",
+        "idLattes": "6432584881949322",
+        "subArea": "Álgebra",
+        "indicador_semente": true,
+        "nacionalidade": "Brasil",
+        "grandeArea": "Ciências Exatas e da Terra"
+      },
+      "elementId": "4:449655c4-162a-4cb5-a8c8-1929f182874b:351"
+    }
+  }
+]
