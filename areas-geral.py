@@ -3,14 +3,11 @@ import csv
 from collections import defaultdict
 
 
-# Carregar os dados do arquivo JSON
 with open('tabelas/exemplo-geral-table.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
-# Dicionário para armazenar as relações de influência
 relacoes = defaultdict(lambda: defaultdict(int))
 
-# Processar cada entrada do JSON
 for entry in data:
     try:
         # Obter informações do orientador (start node)
@@ -34,8 +31,7 @@ for entry in data:
         
     except KeyError:
         continue
-
-# Gerar relatório consolidado
+    
 resultado = []
 for area_orientador, influencias in relacoes.items():
     for area_orientado, quantidade in influencias.items():
