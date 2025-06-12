@@ -29,7 +29,8 @@ def create_pesquisador(tx, pesquisador):
         p.imagePath = $imagePath,
         p.tituloDoutorado = $tituloDoutorado,
         p.areaDoutorado = $areaDoutorado,
-        p.anoDoutorado = $anoDoutorado,
+        p.anoDoutoradoInicio = $anoDoutoradoInicio,
+        p.anoDoutoradoFim = $anoDoutoradoFim,
         p.palavrasChaveDoutorado = $palavrasChaveDoutorado,
         p.setor = $setor,
         p.indicador_semente = $indicador_semente
@@ -46,7 +47,8 @@ def create_pesquisador(tx, pesquisador):
            imagePath=pesquisador.imagePath,
            tituloDoutorado=pesquisador.tituloDoutorado,
            areaDoutorado=pesquisador.areaDoutorado,
-           anoDoutorado=pesquisador.anoDoutorado,
+           anoDoutoradoInicio=pesquisador.anoDoutoradoInicio,
+           anoDoutoradoFim=pesquisador.anoDoutoradoFim,
            palavrasChaveDoutorado=pesquisador.palavrasChaveDoutorado,
            setor=pesquisador.setor,
            indicador_semente=pesquisador.indicador_semente)

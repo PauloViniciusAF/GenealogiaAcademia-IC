@@ -25,7 +25,6 @@ for entry in data:
 
     relacoes[grande_area_orientador][grande_area_orientado] += 1
 
-# Gerar lista de resultados
 resultado = []
 for area_orientador, influencias in relacoes.items():
     for area_orientado, quantidade in influencias.items():
@@ -35,10 +34,8 @@ for area_orientador, influencias in relacoes.items():
             'Ocorrências': quantidade
         })
 
-# Ordenar por número de ocorrências
 resultado_ordenado = sorted(resultado, key=lambda x: x['Ocorrências'], reverse=True)
 
-# Salvar em CSV
 with open('relacoes_influencia_areas-tratadas.csv', 'w', newline='', encoding='utf-8') as csvfile:
     fieldnames = ['Área Influenciadora', 'Área Influenciada', 'Ocorrências']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)

@@ -18,7 +18,6 @@ for entry in data:
         if not grande_area_orientador:
             grande_area_orientador = 'Área não informada'
 
-        # Obter informações do orientado (end node)
         orientado = entry['p']['end']['properties']
         grande_area_orientado = orientado.get('grandeArea')
         if not grande_area_orientado:
@@ -26,7 +25,6 @@ for entry in data:
         if not grande_area_orientado:
             grande_area_orientado = 'Área não informada'
        
-        # Contabilizar a relação
         relacoes[grande_area_orientador][grande_area_orientado] += 1
         
     except KeyError:

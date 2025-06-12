@@ -55,7 +55,7 @@ def getParametrosDoutorado(page):
         orientadorId = ''
     
     page.set_default_timeout(500)
-    return lista, orientadorId, anoDoutorado  
+    return lista, orientadorId, anoDoutorado 
 
 def buscaOrientados(page):
     try:
@@ -163,11 +163,23 @@ def buscaInformacoesPesquisador(idLattes, context, page, grauMaximoOrientador, g
     context.route("**/*", handle_route_block_nothing)
 
     page.set_default_timeout(500)
-    time.sleep(8) # NOTE: Necessário para evitar bloqueio devido a muitas requisições seguidas
+    time.sleep(7) # NOTE: Necessário para evitar bloqueio devido a muitas requisições seguidas
 
 
     # NOTE: Parse Página principal Lattes
     lista, orientadorIdLattes, anoDoutorado = getParametrosDoutorado(page)
+    try:
+        # Separar anoDoutorado em anoDoutoradoInicio e anoDoutoradoFim
+        if anoDoutorado and '-' in anoDoutorado:
+            partes = anoDoutorado.split('-')
+            anoDoutoradoInicio = partes[0].strip()
+            anoDoutoradoFim = partes[1].strip()
+        else:
+            anoDoutoradoInicio = anoDoutorado.strip() if anoDoutorado else ''
+            anoDoutoradoFim = ''
+    except Exception:
+        anoDoutoradoInicio = ''
+        anoDoutoradoFim = ''
     try:
         areaDoutorado = lista.split('.')[0]
     except:
@@ -185,13 +197,19 @@ def buscaInformacoesPesquisador(idLattes, context, page, grauMaximoOrientador, g
     except:
         palavrasChaveDoutorado = []
     try:
-        grandeArea = lista.split("Área: ")[1].split(" /")[0].strip()
+        grandeArea = lista.split("Grande área: ")[1].split(" /")[0].strip()
         area = lista.split("Área: ")[2].split(" /")[0].strip()
         subArea = lista.split("Subárea: ")[1].split(".")[0]
     except:
         grandeArea = ''
         area = ''
         subArea = ''
+
+    # Adicione esta verificação antes de criar o objeto Pesquisador
+    if not grandeArea or not area:
+        logger.warning(f"Pesquisador {idLattes} ignorado: grandeArea ou area não encontrada.")
+        return None
+
     nome = page.locator(".nome").first.inner_text()
     urlPhoto = page.locator(".foto").get_attribute("src")
     try:
@@ -222,7 +240,8 @@ def buscaInformacoesPesquisador(idLattes, context, page, grauMaximoOrientador, g
         subArea=subArea,  # Subárea de atuação
         tituloDoutorado=tituloDoutorado,  # Título do doutorado
         areaDoutorado=areaDoutorado,  # Área do doutorado
-        anoDoutorado=anoDoutorado,  # Ano do doutorado
+        anoDoutoradoInicio=anoDoutoradoInicio,  # Ano do doutorado Início
+        anoDoutoradoFim=anoDoutoradoFim,  # Ano do doutorado Fim
         palavrasChaveDoutorado=palavrasChaveDoutorado,  # Palavras-chave do doutorado
         imagePath=urlPhoto,  # URL da foto do pesquisador
         setor=setor,

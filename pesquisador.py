@@ -1,7 +1,7 @@
 class Pesquisador:
     def __init__(self, nome, nacionalidade, idLattes='', orientador=[], orientados=[], 
                  instituicaoLotacao='', instituicaoDoutorado='', grandeArea='',area = '',
-                 subArea = '', publicacoes=[], imagePath='', tituloDoutorado='', areaDoutorado='', anoDoutorado=0, palavrasChaveDoutorado=[], setor='',indicador_semente=False):
+                 subArea = '', publicacoes=[], imagePath='', tituloDoutorado='', areaDoutorado='', anoDoutoradoInicio=0, anoDoutoradoFim=0, palavrasChaveDoutorado=[], setor='',indicador_semente=False):
         self.nome = nome
         self.nacionalidade = nacionalidade
         self.idLattes = idLattes
@@ -16,7 +16,8 @@ class Pesquisador:
         self.imagePath = imagePath
         self.tituloDoutorado = tituloDoutorado
         self.areaDoutorado = areaDoutorado
-        self.anoDoutorado = anoDoutorado
+        self.anoDoutoradoInicio = anoDoutoradoInicio
+        self.anoDoutoradoFim = anoDoutoradoFim
         self.palavrasChaveDoutorado = palavrasChaveDoutorado
         self.setor = setor
         self.indicador_semente = indicador_semente
