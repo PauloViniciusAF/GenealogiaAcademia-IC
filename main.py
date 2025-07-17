@@ -163,7 +163,7 @@ def buscaInformacoesPesquisador(idLattes, context, page, grauMaximoOrientador, g
     context.route("**/*", handle_route_block_nothing)
 
     page.set_default_timeout(500)
-    time.sleep(7) # NOTE: Necessário para evitar bloqueio devido a muitas requisições seguidas
+    time.sleep(10) # NOTE: Necessário para evitar bloqueio devido a muitas requisições seguidas
 
 
     # NOTE: Parse Página principal Lattes
@@ -198,11 +198,15 @@ def buscaInformacoesPesquisador(idLattes, context, page, grauMaximoOrientador, g
         palavrasChaveDoutorado = []
     try:
         grandeArea = lista.split("Grande área: ")[1].split(" /")[0].strip()
-        area = lista.split("Área: ")[2].split(" /")[0].strip()
-        subArea = lista.split("Subárea: ")[1].split(".")[0]
     except:
         grandeArea = ''
+    try:
+        area = lista.split("Área: ")[2].split(" /")[0].strip()
+    except:
         area = ''
+    try:
+        subArea = lista.split("Subárea: ")[1].split(".")[0]
+    except:
         subArea = ''
 
     # Adicione esta verificação antes de criar o objeto Pesquisador
@@ -309,7 +313,7 @@ def buscaPesquisador(idLattes, setor):
 
     with sync_playwright() as p:
         # NOTE: Configurar as opções do Chrome (caso deseje que a janela do navegador fique oculta), habilitar headless para performance fora de debug
-        browser = p.chromium.launch(headless=True, args=["--enable-automation"])
+        browser = p.chromium.launch(headless=False,args=["--enable-automation"])
         context = browser.new_context()
         context.set_default_timeout(40000)
         context.set_default_navigation_timeout(40000)

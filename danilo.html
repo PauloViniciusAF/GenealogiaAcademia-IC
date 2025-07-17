@@ -1,0 +1,468 @@
+
+
+
+<!DOCTYPE html>
+<html lang="pt-BR" class="theme-light">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-51736778-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-51736778-2');
+  </script>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Bulma -->
+  <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+
+  <!-- Bulma Badge -->
+  <link rel="stylesheet" href="/static/css/bulma-badge.css">
+
+  <!-- Academic icons-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"> 
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- DataTables -->
+  <link rel="stylesheet" href="https://cdn.datatables.net/2.3.0/css/dataTables.dataTables.css" />
+  <script src="https://cdn.datatables.net/2.3.0/js/dataTables.js"></script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Danilo Hernani Perico">
+
+  <title>Danilo Hernani Perico - Plataforma Acácia</title>
+</head>
+<body>
+  <nav class="navbar is-light" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+
+        <a class="navbar-item" href="/">
+          <img src="/static/img/logo-texto.png" alt="Logo Genealogia Acadêmica do Brasil">
+        </a>
+
+        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navMenu" class="navbar-menu is-centered">
+        <div class="navbar-start">
+          <a class="navbar-item" href="/">
+            <span class="icon">
+              <i class="fa fa-home"></i>
+            </span>
+            <span>Home</span>
+          </a>
+
+          <a class="navbar-item" href="/profile/cesar-lattes/">
+            <span class="icon">
+              <i class="fa fa-graduation-cap"></i>
+            </span>
+            <span>César Lattes</span>
+          </a>
+
+          <a class="navbar-item" href="/analise/">
+            <span class="icon">
+              <i class="fa fa-bar-chart"></i>
+            </span>
+            <span>Análise de Áreas</span>
+          </a>
+
+          <a class="navbar-item" href="/quem">
+            <span class="icon">
+              <i class="fa fa-users"></i>
+            </span>
+            <span>Quem Somos</span>
+          </a>
+
+          <a class="navbar-item" href="/faq">
+            <span class="icon">
+              <i class="fa fa-question-circle"></i>
+            </span>
+            <span>Perguntas Frequentes</span>
+          </a>
+
+          <a class="navbar-item" href="/sobre">
+            <span class="icon">
+              <i class="fa fa-tree"></i>
+            </span>
+            <span>Sobre</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero is-primary is-bold">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-vcentered">
+          <div class="column is-one-third">
+            <h1 class="title">
+              Plataforma Acácia
+            </h1>
+            <h2 class="subtitle">
+              Genealogia Acadêmica do Brasil
+            </h2>
+            <p class="has-text-left">
+              <span class="icon">
+                <i class="fa fa-graduation-cap"></i>
+              </span>
+            <strong>Acadêmicos: </strong><span>1.891.811</span></p>
+            <p class="has-text-left">
+              <span class="icon">
+                <i class="fa fa-arrow-right"></i>
+              </span>
+              <strong>Relações: </strong><span>2.430.161</span></p>
+          </div>
+          <div class="column">
+            <h2 class="subtitle has-text-left">
+              Pesquise <strong>mestres</strong> e <strong>doutores</strong> atuantes no Brasil
+            </h2>
+            <div>
+              <form class="control" action="/academics/" method="GET">
+                <div class="field has-addons">
+                  <div class="control has-icons-right">
+                    <p>
+    
+    <input type="text" name="nome" placeholder="Digite o nome do pesquisador" size="25" class="input" maxlength="255" minlength="3" required id="id_nome">
+    
+    
+      
+    
+  </p>
+                    <span class="icon is-right">
+                      <i class="fa fa-graduation-cap"></i>
+                    </span>
+                  </div>
+                  <div class="control">
+                    <button class="button is-link">
+                      <span class="icon">
+                        <i class="fa fa-search"></i>
+                    </span>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+<section class="section">
+  <div class="container">
+    <div class="row" itemscope itemtype="http://schema.org/Person">
+      <div class="columns is-align-items-start">
+        <div class="column is-narrow">
+          <meta itemprop="url" content="/profile/danilo-hernani-perico/"/>
+          <h2 class="title" itemprop="name">Danilo Hernani Perico</h2>
+          <h3 class="subtitle is-size-6 mb-0">
+            
+             Engenharias
+            
+            
+             / Engenharia Elétrica
+            
+          </h3>
+          <div class="my-0">
+            <div>
+              
+              <span itemscope itemtype="https://schema.org/CollegeOrUniversity">
+                <span itemprop="name" class="is-size-6">
+                Fundacao Educacional Inaciana Padre Saboia De Medeiros
+                </span>
+              </span>
+              
+            </div>
+            <div class="is-flex is-align-items-center is-size-6">
+              
+                <i class="ai ai-lattes mr-1"></i><a href="https://lattes.cnpq.br/5676806579817092" target="_blank" class="mr-2">lattes.cnpq.br/5676806579817092</a>
+              
+            </div>
+             
+              <div class="tags has-addons">
+                <span class="tag is-info is-light has-text-weight-bold">Versão</span>
+                <span class="tag is-warning is-light">25/2/2025</span>
+              </div>
+            
+          </div>
+        </div>
+        <div class="column">
+        </div>
+        <div class="column is-narrow">
+          <div class="card is-bordered is-shadowless">
+            <div class="card-header has-background-light is-shadowless">
+              <div class="card-header-title">
+                <span class="has-text-weight-bold is-size-6">Métricas topológicas</span>
+              </div>
+            </div>
+            <div class="card-content p-1 m-0">
+              <div class="columns is-gapless">
+                <div class="column is-narrow">
+                  <table class="table is-size-7 is-narrow is-borderless is-fullwidth">
+                    <tbody>
+                      <tr>
+                        <td class="has-text-weight-bold">Descendência (Ds)</td>
+                        <td class="has-text-right">2</td>
+                      </tr>
+                      <tr>
+                        <td class="has-text-weight-bold">Índice Genealógico (IG)</td>
+                        <td class="has-text-right">0</td>
+                      </tr>
+                      <tr>
+                        <td class="has-text-weight-bold">Fecundidade (Fc)</td>
+                        <td class="has-text-right">2</td>
+                      </tr>
+                      <tr>
+                        <td class="has-text-weight-bold">Fertilidade (Ft)</td>
+                        <td class="has-text-right">0</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="column is-narrow">
+                  <table class="table is-size-7 is-narrow is-borderless is-fullwidth">
+                    <tbody>
+                      <tr>
+                        <td class="has-text-weight-bold">Gerações (G)</td>
+                        <td class="has-text-right">1</td>
+                      </tr>
+                      <tr>
+                        <td class="has-text-weight-bold">Relações (R)</td>
+                        <td class="has-text-right">2</td>
+                      </tr>
+                      <tr>
+                        <td class="has-text-weight-bold">Primos (Pr)</td>
+                        <td class="has-text-right">58</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row my-2">
+        <div class="tabs is-overflow-x-auto is-size-6-mobile is-boxed">
+          <ul>
+            <li class="" data-tab="ascendentes"><a>Ascendentes</a></li>
+            <li class="is-active" data-tab="descendentes"><a>Descendentes</a></li>
+          </ul>
+        </div>
+          <div data-tab-content id="ascendentes">
+            <div class="table-container">
+              <a class="button is-link is-light mb-2" href="/ancestors/danilo-hernani-perico/">
+                <span class="icon">
+                  <i class="fa fa-sitemap fa-rotate-180"></i>
+                </span>
+                <span>Análise</span>
+              </a>
+              <table class="table is-striped is-fullwidth" id="table-profile-ascendants">
+                <thead>
+                  <tr>
+                    <th class="has-text-right"><span class="is-single-line has-pointer"><u>N</u></span></th>
+                    <th><span class="is-single-line has-pointer"><u>Nome</u></span></th>
+                    <th class="has-text-left"><span class="is-single-line has-pointer"><u>Formações</u></span></th>
+                    <th class="has-text-right"><span class="is-single-line has-pointer"><u>Ds</u></span></th>
+                    <th class="has-text-right"><span class="is-single-line has-pointer"><u>IG</u></span></th>
+                    <th class="has-text-right"><span class="is-single-line has-pointer"><u>Fc</u></span></th>
+                    <th class="has-text-right"><span class="is-single-line has-pointer"><u>Ft</u></span></th>
+                    <th class="has-text-right"><span class="is-single-line has-pointer"><u>G</u></span></th>
+                    <th class="has-text-right"><span class="is-single-line has-pointer"><u>R</u></span></th>
+                    <th class="has-text-right"><span class="is-single-line has-pointer"><u>Pr</u></span></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  
+                  <tr>
+                    <td class="has-text-right">1</td>
+                    <td itemprop="knows">
+                      <a href="/profile/reinaldo-augusto-da-costa-bianchi/" itemscope itemtype="http://schema.org/Person">
+                        <span itemprop="name">
+                          Reinaldo Augusto Da Costa Bianchi
+                        </span>
+                      </a>
+                    </td>
+                    
+                    <td class="has-text-left">
+                      <div class="field is-grouped is-grouped-multiline">
+                      
+                      <div class="control">
+                        <div class="tags has-addons">
+                          
+                            <span class="tag is-m">
+                          
+                            M
+                          </span>
+                          <span class="tag is-year is-relative">
+                            
+                            2012
+                          </span>
+                        </div>
+                      </div>
+                      
+                      <div class="control">
+                        <div class="tags has-addons">
+                          
+                            <span class="tag is-d">
+                          
+                            D
+                          </span>
+                          <span class="tag is-year is-relative">
+                            
+                            2017
+                          </span>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    </td>
+                    
+                    <td class="has-text-right">36</td>
+                    <td class="has-text-right">2</td>
+                    <td class="has-text-right">30</td>
+                    <td class="has-text-right">2</td>
+                    <td class="has-text-right">2</td>
+                    <td class="has-text-right">36</td>
+                    <td class="has-text-right">947</td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="is-active" data-tab-content id="descendentes">
+            <div class="table-container">
+              <a class="button mb-2 is-link is-light" href="/descendants/danilo-hernani-perico/">
+                <span class="icon">
+                  <i class="fa fa-sitemap"></i>
+                </span>
+                <span>Análise</span>
+              </a>
+              <table class="table is-striped is-fullwidth" id="table-profile-descendants">
+                <thead>
+                  <tr>
+                    <th class="has-text-right"><span class="is-single-line has-pointer"><u>N</u></span></th>
+                    <th><span class="is-single-line has-pointer"><u>Nome</u></span></th>
+                    <th class="has-text-left"><span class="is-single-line has-pointer"><u>Orientações</u></span></th>
+                    <th class="has-text-right"><span class="is-single-line has-pointer"><u>Ds</u></span></th>
+                    <th class="has-text-right"><span class="is-single-line has-pointer"><u>IG</u></span></th>
+                    <th class="has-text-right"><span class="is-single-line has-pointer"><u>Fc</u></span></th>
+                    <th class="has-text-right"><span class="is-single-line has-pointer"><u>Ft</u></span></th>
+                    <th class="has-text-right"><span class="is-single-line has-pointer"><u>G</u></span></th>
+                    <th class="has-text-right"><span class="is-single-line has-pointer"><u>R</u></span></th>
+                    <th class="has-text-right"><span class="is-single-line has-pointer"><u>Pr</u></span></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  
+                  <tr>
+                    <td class="has-text-right">1</td>
+                    <td itemprop="knows">
+                      <a href="/profile/alexandre-cardoso-feitosa/" itemscope itemtype="http://schema.org/Person">
+                        <span itemprop="name">
+                          Alexandre Cardoso Feitosa
+                        </span>
+                      </a>
+                    </td>
+                    
+                    <td class="has-text-left">
+                      <div class="tags has-addons">
+                        
+                          <span class="tag is-m">
+                        
+                          M
+                          </span>
+                        <span class="tag is-year is-relative">
+                          2025
+                          
+                        </span>
+                      </div>
+                    </td>
+                    
+                    <td class="has-text-right">0</td>
+                    <td class="has-text-right">0</td>
+                    <td class="has-text-right">0</td>
+                    <td class="has-text-right">0</td>
+                    <td class="has-text-right">0</td>
+                    <td class="has-text-right">0</td>
+                    <td class="has-text-right">5</td>
+                  </tr>
+                  
+                  <tr>
+                    <td class="has-text-right">2</td>
+                    <td itemprop="knows">
+                      <a href="/profile/marcello-henrique-da-costa-grec/" itemscope itemtype="http://schema.org/Person">
+                        <span itemprop="name">
+                          Marcello Henrique Da Costa Grec
+                        </span>
+                      </a>
+                    </td>
+                    
+                    <td class="has-text-left">
+                      <div class="tags has-addons">
+                        
+                          <span class="tag is-m">
+                        
+                          M
+                          </span>
+                        <span class="tag is-year is-relative">
+                          2024
+                          
+                        </span>
+                      </div>
+                    </td>
+                    
+                    <td class="has-text-right">0</td>
+                    <td class="has-text-right">0</td>
+                    <td class="has-text-right">0</td>
+                    <td class="has-text-right">0</td>
+                    <td class="has-text-right">0</td>
+                    <td class="has-text-right">0</td>
+                    <td class="has-text-right">5</td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+            </div>
+          </div>
+    </div>
+  </div>
+</section>
+
+<script>  
+$(document).ready(function() {
+  $('#table-profile-ascendants').DataTable({
+    language: {url: 'https://cdn.datatables.net/plug-ins/2.0.8/i18n/pt-BR.json'}, 
+    pageLength: 50,
+  })
+});
+
+$(document).ready(function() {
+  $('#table-profile-descendants').DataTable({
+    language: {url: 'https://cdn.datatables.net/plug-ins/2.0.8/i18n/pt-BR.json'}, 
+    pageLength: 50,
+  });
+});
+</script>
+
+  
+  <link rel="stylesheet" href="/static/css/app.css">
+  <script src="/static/js/app.js"></script>
+</body>
+</html>
