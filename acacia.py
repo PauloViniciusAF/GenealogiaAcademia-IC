@@ -54,19 +54,61 @@ def extrai_info(html):
                     descendentes.append(nome_desc.text.strip())
     return area, universidade, ascendentes, descendentes
 
-def normaliza_nome_url(nome):
-    # Normaliza o nome para o padrão de URL (minúsculo, hífen, sem acentos)
-    import unicodedata
-    nome = nome.lower()
-    nome = unicodedata.normalize('NFKD', nome).encode('ASCII', 'ignore').decode('ASCII')
-    nome = nome.replace(" ", "-")
-    while "--" in nome:
-        nome = nome.replace("--", "-")
-    nome = nome.strip("-")
-    return nome
+def nome_formatado(nome_url):
+    # Converte "nathalia-de-castro-zambuzi" para "Nathalia de Castro Zambuzi"
+    partes = nome_url.replace("-", " ").split()
+    # Lista de preposições/minúsculas comuns em nomes
+    minusculas = {"de", "da", "do", "das", "dos", "e"}
+    return " ".join([p.capitalize() if p not in minusculas else p for p in partes])
 
 def processa_pesquisador(nome, page, geracao_atual=0):
-    if nome in pesquisadores_dict:
+    nome_chave = nome_formatado(nome)
+    if nome_chave in pesquisadores_dict:
+        return  # Já processado
+
+    url = base_url + nome
+    tentativas = 0
+    max_tentativas = 5
+    while tentativas < max_tentativas:
+        try:
+            page.goto(url, timeout=20000)
+            html = page.content()
+            # Verifica se pesquisador existe
+            if "<h1>Not Found</h1>" in html or "The requested resource was not found on this server." in html:
+                logger.warning(f"Pesquisador '{nome_chave}' não encontrado na plataforma. Pulando.")
+                return  # Não adiciona ao dicionário
+            if "503" in html or "Service Temporarily Unavailable" in html:
+                raise Exception("Erro 503 detectado no HTML")
+            area, universidade, ascendentes, descendentes = extrai_info(html)
+            if area or universidade or ascendentes or descendentes:
+                pesquisadores_dict[nome_chave] = {
+                    "grande-area": area,
+                    "universidade": universidade,
+                    "ascendentes": nome_formatado(ascendentes[0]) if ascendentes else "",
+                    "descendentes": [nome_formatado(d) for d in descendentes]
+                }
+                logger.info(f"Extraído: {nome_chave} - universidade: {universidade} - ascendentes: {ascendentes} - descendentes: {descendentes}")
+
+            # Controle de geração: só busca ascendentes/descendentes se não atingiu o limite
+            if geracao_atual + 1 < max_geracoes:
+                for asc in ascendentes:
+                    if asc:
+                        processa_pesquisador(asc.replace(" ", "-").lower(), page, geracao_atual + 1)
+                for desc in descendentes:
+                    if desc:
+                        processa_pesquisador(desc.replace(" ", "-").lower(), page, geracao_atual + 1)
+            break
+        except Exception as e:
+            tentativas += 1
+            logger.warning(f"Tentativa {tentativas} falhou para {nome_chave}: {e}")
+            if tentativas < max_tentativas:
+                logger.info(f"Recarregando página para {nome_chave} em 5 segundos...")
+                time.sleep(5)
+    time.sleep(3)
+
+def extrai_pesquisador(nome, page, grupo):
+    nome_chave = nome_formatado(nome)
+    if nome_chave in pesquisadores_dict:
         return  # Já processado
     url = base_url + nome
     tentativas = 0
@@ -75,41 +117,28 @@ def processa_pesquisador(nome, page, geracao_atual=0):
         try:
             page.goto(url, timeout=20000)
             html = page.content()
+            if "<h1>Not Found</h1>" in html or "The requested resource was not found on this server." in html:
+                logger.warning(f"Pesquisador '{nome_chave}' não encontrado na plataforma. Pulando.")
+                return
             if "503" in html or "Service Temporarily Unavailable" in html:
                 raise Exception("Erro 503 detectado no HTML")
             area, universidade, ascendentes, descendentes = extrai_info(html)
-            pesquisadores_dict[nome] = {
-                "grande-area": area,
-                "universidade": universidade,
-                "ascendentes": ascendentes[0] if ascendentes else "",
-                "descendentes": descendentes
-            }
-            logger.info(f"Extraído: {nome} - universidade: {universidade} - ascendentes: {ascendentes} - descendentes: {descendentes}")
-            # Só processa a próxima geração se não atingiu o limite
-            if geracao_atual + 1 < max_geracoes:
-                for asc in ascendentes:
-                    if asc:
-                        asc_url_nome = normaliza_nome_url(asc)
-                        processa_pesquisador(asc_url_nome, page, geracao_atual + 1)
-                for desc in descendentes:
-                    if desc:
-                        desc_url_nome = normaliza_nome_url(desc)
-                        processa_pesquisador(desc_url_nome, page, geracao_atual + 1)
+            if area or universidade or ascendentes or descendentes:
+                pesquisadores_dict[nome_chave] = {
+                    "grupo": grupo,
+                    "grande-area": area,
+                    "universidade": universidade,
+                    "ascendentes": nome_formatado(ascendentes[0]) if ascendentes else "",
+                    "descendentes": [nome_formatado(d) for d in descendentes]
+                }
+                logger.info(f"Extraído: {nome_chave} ({grupo}) - universidade: {universidade} - ascendentes: {ascendentes} - descendentes: {descendentes}")
             break
         except Exception as e:
             tentativas += 1
-            logger.warning(f"Tentativa {tentativas} falhou para {nome}: {e}")
+            logger.warning(f"Tentativa {tentativas} falhou para {nome_chave}: {e}")
             if tentativas < max_tentativas:
-                logger.info(f"Recarregando página para {nome} em 5 segundos...")
+                logger.info(f"Recarregando página para {nome_chave} em 5 segundos...")
                 time.sleep(5)
-            else:
-                logger.error(f"Falha ao extrair dados de {nome} após {max_tentativas} tentativas.")
-                pesquisadores_dict[nome] = {
-                    "grande-area": "",
-                    "universidade": "",
-                    "ascendentes": "",
-                    "descendentes": []
-                }
     time.sleep(3)
 
 with sync_playwright() as p:
@@ -118,8 +147,30 @@ with sync_playwright() as p:
     page = context.new_page()
 
     for nome in nomes:
-        nome_url = normaliza_nome_url(nome)
-        processa_pesquisador(nome_url, page, geracao_atual=0)
+        # Extrai pivô
+        extrai_pesquisador(nome, page, grupo="pivo")
+        nome_chave = nome_formatado(nome)
+        if nome_chave not in pesquisadores_dict:
+            continue  # Não achou o pivô, pula
+
+        # Extrai pai (ascendente)
+        asc = pesquisadores_dict[nome_chave]["ascendentes"]
+        if asc:
+            asc_url = asc.replace(" ", "-").lower()
+            extrai_pesquisador(asc_url, page, grupo="pai")
+            # Se o pai existir, extrai seus descendentes como filhos
+            pai_chave = nome_formatado(asc)
+            if pai_chave in pesquisadores_dict:
+                for desc in pesquisadores_dict[pai_chave]["descendentes"]:
+                    if desc:
+                        desc_url = desc.replace(" ", "-").lower()
+                        extrai_pesquisador(desc_url, page, grupo="filho")
+
+        # Extrai filhos (descendentes) do pivô normalmente
+        for desc in pesquisadores_dict[nome_chave]["descendentes"]:
+            if desc:
+                desc_url = desc.replace(" ", "-").lower()
+                extrai_pesquisador(desc_url, page, grupo="filho")
 
     browser.close()
 
