@@ -176,3 +176,25 @@ with sync_playwright() as p:
 
 with open(saida_json, "w", encoding="utf-8") as f:
     json.dump(pesquisadores_dict, f, ensure_ascii=False, indent=2)
+
+# --- INSERÇÃO DIRETA NO NEO4J ---
+from databaseAcacia import driver, create_pesquisador, cria_relacao
+
+with driver.session() as session:
+    # Cria vértices
+    for nome, dados in pesquisadores_dict.items():
+        grande_area = dados.get("grande-area", "")
+        universidade = dados.get("universidade", "")
+        session.write_transaction(create_pesquisador, nome, grande_area, universidade)
+
+    # Cria relações ascendentes
+    for nome, dados in pesquisadores_dict.items():
+        asc = dados.get("ascendentes", "")
+        if asc and asc in pesquisadores_dict:
+            session.write_transaction(cria_relacao, nome, asc, "ASCENDENTE")
+        # Cria relações descendentes
+        for desc in dados.get("descendentes", []):
+            if desc and desc in pesquisadores_dict:
+                session.write_transaction(cria_relacao, nome, desc, "DESCENDENTE")
+
+print("Importação para Neo4j concluída.")
