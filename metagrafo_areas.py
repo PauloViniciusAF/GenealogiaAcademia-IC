@@ -15,44 +15,45 @@ def cria_area(tx, area):
     """
     tx.run(query, area=area)
 
-def cria_relacao_area(tx, area1, area2):
+def cria_relacao_area(tx, area1, area2, peso):
     query = """
     MATCH (a:Area {nome: $area1})
     MATCH (b:Area {nome: $area2})
-    MERGE (a)-[:INFLUENCIA]->(b)
+    MERGE (a)-[r:INFLUENCIA]->(b)
+    SET r.peso = $peso
     """
-    tx.run(query, area1=area1, area2=area2)
+    tx.run(query, area1=area1, area2=area2, peso=peso)
 
 def main():
     with open("pesquisadores-extraidos.json", "r", encoding="utf-8") as f:
         pesquisadores = json.load(f)
 
     areas_set = set()
-    relacoes = set()
+    relacoes = {}
 
-    # Cria vértices de áreas e relações de influência
+    # Conta as influências entre áreas (incluindo laços)
     for nome, dados in pesquisadores.items():
         area_pesq = dados.get("grande-area", "").strip()
         asc = dados.get("ascendentes", "")
         if not area_pesq:
             continue
         areas_set.add(area_pesq)
-        # Se o ascendente existe e está no JSON, cria relação de influência
         if asc and asc in pesquisadores:
             area_asc = pesquisadores[asc].get("grande-area", "").strip()
-            if area_asc and area_asc != area_pesq:
+            if area_asc:
                 areas_set.add(area_asc)
-                relacoes.add((area_asc, area_pesq))
+                key = (area_asc, area_pesq)
+                relacoes[key] = relacoes.get(key, 0) + 1
 
     with driver.session() as session:
         # Cria vértices de áreas
         for area in areas_set:
             session.write_transaction(cria_area, area)
-        # Cria arestas de influência
-        for area1, area2 in relacoes:
-            session.write_transaction(cria_relacao_area, area1, area2)
+        # Cria arestas de influência ponderadas (incluindo laços)
+        for (area1, area2), peso in relacoes.items():
+            session.write_transaction(cria_relacao_area, area1, area2, peso)
 
-    print("Metagrafo de áreas criado no Neo4j.")
+    print("Metagrafo de áreas ponderado criado no Neo4j (incluindo laços de auto-influência).")
 
 if __name__ == "__main__":
     main()
