@@ -32,7 +32,7 @@ def main():
     relacoes = {}
 
     # Conta as influências entre áreas (incluindo laços)
-    for nome, dados in pesquisadores.items():
+    for nome, dados in pesquisadores.items():   
         area_pesq = dados.get("grande-area", "").strip()
         asc = dados.get("ascendentes", "")
         if not area_pesq:
