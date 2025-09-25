@@ -1,15 +1,15 @@
-from playwright.sync_api import sync_playwright
-from bs4 import BeautifulSoup
 import time
 import json
 from logger_util import get_logger
+from databaseAcacia import driver, create_pesquisador, cria_relacao
+from playwright.sync_api import sync_playwright
+from bs4 import BeautifulSoup
 
 logger = get_logger()
 
 entrada = "docentes-usp-formatados.list"
 saida_json = "pesquisadores-extraidos-usp.json"
 base_url = "https://plataforma-acacia.org/profile/"
-max_geracoes = 1  # Limite de gerações (1 = só primeira geração)
 
 with open(entrada, "r", encoding="utf-8") as f:
     nomes = [linha.strip() for linha in f if linha.strip()]
@@ -55,61 +55,14 @@ def extrai_info(html):
     return area, universidade, ascendentes, descendentes
 
 def nome_formatado(nome_url):
-    # Converte "nathalia-de-castro-zambuzi" para "Nathalia de Castro Zambuzi"
     partes = nome_url.replace("-", " ").split()
-    # Lista de preposições/minúsculas comuns em nomes
     minusculas = {"de", "da", "do", "das", "dos", "e"}
     return " ".join([p.capitalize() if p not in minusculas else p for p in partes])
-
-def processa_pesquisador(nome, page, geracao_atual=0):
-    nome_chave = nome_formatado(nome)
-    if nome_chave in pesquisadores_dict:
-        return  # Já processado
-
-    url = base_url + nome
-    tentativas = 0
-    max_tentativas = 5
-    while tentativas < max_tentativas:
-        try:
-            page.goto(url, timeout=20000)
-            html = page.content()
-            # Verifica se pesquisador existe
-            if "<h1>Not Found</h1>" in html or "The requested resource was not found on this server." in html:
-                logger.warning(f"Pesquisador '{nome_chave}' não encontrado na plataforma. Pulando.")
-                return  # Não adiciona ao dicionário
-            if "503" in html or "Service Temporarily Unavailable" in html:
-                raise Exception("Erro 503 detectado no HTML")
-            area, universidade, ascendentes, descendentes = extrai_info(html)
-            if area or universidade or ascendentes or descendentes:
-                pesquisadores_dict[nome_chave] = {
-                    "grande-area": area,
-                    "universidade": universidade,
-                    "ascendentes": nome_formatado(ascendentes[0]) if ascendentes else "",
-                    "descendentes": [nome_formatado(d) for d in descendentes]
-                }
-                logger.info(f"Extraído: {nome_chave} - universidade: {universidade} - ascendentes: {ascendentes} - descendentes: {descendentes}")
-
-            # Controle de geração: só busca ascendentes/descendentes se não atingiu o limite
-            if geracao_atual + 1 < max_geracoes:
-                for asc in ascendentes:
-                    if asc:
-                        processa_pesquisador(asc.replace(" ", "-").lower(), page, geracao_atual + 1)
-                for desc in descendentes:
-                    if desc:
-                        processa_pesquisador(desc.replace(" ", "-").lower(), page, geracao_atual + 1)
-            break
-        except Exception as e:
-            tentativas += 1
-            logger.warning(f"Tentativa {tentativas} falhou para {nome_chave}: {e}")
-            if tentativas < max_tentativas:
-                logger.info(f"Recarregando página para {nome_chave} em 5 segundos...")
-                time.sleep(5)
-    time.sleep(6)
 
 def extrai_pesquisador(nome, page, grupo):
     nome_chave = nome_formatado(nome)
     if nome_chave in pesquisadores_dict:
-        return  # Já processado
+        return 
     url = base_url + nome
     tentativas = 0
     max_tentativas = 5
@@ -178,8 +131,6 @@ with open(saida_json, "w", encoding="utf-8") as f:
     json.dump(pesquisadores_dict, f, ensure_ascii=False, indent=2)
 
 # --- INSERÇÃO DIRETA NO NEO4J ---
-from databaseAcacia import driver, create_pesquisador, cria_relacao
-
 with driver.session() as session:
     # Cria vértices
     for nome, dados in pesquisadores_dict.items():
