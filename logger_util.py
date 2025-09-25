@@ -19,7 +19,7 @@ def get_logger():
 
     log_dir = 'logs'
     os.makedirs(log_dir, exist_ok=True)
-    log_filename = os.path.join(log_dir, 'log-' + datetime.now(tz_sp).strftime('%Y-%m-%d_%H-%M-%S') + '.log')
+    log_filename = os.path.join(log_dir, 'log-' + datetime.now(tz_sp).strftime('%Y-%m-%d') + '.log')
     file_handler = logging.FileHandler(log_filename, encoding='utf-8')
     file_handler.setFormatter(log_formatter)
     file_handler.setLevel(logging.DEBUG)

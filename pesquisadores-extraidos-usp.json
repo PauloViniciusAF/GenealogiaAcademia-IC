@@ -1,0 +1,2593 @@
+{
+  "Alexandre Lymberopoulos": {
+    "grupo": "pivo",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Antonio Carlos Asperti",
+    "descendentes": []
+  },
+  "Antonio Carlos Asperti": {
+    "grupo": "pai",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Manfredo Perdigao Do Carmo",
+    "descendentes": [
+      "Alexandre Lymberopoulos",
+      "Anuar Enrique Paternina Montalvo",
+      "Armando Caputi",
+      "Barbara Corominas Valerio",
+      "Ézio De Araújo Costa",
+      "Guillermo Antonio Lobos Villagra",
+      "José Antonio Moraes Vilhena",
+      "Juan Fernando Zapata Zapata",
+      "Rosa Maria Dos Santos Barreiro Chaves"
+    ]
+  },
+  "Anuar Enrique Paternina Montalvo": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Antonio Carlos Asperti",
+    "descendentes": []
+  },
+  "Armando Caputi": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal Do Abc",
+    "ascendentes": "Antonio Carlos Asperti",
+    "descendentes": []
+  },
+  "Barbara Corominas Valerio": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Antonio Carlos Asperti",
+    "descendentes": []
+  },
+  "Ézio de Araújo Costa": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal Da Bahia",
+    "ascendentes": "Antonio Carlos Asperti",
+    "descendentes": []
+  },
+  "Guillermo Antonio Lobos Villagra": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal De São Carlos",
+    "ascendentes": "Antonio Carlos Asperti",
+    "descendentes": [
+      "Alvaro Julio Yucra Hancco",
+      "Marcos Paulo Tassi",
+      "Mynor Ademar Melara Estrada"
+    ]
+  },
+  "José Antonio Moraes Vilhena": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal Do Pará",
+    "ascendentes": "Antonio Carlos Asperti",
+    "descendentes": []
+  },
+  "Juan Fernando Zapata Zapata": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "Antonio Carlos Asperti",
+    "descendentes": []
+  },
+  "Rosa Maria dos Santos Barreiro Chaves": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Antonio Carlos Asperti",
+    "descendentes": [
+      "Eliane Da Silva Dos Santos",
+      "Fernanda Ester Camillo Camargo",
+      "Gabriela Pereira Sander Papassoni",
+      "Maikel Antônio Samuays",
+      "Márcio Fabiano Da Silva"
+    ]
+  },
+  "Ana Catarina Pontone Hellmeister": {
+    "grupo": "pivo",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Usp Universidade De São Paulo",
+    "ascendentes": "Galdino Cesar Da Rocha Filho",
+    "descendentes": []
+  },
+  "Galdino Cesar da Rocha Filho": {
+    "grupo": "pai",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "",
+    "descendentes": [
+      "Ana Catarina Pontone Hellmeister"
+    ]
+  },
+  "Ana Paula Jahn": {
+    "grupo": "pivo",
+    "grande-area": "Ciências Humanas / Educação",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Colette Laborde",
+    "descendentes": [
+      "Monica Karrer"
+    ]
+  },
+  "Colette Laborde": {
+    "grupo": "pai",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "",
+    "descendentes": [
+      "Abdelhamid Chaachoua",
+      "Ana Paula Jahn",
+      "Franck Gilbert René Bellemain",
+      "Marilena Bittar"
+    ]
+  },
+  "Abdelhamid Chaachoua": {
+    "grupo": "filho",
+    "grande-area": "Ciências Humanas / Educação",
+    "universidade": "Université Joseph Fourier Grenoble I",
+    "ascendentes": "Colette Laborde",
+    "descendentes": []
+  },
+  "Franck Gilbert René Bellemain": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Ciência Da Computação",
+    "universidade": "Universidade Federal De Pernambuco",
+    "ascendentes": "Colette Laborde",
+    "descendentes": [
+      "Amanda Rodrigues Da Silva",
+      "Anderson Douglas Pereira Rodrigues Da Silva",
+      "Jana Trgalova",
+      "José Edeson De Melo Siqueira",
+      "Patricia Benevides De Oliveira",
+      "Ricardo Tiburcio Dos Santos",
+      "Safwan Qasem",
+      "Tarcisio Rocha Dos Santos"
+    ]
+  },
+  "Marilena Bittar": {
+    "grupo": "filho",
+    "grande-area": "Ciências Humanas / Educação",
+    "universidade": "Universidade Federal De Mato Grosso Do Sul",
+    "ascendentes": "Colette Laborde",
+    "descendentes": [
+      "Adriana Barbosa Oliveira",
+      "Bernardete Maria Andreazza Gregio",
+      "Danielly Regina Kaspary Dos Anjos",
+      "Edileni Garcia Juventino De Campos",
+      "Juliana Azevedo",
+      "Juliana Azevedo Montenegro",
+      "Kleber Ramos Gonçalves",
+      "Lígia Françoise Lemos Pantoja",
+      "Maria Aparecida Silva Cruz",
+      "Mônica Vasconcellos",
+      "Rosane Corsini Silva",
+      "Rosane Corsini Silva Nogueira",
+      "Susilene Garcia Da Silva Oliveira",
+      "Tatiani Garcia Neves",
+      "Thielide Veronica Da Silva Pavanelli Troian"
+    ]
+  },
+  "Monica Karrer": {
+    "grupo": "filho",
+    "grande-area": "Ciências Humanas / Educação",
+    "universidade": "Centro Universitário Da Fei",
+    "ascendentes": "Ana Paula Jahn",
+    "descendentes": [
+      "Jeferson Da Silva Gonçalves"
+    ]
+  },
+  "Antonio de Padua Franco Filho": {
+    "grupo": "pivo",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Ofelia Teresa Alas",
+    "descendentes": [
+      "Elivaldo Rodrigues Macedo",
+      "Rodrigo Silva Dos Santos"
+    ]
+  },
+  "Ofelia Teresa Alas": {
+    "grupo": "pai",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Edison Farah",
+    "descendentes": [
+      "Antonio De Padua Franco Filho",
+      "Irene Castro Pereira",
+      "Maria Stella A C Castilla",
+      "Stavros Christodoulou"
+    ]
+  },
+  "Irene Castro Pereira": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal Do Pará",
+    "ascendentes": "Artur Hideyuki Tomita",
+    "descendentes": []
+  },
+  "Maria Stella A C Castilla": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "Ofelia Teresa Alas",
+    "descendentes": []
+  },
+  "Stavros Christodoulou": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Estadual Paulista Júlio De Mesquita Filho",
+    "ascendentes": "Ofelia Teresa Alas",
+    "descendentes": []
+  },
+  "Elivaldo Rodrigues Macedo": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal Do Maranhão",
+    "ascendentes": "Antonio De Padua Franco Filho",
+    "descendentes": []
+  },
+  "Rodrigo Silva dos Santos": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal Do Recôncavo Da Bahia",
+    "ascendentes": "Antonio De Padua Franco Filho",
+    "descendentes": []
+  },
+  "Cristina Cerri": {
+    "grupo": "pivo",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Ruy Exel Filho",
+    "descendentes": [
+      "Marcela Irene Merklen Olivera"
+    ]
+  },
+  "Ruy Exel Filho": {
+    "grupo": "pai",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal De Santa Catarina",
+    "ascendentes": "Marc A Rieffel",
+    "descendentes": [
+      "Cristina Cerri",
+      "Danilo Royer",
+      "Fernando Abadie",
+      "Fernando Abadie Vicens",
+      "Gilles Goncalves Castro",
+      "Giuliano Boava",
+      "Paulinho Demeneghi"
+    ]
+  },
+  "Danilo Royer": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal De Santa Catarina",
+    "ascendentes": "Ruy Exel Filho",
+    "descendentes": []
+  },
+  "Fernando Abadie": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "Ruy Exel Filho",
+    "descendentes": []
+  },
+  "Fernando Abadie Vicens": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidad De La República",
+    "ascendentes": "Ruy Exel Filho",
+    "descendentes": []
+  },
+  "Gilles Goncalves Castro": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "Ruy Exel Filho",
+    "descendentes": []
+  },
+  "Giuliano Boava": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal De Santa Catarina",
+    "ascendentes": "Ruy Exel Filho",
+    "descendentes": []
+  },
+  "Paulinho Demeneghi": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "",
+    "ascendentes": "Alcides Buss",
+    "descendentes": []
+  },
+  "Marcela Irene Merklen Olivera": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Cristina Cerri",
+    "descendentes": []
+  },
+  "Daniela Mariz Silva Vieira": {
+    "grupo": "pivo",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Jorge Tulio Mujica Ascui",
+    "descendentes": [
+      "Cícero Nachtigall"
+    ]
+  },
+  "Jorge Tulio Mujica Ascui": {
+    "grupo": "pai",
+    "grande-area": "",
+    "universidade": "Universidade Estadual De Campinas",
+    "ascendentes": "Leopoldo Nachbin",
+    "descendentes": [
+      "Ariosvaldo Marques Jatobá",
+      "Daniela Mariz Silva Vieira",
+      "Elisa Regina Dos Santos",
+      "Erhan Caliskan",
+      "Fábio José Bertoloto",
+      "Humberto Daniel Carrión Villarroel",
+      "Kuo Po Ling",
+      "Mary Lilian Lourenco",
+      "Nelson Dantas Louza Junior",
+      "Paula Takatsuka",
+      "Raymundo Luiz De Alencar",
+      "Sonia Sarita Berrios Yana",
+      "Thiago Ginez Velanga Moreira",
+      "Thiago Rodrigo Alves"
+    ]
+  },
+  "Ariosvaldo Marques Jatobá": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal De Uberlândia",
+    "ascendentes": "Jorge Tulio Mujica Ascui",
+    "descendentes": []
+  },
+  "Elisa Regina dos Santos": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal De Uberlândia",
+    "ascendentes": "Jorge Tulio Mujica Ascui",
+    "descendentes": []
+  },
+  "Erhan Caliskan": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Yildiz Teknik Universitesi Fen Edebiyat Fakültesi",
+    "ascendentes": "Jorge Tulio Mujica Ascui",
+    "descendentes": []
+  },
+  "Fábio José Bertoloto": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal De Uberlândia",
+    "ascendentes": "Jorge Tulio Mujica Ascui",
+    "descendentes": []
+  },
+  "Humberto Daniel Carrión Villarroel": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Jorge Tulio Mujica Ascui",
+    "descendentes": []
+  },
+  "Kuo Po Ling": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal De Uberlândia",
+    "ascendentes": "Jorge Tulio Mujica Ascui",
+    "descendentes": []
+  },
+  "Mary Lilian Lourenco": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Jorge Mujica",
+    "descendentes": [
+      "André Arbex Hallack",
+      "Ewerton Ribeiro Torres",
+      "Leonardo Pellegrini Rodrigues",
+      "Luciano Octaviao Condori Huanca",
+      "Neusa Nogas Tocha",
+      "Thiago Grando",
+      "Vinícius Colferai Corrêa Miranda"
+    ]
+  },
+  "Nelson Dantas Louza Junior": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal De Juiz De Fora",
+    "ascendentes": "Jorge Tulio Mujica Ascui",
+    "descendentes": []
+  },
+  "Paula Takatsuka": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal Rural Do Rio De Janeiro",
+    "ascendentes": "Jorge Tulio Mujica Ascui",
+    "descendentes": []
+  },
+  "Raymundo Luiz de Alencar": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Instituto Tecnológico De Aeronáutica",
+    "ascendentes": "Jorge Mujica",
+    "descendentes": [
+      "Geraldo Márcio De Azevedo Botelho"
+    ]
+  },
+  "Sonia Sarita Berrios Yana": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal De Uberlândia",
+    "ascendentes": "Jorge Tulio Mujica Ascui",
+    "descendentes": []
+  },
+  "Thiago Ginez Velanga Moreira": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal De Rondônia",
+    "ascendentes": "Daniel Marinho Pellegrino",
+    "descendentes": []
+  },
+  "Cícero Nachtigall": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal De Pelotas",
+    "ascendentes": "Daniela Mariz Silva Vieira",
+    "descendentes": []
+  },
+  "Deborah Martins Raphael": {
+    "grupo": "pivo",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Gabriel Sabbagh",
+    "descendentes": []
+  },
+  "Gabriel Sabbagh": {
+    "grupo": "pai",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "",
+    "descendentes": [
+      "Deborah Martins Raphael"
+    ]
+  },
+  "Eduardo Rosinato Longa": {
+    "grupo": "pivo",
+    "grande-area": "",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Paolo Piccione",
+    "descendentes": []
+  },
+  "Paolo Piccione": {
+    "grupo": "pai",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Adrian Ocneanu",
+    "descendentes": [
+      "Ana Claudia Da Silva Moreira",
+      "Carlos Wilson Rodríguez Cárdenas",
+      "Daniel Victor Tausk",
+      "Eduardo Rosinato Longa",
+      "Elkin Dario Cardenas Diaz",
+      "Fernando Manfio",
+      "João Nunes De Araujo Neto",
+      "Jose Carlos Corrêa Eidam",
+      "Sinue Dayan Barbero Lodovici"
+    ]
+  },
+  "Ana Claudia da Silva Moreira": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal De São Paulo",
+    "ascendentes": "Paolo Piccione",
+    "descendentes": []
+  },
+  "Carlos Wilson Rodríguez Cárdenas": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidad Industrial De Santander",
+    "ascendentes": "Paolo Piccione",
+    "descendentes": []
+  },
+  "Daniel Victor Tausk": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Paolo Piccione",
+    "descendentes": [
+      "Carlos Alberto Marin Arango",
+      "Claudia Correa De Andrade Oliveira",
+      "Leonardo Biliotti",
+      "Rodrigo De Alvarenga Freire",
+      "Victor Dos Santos Ronchim"
+    ]
+  },
+  "Elkin Dario Cardenas Diaz": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "Paolo Piccione",
+    "descendentes": []
+  },
+  "Fernando Manfio": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Paolo Piccione",
+    "descendentes": [
+      "Cleidinaldo Aguiar Souza",
+      "Estela Garcia",
+      "Veronica Santana Reis"
+    ]
+  },
+  "Jose Carlos Corrêa Eidam": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal Do Paraná",
+    "ascendentes": "Paolo Piccione",
+    "descendentes": []
+  },
+  "Sinue Dayan Barbero Lodovici": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal Do Abc",
+    "ascendentes": "Paolo Piccione",
+    "descendentes": []
+  },
+  "Estefani Moraes Moreira": {
+    "grupo": "pivo",
+    "grande-area": "",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Alexandre Nolasco De Carvalho",
+    "descendentes": []
+  },
+  "Alexandre Nolasco de Carvalho": {
+    "grupo": "pai",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Jack Keneth Hale",
+    "descendentes": [
+      "Alex Pereira Da Silva",
+      "Alexandre Do Nascimento Oliveira Sousa",
+      "Arthur Cavalcante Cunha",
+      "Cesar Augusto Esteves Das Neves Cardoso",
+      "Cláudia Buttarello Gentile Moussa",
+      "Éder Ritis Aragão Costa",
+      "Estefani Moraes Moreira",
+      "Flank David Morais Bezerra",
+      "German Jesus Lozada Cruz",
+      "Henrique Barbosa Da Costa",
+      "Karina Schiabel",
+      "Leonardo Pires",
+      "Lucas Lisboa Leão",
+      "Marcelo José Dias Nascimento",
+      "Marcos Roberto Teixeira Primo",
+      "Matheus Cheque Bortolan",
+      "Paulo Mendes De Carvalho Neto",
+      "Ricardo Parreira Da Silva",
+      "Simone Mazzini Bruschi",
+      "Yessica Yulieth Julio Pérez"
+    ]
+  },
+  "Gilson Reis dos Santos Filho": {
+    "grupo": "pivo",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "Ivan Chestakov",
+    "descendentes": []
+  },
+  "Ivan Chestakov": {
+    "grupo": "pai",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Konstantin A Zhevlakov E Anatolii I Shirshov",
+    "descendentes": [
+      "Alexandr Popov",
+      "Alexandre Iltyakov",
+      "Carlos Gomez Ambrosi",
+      "Daniel Felipe Castro Ovalle",
+      "Diana Rasskazova",
+      "Faber Alberto Gómez González",
+      "Fernando Henry Meirelles",
+      "Gilson Reis Dos Santos Filho",
+      "Iryna Kashuba",
+      "Ismail Isaev",
+      "Maria Concepcion Lopez Diaz",
+      "Nikolai Pisarenko",
+      "Nurlan Ismailov",
+      "Oleg Smirnov",
+      "Olmer Folleco Solarte",
+      "Sergei Polikarpov",
+      "Sergei Sverchkov",
+      "Sergei Vasilovsky",
+      "Sidney Henrique Dale Crode",
+      "Ualbai Umirbaev"
+    ]
+  },
+  "Alexandr Popov": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "Ivan Chestakov",
+    "descendentes": []
+  },
+  "Alexandre Iltyakov": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "Ivan Chestakov",
+    "descendentes": []
+  },
+  "Carlos Gomez Ambrosi": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "Ivan Chestakov",
+    "descendentes": []
+  },
+  "Daniel Felipe Castro Ovalle": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "",
+    "ascendentes": "Ivan Chestakov",
+    "descendentes": []
+  },
+  "Faber Alberto Gómez González": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Ivan Chestakov",
+    "descendentes": []
+  },
+  "Fernando Henry Meirelles": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "",
+    "ascendentes": "Ivan Chestakov",
+    "descendentes": []
+  },
+  "Iryna Kashuba": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Ivan Chestakov",
+    "descendentes": [
+      "Fernando Junior Soares Dos Santos",
+      "Maria Eugenia Martin"
+    ]
+  },
+  "Ismail Isaev": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "Ivan Chestakov",
+    "descendentes": []
+  },
+  "Maria Concepcion Lopez Diaz": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "Ivan Chestakov",
+    "descendentes": []
+  },
+  "Nikolai Pisarenko": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "Ivan Chestakov",
+    "descendentes": []
+  },
+  "Nurlan Ismailov": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Askar Dzhumadil Daev And Ivan Shestakov",
+    "descendentes": []
+  },
+  "Oleg Smirnov": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "Ivan Chestakov",
+    "descendentes": []
+  },
+  "Olmer Folleco Solarte": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Ivan Chestakov",
+    "descendentes": []
+  },
+  "Sergei Polikarpov": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "Ivan Chestakov",
+    "descendentes": []
+  },
+  "Sergei Sverchkov": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "Ivan Chestakov",
+    "descendentes": []
+  },
+  "Sergei Vasilovsky": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "Ivan Chestakov",
+    "descendentes": []
+  },
+  "Sidney Henrique Dale Crode": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "",
+    "ascendentes": "Ivan Chestakov",
+    "descendentes": []
+  },
+  "Ualbai Umirbaev": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "Ivan Chestakov",
+    "descendentes": []
+  },
+  "Glaucio Terra": {
+    "grupo": "pivo",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Helena Maria Avila De Castro",
+    "descendentes": [
+      "Reinaldo Resende De Oliveira"
+    ]
+  },
+  "Helena Maria Avila de Castro": {
+    "grupo": "pai",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Walter Felipe Wreszinski",
+    "descendentes": [
+      "Glaucio Terra"
+    ]
+  },
+  "Reinaldo Resende de Oliveira": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Carnegie Mellon University",
+    "ascendentes": "Camillo De Lellis",
+    "descendentes": []
+  },
+  "Humberto Daniel Carrion Villarroel": {
+    "grupo": "pivo",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Jorge Tulio Mujica Ascui",
+    "descendentes": []
+  },
+  "Iole de Freitas Druck": {
+    "grupo": "pivo",
+    "grande-area": "Ciências Humanas / Educação",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Gonzalo E Reyes",
+    "descendentes": []
+  },
+  "Gonzalo e Reyes": {
+    "grupo": "pai",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "",
+    "descendentes": [
+      "Iole De Freitas Druck"
+    ]
+  },
+  "Ivan Struchiner": {
+    "grupo": "pivo",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Luiz Antonio Barrera San Martin",
+    "descendentes": [
+      "Cristian Camilo Cárdenas Cárdenas",
+      "Genaro Pablo Zamudio Chauca"
+    ]
+  },
+  "Luiz Antonio Barrera San Martin": {
+    "grupo": "pai",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Estadual De Campinas",
+    "ascendentes": "Ludwig Arnold",
+    "descendentes": [
+      "Ada Carolina García Rojas",
+      "Adélia Conceição Diniz",
+      "Adriano João Da Silva",
+      "Alexandre Jose Santana",
+      "Ana Paula Cruz De Freitas",
+      "Ariane Luzia Dos Santos",
+      "Carlos Augusto Bassani Varea",
+      "Carlos José Braga Barros",
+      "Conrado Damato De Lacerda",
+      "Daniel Cavalcante Oliveira",
+      "Eder De Moraes Correa",
+      "Edson Carlos Licurgo Santos",
+      "Eunice Palma",
+      "Eyüp Kizil",
+      "Ivan Struchiner",
+      "Janete De Paula Ferrareze",
+      "João Ribeiro Gonçalves Filho",
+      "Jordan Lambert Silva",
+      "Jorge Nicolas Lopez",
+      "Josiney Alves De Souza",
+      "Julio Cesar Conegundes Da Silva",
+      "Julio Cesar Rodriguez",
+      "Laércio José Dos Santos",
+      "Lonardo Rabelo",
+      "Lucas Conque Seco Ferreira",
+      "Luciana Aparecida Alves",
+      "Marco Antonio Nogueira Fernandes",
+      "Marcos André Verdi",
+      "Mauro Moraes Alves Patrao",
+      "Osvaldo Germano Do Rocio",
+      "Pedro Jose Catuogno",
+      "Richard Manuel Mamani Troncoso",
+      "Rita De Cássia De Jesus Silva",
+      "Ronan Antonio Dos Reis",
+      "Thiago Fanelli Ferraiol",
+      "Victor Alberto Jose Ayala Bravo",
+      "Zhang Cunhong"
+    ]
+  },
+  "Ada Carolina García Rojas": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "Lino Anderson Da Silva Grama",
+    "descendentes": []
+  },
+  "Adélia Conceição Diniz": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal De São João Del Rei",
+    "ascendentes": "Caio José Colletti Negreiros",
+    "descendentes": []
+  },
+  "Adriano João da Silva": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "Universidade Estadual De Campinas",
+    "ascendentes": "Luiz Antonio Barrera San Martin",
+    "descendentes": [
+      "Alejandro Otero Robles",
+      "Danilo Andrés García Hernández"
+    ]
+  },
+  "Alexandre Jose Santana": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Estadual De Maringá",
+    "ascendentes": "Luiz Antonio Barrera San Martin",
+    "descendentes": [
+      "Bruno Alexandre Rodrigues",
+      "João Augusto Navarro Cossich",
+      "João Paulo Lima De Oliveira",
+      "Juliana Raupp Dos Reis Setti",
+      "Rafael Borges Borri",
+      "Rafael Mestrinheire Hungaro",
+      "Thiago Matheus Cavalheiro"
+    ]
+  },
+  "Ana Paula Cruz de Freitas": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "Luiz Antonio Barrera San Martin",
+    "descendentes": []
+  },
+  "Ariane Luzia dos Santos": {
+    "grupo": "filho",
+    "grande-area": "Ciências Humanas / Educação",
+    "universidade": "Universidade Estadual Paulista Júlio De Mesquita Filho",
+    "ascendentes": "Luiz Antonio Barrera San Martin",
+    "descendentes": []
+  },
+  "Carlos Augusto Bassani Varea": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "",
+    "ascendentes": "Luiz Antonio Barrera San Martin",
+    "descendentes": []
+  },
+  "Carlos José Braga Barros": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Estadual De Maringá",
+    "ascendentes": "Luiz Antonio Barrera San Martin",
+    "descendentes": [
+      "Hélio Vinicius Moreno Tozatti",
+      "Ronan A Dos Reis",
+      "Victor Hugo Lourenço Da Rocha"
+    ]
+  },
+  "Conrado Damato de Lacerda": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "Universidade Estadual De Campinas",
+    "ascendentes": "Luiz Antonio Barrera San Martin",
+    "descendentes": []
+  },
+  "Daniel Cavalcante Oliveira": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "",
+    "ascendentes": "Lucas Conque Seco Ferreira",
+    "descendentes": []
+  },
+  "Eder de Moraes Correa": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Estadual De Campinas",
+    "ascendentes": "Lino Anderson Da Silva Grama",
+    "descendentes": []
+  },
+  "Edson Carlos Licurgo Santos": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Estadual Do Oeste Do Paraná",
+    "ascendentes": "Luiz Antonio Barrera San Martin",
+    "descendentes": []
+  },
+  "Eunice Palma": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "",
+    "ascendentes": "Luiz Antonio Barrera San Martin",
+    "descendentes": []
+  },
+  "Eyüp Kizil": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "",
+    "ascendentes": "Luiz Antonio Barrera San Martin",
+    "descendentes": [
+      "Okan Duman"
+    ]
+  },
+  "Janete de Paula Ferrareze": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal Do Paraná",
+    "ascendentes": "Luiz Antonio Barrera San Martin",
+    "descendentes": []
+  },
+  "João Ribeiro Gonçalves Filho": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "Universidade Estadual De Maringá",
+    "ascendentes": "Luiz Antonio Barrera San Martin",
+    "descendentes": []
+  },
+  "Jordan Lambert Silva": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal Fluminense",
+    "ascendentes": "Lonardo Rabelo",
+    "descendentes": []
+  },
+  "Josiney Alves de Souza": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Estadual De Maringá",
+    "ascendentes": "Luiz Antonio Barrera San Martin",
+    "descendentes": [
+      "André Luiz Marques",
+      "Gisele Detomazi Almeida",
+      "Hélio Vinicius Moreno Tozatti",
+      "Jean Geovane Da Silva",
+      "Luana Hidemi Takamoto",
+      "Pedro Flavio Silva Othechar",
+      "Richard Wagner Maciel Alves"
+    ]
+  },
+  "Julio Cesar Conegundes da Silva": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "",
+    "ascendentes": "Luiz Antonio Barrera San Martin",
+    "descendentes": []
+  },
+  "Julio Cesar Rodriguez": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal Do Amazonas",
+    "ascendentes": "Luiz Antonio Barrera San Martin",
+    "descendentes": [
+      "Carlos Wagner Marques Do Nascimento"
+    ]
+  },
+  "Laércio José dos Santos": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal De Juiz De Fora",
+    "ascendentes": "Luiz Antonio Barrera San Martin",
+    "descendentes": []
+  },
+  "Lonardo Rabelo": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal De Juiz De Fora",
+    "ascendentes": "Luiz Antonio Barrera San Martin",
+    "descendentes": [
+      "Jordan Lambert Silva"
+    ]
+  },
+  "Lucas Conque Seco Ferreira": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De Brasília",
+    "ascendentes": "Luiz Antonio Barrera San Martin",
+    "descendentes": [
+      "Daniel Cavalcante Oliveira",
+      "Daniel Oliveira"
+    ]
+  },
+  "Luciana Aparecida Alves": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal De Uberlândia",
+    "ascendentes": "Luiz Antonio Barrera San Martin",
+    "descendentes": []
+  },
+  "Marco Antonio Nogueira Fernandes": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal Da Bahia",
+    "ascendentes": "Luiz Antonio Barrera San Martin",
+    "descendentes": []
+  },
+  "Marcos André Verdi": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Estadual De Maringá",
+    "ascendentes": "Luiz Antonio Barrera San Martin",
+    "descendentes": [
+      "Rafael Borges Borri"
+    ]
+  },
+  "Mauro Moraes Alves Patrao": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De Brasília",
+    "ascendentes": "Luiz Antonio Barrera San Martin",
+    "descendentes": [
+      "André Caldas De Souza"
+    ]
+  },
+  "Osvaldo Germano do Rocio": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Estadual De Maringá",
+    "ascendentes": "Luiz Antonio Barrera San Martin",
+    "descendentes": [
+      "Marcos André Verdi",
+      "Rafael Mestrinheire Hungaro"
+    ]
+  },
+  "Pedro Jose Catuogno": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Estadual De Campinas",
+    "ascendentes": "Luiz Antonio Barrera San Martin",
+    "descendentes": [
+      "David Alexander Chipana Mollinedo",
+      "Diego Sebastian Ledesma",
+      "Eduardo De Amorim Neves",
+      "Jamil Gomes De Abreu Júnior",
+      "Luis Roberto Lucinger De Almeida",
+      "Marcelo Gonçalves Oliveira Vieira",
+      "Odail Pagliardi",
+      "Rafael Andretto Castrequini",
+      "Rinaldo Vieira Da Silva Júnior",
+      "Simão Nicolau Stelmastchuk"
+    ]
+  },
+  "Richard Manuel Mamani Troncoso": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "Luiz Antonio Barrera San Martin",
+    "descendentes": []
+  },
+  "Rita de Cássia de Jesus Silva": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "",
+    "ascendentes": "Caio José Colletti Negreiros",
+    "descendentes": []
+  },
+  "Ronan Antonio dos Reis": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Estadual Paulista Júlio De Mesquita Filho",
+    "ascendentes": "Luiz Antonio Barrera San Martin",
+    "descendentes": []
+  },
+  "Thiago Fanelli Ferraiol": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Estadual De Maringá",
+    "ascendentes": "Luiz Antonio Barrera San Martin",
+    "descendentes": []
+  },
+  "Victor Alberto Jose Ayala Bravo": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidad Catolica Del Norte",
+    "ascendentes": "Luiz Antonio Barrera San Martin",
+    "descendentes": [
+      "Ayse Hacibekiroglou",
+      "Carlos Wagner",
+      "Carlos Wagner Marques Do Nascimento",
+      "Efrain Cruz",
+      "Guilherme Zsigmond Machado",
+      "Guillermo Fernando Vera Hurtado",
+      "Guillermo Vera",
+      "Julio Cesar Rodriguez",
+      "Kjetil Halvorsen"
+    ]
+  },
+  "Zhang Cunhong": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal De Uberlândia",
+    "ascendentes": "Luiz Antonio Barrera San Martin",
+    "descendentes": []
+  },
+  "Cristian Camilo Cárdenas Cárdenas": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Ivan Struchiner",
+    "descendentes": []
+  },
+  "Genaro Pablo Zamudio Chauca": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "Ivan Struchiner",
+    "descendentes": []
+  },
+  "Javier Sanchez Serda": {
+    "grupo": "pivo",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Dolors Herbera Espinal",
+    "descendentes": [
+      "Wellington Marques De Souza"
+    ]
+  },
+  "Dolors Herbera Espinal": {
+    "grupo": "pai",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "",
+    "descendentes": [
+      "Javier Sánchez Serdà"
+    ]
+  },
+  "Javier Sánchez Serdà": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Dolors Herbera Espinal",
+    "descendentes": [
+      "Wellington Marques De Souza"
+    ]
+  },
+  "Wellington Marques de Souza": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "Javier Sánchez Serdà",
+    "descendentes": []
+  },
+  "Joao Fernando da Cunha Nariyoshi": {
+    "grupo": "pivo",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Hermano Frid Neto",
+    "descendentes": []
+  },
+  "Hermano Frid Neto": {
+    "grupo": "pai",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Dan Marchesin",
+    "descendentes": [
+      "Arnando Nelio Sousa Carvalho",
+      "Cezar Issao Kondo",
+      "Claudia Lorena Duarte Espitia",
+      "Daniel Rodriguez Marroquin",
+      "Jean Carlos Da Silva",
+      "João Fernando Da Cunha Nariyoshi",
+      "Juan Andres Gonzalez Marin",
+      "Leonardo Rendon Arbelaez",
+      "Marcelo Martins Dos Santos",
+      "Wladimir Augusto Das Neves"
+    ]
+  },
+  "Arnando Nelio Sousa Carvalho": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "",
+    "ascendentes": "Hermano Frid Neto",
+    "descendentes": []
+  },
+  "Cezar Issao Kondo": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal De São Carlos",
+    "ascendentes": "Hermano Frid Neto",
+    "descendentes": [
+      "Claudete Matilde Webler Martins",
+      "Danilo De Jesus Ferreira",
+      "Evaneide Alves Carneiro",
+      "Liliane Da Cunha Ferreira",
+      "Marcos Alves De Farias",
+      "Miguel Angel Cuayla Zapata",
+      "Ricardo Edem Ferreira",
+      "Ronaldo Bressan Pes"
+    ]
+  },
+  "Claudia Lorena Duarte Espitia": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Estadual De Campinas",
+    "ascendentes": "Hermano Frid Neto",
+    "descendentes": []
+  },
+  "Daniel Rodriguez Marroquin": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal Do Rio De Janeiro",
+    "ascendentes": "Hermano Frid Neto",
+    "descendentes": []
+  },
+  "Jean Carlos da Silva": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal De Minas Gerais",
+    "ascendentes": "Hermano Frid Neto",
+    "descendentes": [
+      "Carolina Gisele Naudeau",
+      "Luís Fernando Salvino",
+      "Taynara Da Costa Andrade",
+      "Taynara De Andrade Da Costa Lima",
+      "Vernny Uriel Chavez Ccajma"
+    ]
+  },
+  "João Fernando da Cunha Nariyoshi": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Hermano Frid Neto",
+    "descendentes": []
+  },
+  "Juan Andres Gonzalez Marin": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal Da Bahia",
+    "ascendentes": "Hermano Frid Neto",
+    "descendentes": []
+  },
+  "Marcelo Martins dos Santos": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Estadual De Campinas",
+    "ascendentes": "Hermano Frid Neto",
+    "descendentes": [
+      "Edson José Teixeira",
+      "Fábio Vitoriano E Silva",
+      "Gilberlandio Jesus Dias",
+      "Henrique Borrin De Souza",
+      "Pedro Nel Maluendas",
+      "Ronaldo Antonio Dos Santos"
+    ]
+  },
+  "Wladimir Augusto das Neves": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal Do Rio De Janeiro",
+    "ascendentes": "Hermano Frid Neto",
+    "descendentes": [
+      "Aldo Amilcar Bazan Pacoricona",
+      "Dionicio Orlando Moreno Vega",
+      "Gerardo Jonatan Huaroto Cardenas",
+      "Leandro Tomaz De Araujo",
+      "Talita Ribeiro De Souza Mello",
+      "Taynara De Andrade Da Costa",
+      "Taynara De Andrade Da Costa Lima",
+      "Vernny Uriel Chavez Ccajma"
+    ]
+  },
+  "Joao Henrique Santos de Andrade": {
+    "grupo": "pivo",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Fernando Coda Marques",
+    "descendentes": []
+  },
+  "Fernando Coda Marques": {
+    "grupo": "pai",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "",
+    "descendentes": [
+      "Acir Carlos Da Silva Junior",
+      "João Henrique Santos De Andrade"
+    ]
+  },
+  "Acir Carlos da Silva Junior": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "Universidade Federal Do Estado Do Rio De Janeiro",
+    "ascendentes": "Fernando Coda Marques",
+    "descendentes": []
+  },
+  "João Henrique Santos de Andrade": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Fernando Coda Marques",
+    "descendentes": []
+  },
+  "Jorge Tadashi Hiratuka": {
+    "grupo": "pivo",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Dirce Kiyomi Hayashida Mochida",
+    "descendentes": []
+  },
+  "Dirce Kiyomi Hayashida Mochida": {
+    "grupo": "pai",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Centro Universitário Da Fei",
+    "ascendentes": "Maria Del Carmen Romero Fuster",
+    "descendentes": [
+      "Jorge Tadashi Hiratuka"
+    ]
+  },
+  "Jose Luis Vilca Rodriguez": {
+    "grupo": "pivo",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Csaba Schneider",
+    "descendentes": []
+  },
+  "Csaba Schneider": {
+    "grupo": "pai",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal De Minas Gerais",
+    "ascendentes": "",
+    "descendentes": [
+      "Frederico Augusto Menezes Ribeiro",
+      "José Luis Vilca Rodriguez",
+      "Marcos Goulart Lima",
+      "Pedro Henrique Pereira Daldegan",
+      "Sophie Ambrose",
+      "Vanderlei Lopes De Jesus"
+    ]
+  },
+  "Frederico Augusto Menezes Ribeiro": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "Csaba Schneider",
+    "descendentes": []
+  },
+  "José Luis Vilca Rodriguez": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Csaba Schneider",
+    "descendentes": []
+  },
+  "Marcos Goulart Lima": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal De Ouro Preto",
+    "ascendentes": "Csaba Schneider",
+    "descendentes": []
+  },
+  "Pedro Henrique Pereira Daldegan": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Centro Federal De Educação Tecnológica De Minas Gerais",
+    "ascendentes": "Csaba Schneider",
+    "descendentes": []
+  },
+  "Sophie Ambrose": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "Csaba Schneider",
+    "descendentes": []
+  },
+  "Vanderlei Lopes de Jesus": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "",
+    "ascendentes": "Csaba Schneider",
+    "descendentes": []
+  },
+  "Julio Cesar Augusto do Valle": {
+    "grupo": "pivo",
+    "grande-area": "Ciências Humanas / Educação",
+    "universidade": "",
+    "ascendentes": "Lisete Regina Gomes Arelaro",
+    "descendentes": []
+  },
+  "Lisete Regina Gomes Arelaro": {
+    "grupo": "pai",
+    "grande-area": "Ciências Humanas / Educação",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "José Mário Pires Azanha",
+    "descendentes": [
+      "Aline Barbosa De Miranda",
+      "Angela Rabello Maciel De Barros Tamberlini",
+      "Antônio Lisboa Leitão De Souza",
+      "Barbara Popp",
+      "Clovis Edmar Paulino",
+      "Elisângela Alves Da Silva Scaff",
+      "Eni Marisa Maia",
+      "Flávia Da Cunha Bastos",
+      "I Juca Pirama Camargo Gil",
+      "Irandi Pereira",
+      "Janaina Vargas De Moraes Maudonnet",
+      "Jorge Nassim Vieira Najjar",
+      "Júlio César Augusto Do Valle",
+      "Lizandra Guedes Baptista",
+      "Luciana Sardenha Galzerano",
+      "Maria Inês Escobar Da Costa",
+      "Maria Regina Martins Cabral",
+      "Marli Vizim",
+      "Percival Tavares Da Silva",
+      "Romualdo Luiz Portela De Oliveira",
+      "Rosana Maria Gemaque Rolim",
+      "Rosilene Silva Vieira",
+      "Shirley Silva",
+      "Sirlene Bendazzoli",
+      "Sueli Guadelupe De Lima Mendonça",
+      "Thais Andrea Carvalho De Figueirêdo Lopes"
+    ]
+  },
+  "Aline Barbosa de Miranda": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "Lisete Regina Gomes Arelaro",
+    "descendentes": []
+  },
+  "Angela Rabello Maciel de Barros Tamberlini": {
+    "grupo": "filho",
+    "grande-area": "Ciências Humanas / Educação",
+    "universidade": "Universidade Federal Fluminense",
+    "ascendentes": "Lisete Regina Gomes Arelaro",
+    "descendentes": []
+  },
+  "Antônio Lisboa Leitão de Souza": {
+    "grupo": "filho",
+    "grande-area": "Ciências Humanas / Educação",
+    "universidade": "Universidade Federal De Campina Grande",
+    "ascendentes": "Lisete Regina Gomes Arelaro",
+    "descendentes": [
+      "Magnus José Barros Gonzaga"
+    ]
+  },
+  "Barbara Popp": {
+    "grupo": "filho",
+    "grande-area": "Ciências Humanas / Educação",
+    "universidade": "Prefeitura Do Município De São Paulo",
+    "ascendentes": "Lisete Regina Gomes Arelaro",
+    "descendentes": []
+  },
+  "Clovis Edmar Paulino": {
+    "grupo": "filho",
+    "grande-area": "Ciências Sociais Aplicadas / Administração",
+    "universidade": "Faculdade Da Educação Da Usp",
+    "ascendentes": "Lisete Regina Gomes Arelaro",
+    "descendentes": []
+  },
+  "Eni Marisa Maia": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "Lisete Regina Gomes Arelaro",
+    "descendentes": []
+  },
+  "Flávia da Cunha Bastos": {
+    "grupo": "filho",
+    "grande-area": "Ciências da Saúde / Educação Física",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Lisete Regina Gomes Arelaro",
+    "descendentes": [
+      "Cacilda Mendes Dos Santos Amaral",
+      "Ivan Furegato Moraes",
+      "Maressa D Paula Gonçalves Rosa Nogueira"
+    ]
+  },
+  "I Juca Pirama Camargo Gil": {
+    "grupo": "filho",
+    "grande-area": "Ciências Humanas / Educação",
+    "universidade": "Universidade Federal Do Rio Grande Do Sul",
+    "ascendentes": "Lisete Regina Gomes Arelaro",
+    "descendentes": []
+  },
+  "Irandi Pereira": {
+    "grupo": "filho",
+    "grande-area": "Ciências Humanas / Educação",
+    "universidade": "Associação Dos Pesquisadores De Núcleos De Estudos E Pesquisas",
+    "ascendentes": "Lisete Regina Gomes Arelaro",
+    "descendentes": []
+  },
+  "Janaina Vargas de Moraes Maudonnet": {
+    "grupo": "filho",
+    "grande-area": "Ciências Humanas / Educação",
+    "universidade": "",
+    "ascendentes": "Lisete Regina Gomes Arelaro",
+    "descendentes": []
+  },
+  "Jorge Nassim Vieira Najjar": {
+    "grupo": "filho",
+    "grande-area": "Ciências Humanas / Educação",
+    "universidade": "Universidade Federal Fluminense",
+    "ascendentes": "Lisete Regina Gomes Arelaro",
+    "descendentes": [
+      "Ana Paula Ribeiro De Sousa",
+      "Karine Vichiett Morgan",
+      "Lucy Rosa Silveira Souza Teixeira",
+      "Néliton Gomes Azevedo",
+      "Sidineia Kaneko Sasso",
+      "Solange Santiago Ferreira"
+    ]
+  },
+  "Júlio César Augusto do Valle": {
+    "grupo": "filho",
+    "grande-area": "Ciências Humanas / Educação",
+    "universidade": "",
+    "ascendentes": "Lisete Regina Gomes Arelaro",
+    "descendentes": []
+  },
+  "Lizandra Guedes Baptista": {
+    "grupo": "filho",
+    "grande-area": "Ciências Humanas / Ciência Política",
+    "universidade": "",
+    "ascendentes": "Lisete Regina Gomes Arelaro",
+    "descendentes": []
+  },
+  "Luciana Sardenha Galzerano": {
+    "grupo": "filho",
+    "grande-area": "Ciências Humanas / Educação",
+    "universidade": "",
+    "ascendentes": "Lisete Regina Gomes Arelaro",
+    "descendentes": []
+  },
+  "Maria Inês Escobar da Costa": {
+    "grupo": "filho",
+    "grande-area": "Ciências Agrárias / Agronomia",
+    "universidade": "Universidade Federal Do Ceará",
+    "ascendentes": "Lisete Regina Gomes Arelaro",
+    "descendentes": []
+  },
+  "Maria Regina Martins Cabral": {
+    "grupo": "filho",
+    "grande-area": "Ciências Humanas / Educação",
+    "universidade": "",
+    "ascendentes": "Emilio Lucio Villegas Ramos",
+    "descendentes": []
+  },
+  "Marli Vizim": {
+    "grupo": "filho",
+    "grande-area": "Ciências Humanas / Educação",
+    "universidade": "Centro Universitário Fundação Santo André",
+    "ascendentes": "Lisete Regina Gomes Arelaro",
+    "descendentes": []
+  },
+  "Percival Tavares da Silva": {
+    "grupo": "filho",
+    "grande-area": "Ciências Humanas / Educação",
+    "universidade": "Universidade Federal Fluminense",
+    "ascendentes": "Giovanni Semeraro",
+    "descendentes": []
+  },
+  "Rosana Maria Gemaque Rolim": {
+    "grupo": "filho",
+    "grande-area": "Ciências Humanas / Educação",
+    "universidade": "Universidade Federal Do Pará",
+    "ascendentes": "Lisete Regina Gomes Arelaro",
+    "descendentes": [
+      "Alcemir Pantoja Rodrigues",
+      "Ana Claudia Da Silva Pereira",
+      "Charles Alberto De Souza Alves",
+      "Eraldo Souza Do Carmo",
+      "Felipe Gomes Monteiro",
+      "Jefferson Alves Teixeira",
+      "Maria Elcineide De Albuquerque Marialva",
+      "Marielson Rodrigues Guimarães"
+    ]
+  },
+  "Rosilene Silva Vieira": {
+    "grupo": "filho",
+    "grande-area": "Ciências Humanas / Educação",
+    "universidade": "Prefeitura Municipal De São Paulo",
+    "ascendentes": "Lisete Regina Gomes Arelaro",
+    "descendentes": []
+  },
+  "Sirlene Bendazzoli": {
+    "grupo": "filho",
+    "grande-area": "Ciências Humanas / Educação",
+    "universidade": "",
+    "ascendentes": "Lisete Regina Gomes Arelaro",
+    "descendentes": []
+  },
+  "Sueli Guadelupe de Lima Mendonça": {
+    "grupo": "filho",
+    "grande-area": "Ciências Humanas / Educação",
+    "universidade": "Universidade Estadual Paulista Júlio De Mesquita Filho",
+    "ascendentes": "Lisete Regina Gomes Arelaro",
+    "descendentes": [
+      "Rilane Silva Reverdito Geminiano"
+    ]
+  },
+  "Thais Andrea Carvalho de Figueirêdo Lopes": {
+    "grupo": "filho",
+    "grande-area": "Ciências Humanas / Educação",
+    "universidade": "Universidade Federal Do Maranhão",
+    "ascendentes": "Lisete Regina Gomes Arelaro",
+    "descendentes": []
+  },
+  "Leonardo Barichello": {
+    "grupo": "pivo",
+    "grande-area": "Ciências Humanas / Educação",
+    "universidade": "",
+    "ascendentes": "Geoff Wake",
+    "descendentes": []
+  },
+  "Geoff Wake": {
+    "grupo": "pai",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "",
+    "descendentes": [
+      "Leonardo Barichello"
+    ]
+  },
+  "Leonardo Pellegrini Rodrigues": {
+    "grupo": "pivo",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "",
+    "ascendentes": "Mary Lilian Lourenco",
+    "descendentes": [
+      "André Quintal Augusto"
+    ]
+  },
+  "André Arbex Hallack": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal De Juiz De Fora",
+    "ascendentes": "Mary Lilian Lourenco",
+    "descendentes": [
+      "André Quintal Augusto"
+    ]
+  },
+  "Ewerton Ribeiro Torres": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "Geraldo Márcio De Azevedo Botelho",
+    "descendentes": []
+  },
+  "Neusa Nogas Tocha": {
+    "grupo": "filho",
+    "grande-area": "Ciências Humanas / Educação",
+    "universidade": "Universidade Tecnológica Federal Do Paraná",
+    "ascendentes": "Mary Lilian Lourenco",
+    "descendentes": []
+  },
+  "Thiago Grando": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Estadual Do Centro Oeste",
+    "ascendentes": "Mary Lilian Lourenco",
+    "descendentes": []
+  },
+  "Vinícius Colferai Corrêa Miranda": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal Do Abc",
+    "ascendentes": "Mary Lilian Lourenco",
+    "descendentes": []
+  },
+  "André Quintal Augusto": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "André Arbex Hallack",
+    "descendentes": []
+  },
+  "Lucas Colucci Cavalcante de Souza": {
+    "grupo": "pivo",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "",
+    "ascendentes": "Ervin Gyori",
+    "descendentes": []
+  },
+  "Ervin Gyori": {
+    "grupo": "pai",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "",
+    "descendentes": [
+      "Lucas Colucci Cavalcante De Souza"
+    ]
+  },
+  "Lucilia Daruiz Borsari": {
+    "grupo": "pivo",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "",
+    "descendentes": [
+      "Rafael Moreira De Souza"
+    ]
+  },
+  "Rafael Moreira de Souza": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Estadual De Mato Grosso Do Sul",
+    "ascendentes": "Lucilia Daruiz Borsari",
+    "descendentes": []
+  },
+  "Marcio Vieira de Almeida": {
+    "grupo": "pivo",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "",
+    "ascendentes": "Sonia Barbosa Camargo Igliori",
+    "descendentes": [
+      "Thays Rayana Santos De Carvalho"
+    ]
+  },
+  "Sonia Barbosa Camargo Igliori": {
+    "grupo": "pai",
+    "grande-area": "Ciências Humanas / Educação",
+    "universidade": "Pontifícia Universidade Católica De São Paulo",
+    "ascendentes": "Domingos Pisaneli",
+    "descendentes": [
+      "Alessandra Hissa Ferrari Sartor",
+      "Carlos Eduardo De Campos",
+      "Danilo Dos Santos Christo",
+      "Douglas Borreio Maciel Dos Santos",
+      "Eliane Alves De Oliveira",
+      "Emerson Bastos Lomasso",
+      "Gianete Dutra Meira",
+      "Helena Tavares De Souza",
+      "Irene Coelho Araujo",
+      "Jayme Do Carmo Macedo Leme",
+      "Luzia Aparecida Palaro",
+      "Marcio Vieira De Almeida",
+      "Maria De Fatima Costa Leal",
+      "Maria Eli Puga Beltrão",
+      "Maria Rosana Soares",
+      "Paulo Ferreira Do Carmo",
+      "Pericles Cesar De Araujo",
+      "Rogério Ferreira Da Fonseca"
+    ]
+  },
+  "Alessandra Hissa Ferrari Sartor": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "",
+    "ascendentes": "Sonia Barbosa Camargo Igliori",
+    "descendentes": []
+  },
+  "Carlos Eduardo de Campos": {
+    "grupo": "filho",
+    "grande-area": "Ciências Humanas / Educação",
+    "universidade": "Colégio Gutenberg",
+    "ascendentes": "Sonia Barbosa Camargo Igliori",
+    "descendentes": []
+  },
+  "Danilo dos Santos Christo": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "",
+    "ascendentes": "Sonia Barbosa Camargo Igliori",
+    "descendentes": []
+  },
+  "Douglas Borreio Maciel dos Santos": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Etec Doutor Emílio Hernandez Aguilar",
+    "ascendentes": "Sonia Barbosa Camargo Igliori",
+    "descendentes": []
+  },
+  "Eliane Alves de Oliveira": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Centro Universitário Do Estado Do Pará",
+    "ascendentes": "Sonia Barbosa Camargo Igliori",
+    "descendentes": []
+  },
+  "Emerson Bastos Lomasso": {
+    "grupo": "filho",
+    "grande-area": "Ciências Humanas / Educação",
+    "universidade": "Universidade Do Estado De Minas Gerais",
+    "ascendentes": "Sonia Barbosa Camargo Igliori",
+    "descendentes": []
+  },
+  "Gianete Dutra Meira": {
+    "grupo": "filho",
+    "grande-area": "Ciências Humanas / Psicologia",
+    "universidade": "Universidade Do Estado Da Bahia",
+    "ascendentes": "Sonia Barbosa Camargo Igliori",
+    "descendentes": []
+  },
+  "Helena Tavares de Souza": {
+    "grupo": "filho",
+    "grande-area": "Ciências Humanas / Educação",
+    "universidade": "",
+    "ascendentes": "Sonia Barbosa Camargo Igliori",
+    "descendentes": [
+      "Dinazilda Idalencio Koman",
+      "Fernanda Dos Santos Da Silva",
+      "Idaraí Santos De Santana",
+      "Ivani Almeida Teles Da Silva",
+      "Luciana Chaves Santos Pereira",
+      "Marcia Rebeca De Oliveira",
+      "Mariluse Santana Dos Santos",
+      "Marta Andrea Da Silva Pacheco Gomes"
+    ]
+  },
+  "Irene Coelho Araujo": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Estadual De Mato Grosso Do Sul",
+    "ascendentes": "Antonio Carlos Brolezzi",
+    "descendentes": []
+  },
+  "Jayme do Carmo Macedo Leme": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Fatec Guarulhos",
+    "ascendentes": "Sonia Barbosa Camargo Igliori",
+    "descendentes": []
+  },
+  "Luzia Aparecida Palaro": {
+    "grupo": "filho",
+    "grande-area": "Ciências Humanas / Educação",
+    "universidade": "Universidade Federal De Mato Grosso",
+    "ascendentes": "Michael Friedrich Otte",
+    "descendentes": []
+  },
+  "Maria de Fatima Costa Leal": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Do Estado Da Bahia",
+    "ascendentes": "Sonia Barbosa Camargo Igliori",
+    "descendentes": []
+  },
+  "Maria Eli Puga Beltrão": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "",
+    "ascendentes": "Sonia Barbosa Camargo Igliori",
+    "descendentes": []
+  },
+  "Maria Rosana Soares": {
+    "grupo": "filho",
+    "grande-area": "Ciências Humanas / Educação",
+    "universidade": "",
+    "ascendentes": "Sonia Barbosa Camargo Igliori",
+    "descendentes": []
+  },
+  "Paulo Ferreira do Carmo": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "",
+    "ascendentes": "Sonia Barbosa Camargo Igliori",
+    "descendentes": []
+  },
+  "Pericles Cesar de Araujo": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Probabilidade E Estatística",
+    "universidade": "Universidade Estadual De Feira De Santana",
+    "ascendentes": "Sebastiao Carneiro",
+    "descendentes": []
+  },
+  "Rogério Ferreira da Fonseca": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Instituto Federal De Educação Ciência E Tecnologia De São Paulo",
+    "ascendentes": "Sonia Barbosa Camargo Igliori",
+    "descendentes": []
+  },
+  "Thays Rayana Santos de Carvalho": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "Agnaldo Da Conceição Esquincalha",
+    "descendentes": []
+  },
+  "Marcelo Kodi Inagaki": {
+    "grupo": "pivo",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "Marcos Martins Alexandrino Da Silva",
+    "descendentes": []
+  },
+  "Marcos Martins Alexandrino da Silva": {
+    "grupo": "pai",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Gudlaugur Thorbergsson",
+    "descendentes": [
+      "Benigno Oliveira Alves",
+      "Hengameh Raeisidehkordi",
+      "Leonardo Francisco Cavenaghi",
+      "Marcelo Kodi Inagaki",
+      "Pablo Asdrubal Diaz Sepulveda"
+    ]
+  },
+  "Maria Elisa Esteves Lopes Galvao": {
+    "grupo": "pivo",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Chi Cheng Chen",
+    "descendentes": [
+      "Cláudia Cueva Candido",
+      "Erique De Souza Siqueira",
+      "Isabel Campos Barroso",
+      "Rafael Neves Almeida",
+      "Rodrigo Rodrigues Dias"
+    ]
+  },
+  "Chi Cheng Chen": {
+    "grupo": "pai",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "",
+    "descendentes": [
+      "Irwen Valle Guadalupe",
+      "Maria Elisa Esteves Lopes Galvão"
+    ]
+  },
+  "Irwen Valle Guadalupe": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "",
+    "ascendentes": "Chi Cheng Chen",
+    "descendentes": []
+  },
+  "Maria Elisa Esteves Lopes Galvão": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Chi Cheng Chen",
+    "descendentes": [
+      "Cláudia Cueva Candido",
+      "Erique De Souza Siqueira",
+      "Isabel Campos Barroso",
+      "Rafael Neves Almeida",
+      "Rodrigo Rodrigues Dias"
+    ]
+  },
+  "Cláudia Cueva Candido": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Maria Elisa Esteves Lopes Galvão",
+    "descendentes": []
+  },
+  "Isabel Campos Barroso": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Colégio Pedro Ii",
+    "ascendentes": "Maria Elisa Esteves Lopes Galvão",
+    "descendentes": []
+  },
+  "Rafael Neves Almeida": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "Universidade Federal De Sergipe",
+    "ascendentes": "Maria Elisa Esteves Lopes Galvão",
+    "descendentes": []
+  },
+  "Rodrigo Rodrigues Dias": {
+    "grupo": "filho",
+    "grande-area": "Ciências Sociais Aplicadas / Direito",
+    "universidade": "Tribunal De Justiça Do Estado Do Paraná",
+    "ascendentes": "José Rodrigo Rodriguez",
+    "descendentes": []
+  },
+  "Maria Izabel Ramalho Martins": {
+    "grupo": "pivo",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Hector Alfredo Merklen Goldschmidt",
+    "descendentes": [
+      "Sonia Maria Fernandes"
+    ]
+  },
+  "Hector Alfredo Merklen Goldschmidt": {
+    "grupo": "pai",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Hans J Zassenhaus",
+    "descendentes": [
+      "Alegria Gladys Chalom",
+      "Carlos Jose Matheus",
+      "Cristian Patricio Novoa Bustos",
+      "Herrnan Giraldo Salazar",
+      "Maria Izabel Ramalho Martins",
+      "Sonia Pita Coelho"
+    ]
+  },
+  "Alegria Gladys Chalom": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Hector Alfredo Merklen Goldschmidt",
+    "descendentes": []
+  },
+  "Carlos Jose Matheus": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Estadual De Ponta Grossa",
+    "ascendentes": "Hector Alfredo Merklen Goldschmidt",
+    "descendentes": []
+  },
+  "Cristian Patricio Novoa Bustos": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Pontifícia Universidade Católica De Goiás",
+    "ascendentes": "Hector Alfredo Merklen Goldschmidt",
+    "descendentes": []
+  },
+  "Herrnan Giraldo Salazar": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "Hector Alfredo Merklen Goldschmidt",
+    "descendentes": []
+  },
+  "Sonia Pita Coelho": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "Hector Alfredo Merklen Goldschmidt",
+    "descendentes": []
+  },
+  "Sonia Maria Fernandes": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal De Viçosa",
+    "ascendentes": "Eduardo Do Nascimento Marcos",
+    "descendentes": []
+  },
+  "Oswaldo Rio Branco de Oliveira": {
+    "grupo": "pivo",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "James Ralston",
+    "descendentes": []
+  },
+  "James Ralston": {
+    "grupo": "pai",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "",
+    "descendentes": [
+      "Oswaldo Rio Branco De Oliveira"
+    ]
+  },
+  "Pedro Luiz Fagundes": {
+    "grupo": "pivo",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Daciberg Lima Gonçalves",
+    "descendentes": []
+  },
+  "Daciberg Lima Gonçalves": {
+    "grupo": "pai",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "John R Harper",
+    "descendentes": [
+      "Anderson Paião Dos Santos",
+      "Augusto Reynol Filho",
+      "Bartira Maués",
+      "Claudemir Aniz",
+      "Daniel Vendrúscolo",
+      "Dirceu Penteado",
+      "Edson De Oliveira",
+      "Gustavo De Lima Prado",
+      "Marcio Colombo Fenille",
+      "Márcio De Jesus Soares",
+      "Natalia Andrea Viana Bedoya",
+      "Oscar Eduardo Ocampo Uribe",
+      "Pedro Luiz Fagundes",
+      "Renato Vasconcellos Vieira",
+      "Sabrina Saito",
+      "Sérgio Tadao Martins",
+      "Vinicius Casteluber Laass"
+    ]
+  },
+  "Anderson Paião dos Santos": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Tecnológica Federal Do Paraná",
+    "ascendentes": "Daciberg Lima Gonçalves",
+    "descendentes": []
+  },
+  "Augusto Reynol Filho": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "",
+    "ascendentes": "Daciberg Lima Gonçalves",
+    "descendentes": []
+  },
+  "Bartira Maués": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal De São Carlos",
+    "ascendentes": "Daciberg Lima Gonçalves",
+    "descendentes": []
+  },
+  "Claudemir Aniz": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal De Mato Grosso Do Sul",
+    "ascendentes": "Daciberg Lima Gonçalves",
+    "descendentes": []
+  },
+  "Daniel Vendrúscolo": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal De São Carlos",
+    "ascendentes": "Daciberg Lima Gonçalves",
+    "descendentes": [
+      "Caio Lima Silva",
+      "Carolina De Miranda E Pereiro",
+      "Givanildo Donizeti De Melo",
+      "Karen Regina Panzarin",
+      "Renato Dos Santos Diniz",
+      "Wagner Carvalho Sgobbi",
+      "Weslem Liberato Silva"
+    ]
+  },
+  "Dirceu Penteado": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal De São Carlos",
+    "ascendentes": "Daciberg Lima Gonçalves",
+    "descendentes": []
+  },
+  "Edson de Oliveira": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Centro Universitário Central Paulista",
+    "ascendentes": "Daciberg Lima Gonçalves",
+    "descendentes": []
+  },
+  "Gustavo de Lima Prado": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal De Uberlândia",
+    "ascendentes": "Daciberg Lima Gonçalves",
+    "descendentes": []
+  },
+  "Marcio Colombo Fenille": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal De Uberlândia",
+    "ascendentes": "Daciberg Lima Gonçalves",
+    "descendentes": []
+  },
+  "Márcio de Jesus Soares": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal De Santa Catarina",
+    "ascendentes": "Daciberg Lima Gonçalves",
+    "descendentes": []
+  },
+  "Oscar Eduardo Ocampo Uribe": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal Da Bahia",
+    "ascendentes": "Daciberg Lima Gonçalves",
+    "descendentes": [
+      "Paulo Cesar Cerqueira Dos Santos Júnior",
+      "Renato Dos Santos Diniz"
+    ]
+  },
+  "Renato Vasconcellos Vieira": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "",
+    "ascendentes": "Daciberg Lima Gonçalves",
+    "descendentes": []
+  },
+  "Sabrina Saito": {
+    "grupo": "filho",
+    "grande-area": "Ciências Humanas / Educação",
+    "universidade": "Faculdade De Tecnologia De São Paulo",
+    "ascendentes": "Daciberg Lima Gonçalves",
+    "descendentes": []
+  },
+  "Sérgio Tadao Martins": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Daciberg Lima Gonçalves",
+    "descendentes": []
+  },
+  "Vinicius Casteluber Laass": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal Da Bahia",
+    "ascendentes": "Daciberg Lima Gonçalves",
+    "descendentes": [
+      "Caio Lima Silva"
+    ]
+  },
+  "Raul Antonio Ferraz": {
+    "grupo": "pivo",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Jairo Zacarias Goncalves",
+    "descendentes": [
+      "Andre Luis Dos Santos Duarte Da Silva",
+      "Patrícia Massae Kitani",
+      "Renata Rodrigues Marcuz Silva",
+      "Ruth Nascimento Ferreira",
+      "Vitor Araujo Garcia"
+    ]
+  },
+  "Jairo Zacarias Goncalves": {
+    "grupo": "pai",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Francisco Cesar Polcino Milies",
+    "descendentes": [
+      "Pedro Russo De Oliveira",
+      "Raul Antonio Ferraz"
+    ]
+  },
+  "Pedro Russo de Oliveira": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "Jairo Zacarias Goncalves",
+    "descendentes": []
+  },
+  "Andre Luis dos Santos Duarte da Silva": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "",
+    "ascendentes": "Francisco Cesar Polcino Milies",
+    "descendentes": []
+  },
+  "Patrícia Massae Kitani": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Tecnológica Federal Do Paraná",
+    "ascendentes": "Raul Antonio Ferraz",
+    "descendentes": []
+  },
+  "Renata Rodrigues Marcuz Silva": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Raul Antonio Ferraz",
+    "descendentes": []
+  },
+  "Vitor Araujo Garcia": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "Raul Antonio Ferraz",
+    "descendentes": []
+  },
+  "Ricardo dos Santos Freire Junior": {
+    "grupo": "pivo",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Manuel Valentim De Pera Garcia",
+    "descendentes": [
+      "Jose Manuel Chauta Torres",
+      "Victor Andres Vargas Cubides"
+    ]
+  },
+  "Manuel Valentim de Pera Garcia": {
+    "grupo": "pai",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Angelo Barone Netto",
+    "descendentes": [
+      "Danilo Tonini Ferreira",
+      "Fábio Armando Tal",
+      "Gerard John Alva Morales",
+      "Jerusa Mendonça Megale",
+      "Julio Cezar De Oliveira Andrade",
+      "Luise Marion Frenkel",
+      "Marcelo Farias Caetano",
+      "Ricardo De Lima Ribeiro",
+      "Ricardo Dos Santos Freire Júnior"
+    ]
+  },
+  "Jose Manuel Chauta Torres": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Ricardo Dos Santos Freire Júnior",
+    "descendentes": []
+  },
+  "Victor Andres Vargas Cubides": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "Ricardo Dos Santos Freire Júnior",
+    "descendentes": []
+  },
+  "Rita Santos Guimaraes": {
+    "grupo": "pivo",
+    "grande-area": "Ciências Humanas / Educação",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Peter Gates",
+    "descendentes": []
+  },
+  "Peter Gates": {
+    "grupo": "pai",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "",
+    "descendentes": [
+      "Kathryn Hinsliff Smith",
+      "Leonardo Barichello",
+      "Rita Santos Guimarães"
+    ]
+  },
+  "Kathryn Hinsliff Smith": {
+    "grupo": "filho",
+    "grande-area": "Ciências da Saúde / Saúde Coletiva",
+    "universidade": "De Montfort University",
+    "ascendentes": "Peter Gates",
+    "descendentes": []
+  },
+  "Rita Santos Guimarães": {
+    "grupo": "filho",
+    "grande-area": "Ciências Humanas / Educação",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Peter Gates",
+    "descendentes": []
+  },
+  "Vinicius de Oliveira Rodrigues": {
+    "grupo": "pivo",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Artur Hideyuki Tomita",
+    "descendentes": []
+  },
+  "Artur Hideyuki Tomita": {
+    "grupo": "pai",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Steve Watson",
+    "descendentes": [
+      "Ana Carolina Boero",
+      "Irene Castro Pereira",
+      "Juliane Trianon Fraga",
+      "Matheus Koveroff Bellini",
+      "Vinicius De Oliveira Rodrigues"
+    ]
+  },
+  "Ana Carolina Boero": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal Do Abc",
+    "ascendentes": "Artur Hideyuki Tomita",
+    "descendentes": []
+  },
+  "Juliane Trianon Fraga": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "",
+    "ascendentes": "Artur Hideyuki Tomita",
+    "descendentes": []
+  },
+  "Matheus Koveroff Bellini": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "",
+    "ascendentes": "Artur Hideyuki Tomita",
+    "descendentes": []
+  },
+  "Vinicius Morelli Cortes": {
+    "grupo": "pivo",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "",
+    "ascendentes": "Eloi Medina Galego",
+    "descendentes": []
+  },
+  "Eloi Medina Galego": {
+    "grupo": "pai",
+    "grande-area": "",
+    "universidade": "Instituto De Matemática E Estatística",
+    "ascendentes": "Maria Ignez De Souza Vieira Diniz",
+    "descendentes": [
+      "André Luis Porto Da Silva",
+      "Fabiano Carlos Cidral",
+      "Leandro Candido Batista",
+      "Martha Liliana Cely Prieto",
+      "Maurício Zahn",
+      "Michael Alexander Rincon Villamizar",
+      "Roberto Nicolosi",
+      "Rogerio Augusto Dos Santos Fajardo",
+      "Ronald Eduardo Paternina Salguedo",
+      "Vinícius Morelli Côrtes"
+    ]
+  },
+  "André Luis Porto da Silva": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Eloi Medina Galego",
+    "descendentes": []
+  },
+  "Fabiano Carlos Cidral": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Instituto Federal De Santa Catarina",
+    "ascendentes": "Eloi Medina Galego",
+    "descendentes": []
+  },
+  "Martha Liliana Cely Prieto": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Eloi Medina Galego",
+    "descendentes": []
+  },
+  "Maurício Zahn": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal De Pelotas",
+    "ascendentes": "Eloi Medina Galego",
+    "descendentes": []
+  },
+  "Michael Alexander Rincon Villamizar": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "Eloi Medina Galego",
+    "descendentes": []
+  },
+  "Roberto Nicolosi": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Faculdade De Tecnologia De Santo André",
+    "ascendentes": "Eloi Medina Galego",
+    "descendentes": []
+  },
+  "Rogerio Augusto dos Santos Fajardo": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Eloi Medina Galego",
+    "descendentes": [
+      "Alirio Gómez Gómez",
+      "André Santoleri Villa Barbeiro",
+      "Geovani Pereira Machado",
+      "João Paulo Cirineu De Jesus"
+    ]
+  },
+  "Ronald Eduardo Paternina Salguedo": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Eloi Medina Galego",
+    "descendentes": []
+  },
+  "Vinícius Morelli Côrtes": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "",
+    "ascendentes": "Eloi Medina Galego",
+    "descendentes": []
+  },
+  "Wilson Albeiro Cuellar Carrera": {
+    "grupo": "pivo",
+    "grande-area": "",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Valentin Raphael Henri Ferenczi",
+    "descendentes": []
+  },
+  "Valentin Raphael Henri Ferenczi": {
+    "grupo": "pai",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Bernard Maurey",
+    "descendentes": [
+      "Alejandra Carolina Cáceres Rigo",
+      "Denis De Assis Pinto Garcia",
+      "Leandro Antunes",
+      "Willian Hans Goes Corrêa",
+      "Wilson Cuellar Carrera"
+    ]
+  },
+  "Alejandra Carolina Cáceres Rigo": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Valentin Raphael Henri Ferenczi",
+    "descendentes": []
+  },
+  "Denis de Assis Pinto Garcia": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "",
+    "ascendentes": "Valentin Raphael Henri Ferenczi",
+    "descendentes": []
+  },
+  "Leandro Antunes": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Tecnológica Federal Do Paraná",
+    "ascendentes": "Valentin Raphael Henri Ferenczi",
+    "descendentes": []
+  },
+  "Willian Hans Goes Corrêa": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "",
+    "ascendentes": "Valentin Raphael Henri Ferenczi",
+    "descendentes": []
+  },
+  "Zara Issa Abud": {
+    "grupo": "pivo",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Francisco Miraglia Neto",
+    "descendentes": []
+  },
+  "Francisco Miraglia Neto": {
+    "grupo": "pai",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Abraham Robinson E Angus Macintyre",
+    "descendentes": [
+      "Andreas Bernhard Michael Brunner",
+      "Marcelo Coniglio",
+      "Zara Issa Abud"
+    ]
+  },
+  "Andreas Bernhard Michael Brunner": {
+    "grupo": "filho",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade Federal Da Bahia",
+    "ascendentes": "Francisco Miraglia Neto",
+    "descendentes": []
+  },
+  "Marcelo Coniglio": {
+    "grupo": "filho",
+    "grande-area": "",
+    "universidade": "",
+    "ascendentes": "Francisco Miraglia Neto",
+    "descendentes": []
+  }
+}

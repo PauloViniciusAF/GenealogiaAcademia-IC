@@ -6,8 +6,8 @@ from logger_util import get_logger
 
 logger = get_logger()
 
-entrada = "docentes-fei.list"
-saida_json = "pesquisadores-extraidos.json"
+entrada = "docentes-usp-formatados.list"
+saida_json = "pesquisadores-extraidos-usp.json"
 base_url = "https://plataforma-acacia.org/profile/"
 max_geracoes = 1  # Limite de gerações (1 = só primeira geração)
 
@@ -104,7 +104,7 @@ def processa_pesquisador(nome, page, geracao_atual=0):
             if tentativas < max_tentativas:
                 logger.info(f"Recarregando página para {nome_chave} em 5 segundos...")
                 time.sleep(5)
-    time.sleep(3)
+    time.sleep(6)
 
 def extrai_pesquisador(nome, page, grupo):
     nome_chave = nome_formatado(nome)
@@ -139,7 +139,7 @@ def extrai_pesquisador(nome, page, grupo):
             if tentativas < max_tentativas:
                 logger.info(f"Recarregando página para {nome_chave} em 5 segundos...")
                 time.sleep(5)
-    time.sleep(3)
+    time.sleep(6)
 
 with sync_playwright() as p:
     browser = p.chromium.launch(headless=True)

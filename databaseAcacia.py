@@ -5,8 +5,8 @@ import json
 
 # Carrega variáveis de ambiente
 load_dotenv()
-URI = os.getenv("NEO4J_URI")
-AUTH = (os.getenv("NEO4J_USER"), os.getenv("NEO4J_PASSWORD"))
+URI = os.getenv("NEO4J_URI2")
+AUTH = (os.getenv("NEO4J_USER"), os.getenv("NEO4J_PASSWORD2"))
 
 driver = GraphDatabase.driver(URI, auth=AUTH)
 
