@@ -238,6 +238,13 @@
     "ascendentes": "Antonio De Padua Franco Filho",
     "descendentes": []
   },
+  "Barbara Corominas Valério": {
+    "grupo": "pivo",
+    "grande-area": "Ciências Exatas e da Terra / Matemática",
+    "universidade": "Universidade De São Paulo",
+    "ascendentes": "Antonio Carlos Asperti",
+    "descendentes": []
+  },
   "Cristina Cerri": {
     "grupo": "pivo",
     "grande-area": "Ciências Exatas e da Terra / Matemática",
@@ -766,13 +773,6 @@
     "ascendentes": "Camillo De Lellis",
     "descendentes": []
   },
-  "Humberto Daniel Carrion Villarroel": {
-    "grupo": "pivo",
-    "grande-area": "Ciências Exatas e da Terra / Matemática",
-    "universidade": "Universidade De São Paulo",
-    "ascendentes": "Jorge Tulio Mujica Ascui",
-    "descendentes": []
-  },
   "Iole de Freitas Druck": {
     "grupo": "pivo",
     "grande-area": "Ciências Humanas / Educação",
@@ -1163,7 +1163,7 @@
     "ascendentes": "Ivan Struchiner",
     "descendentes": []
   },
-  "Javier Sanchez Serda": {
+  "Javier Sanchez Serdà": {
     "grupo": "pivo",
     "grande-area": "Ciências Exatas e da Terra / Matemática",
     "universidade": "Universidade De São Paulo",
@@ -1197,7 +1197,7 @@
     "ascendentes": "Javier Sánchez Serdà",
     "descendentes": []
   },
-  "Joao Fernando da Cunha Nariyoshi": {
+  "João Fernando da Cunha Nariyoshi": {
     "grupo": "pivo",
     "grande-area": "Ciências Exatas e da Terra / Matemática",
     "universidade": "Universidade De São Paulo",
@@ -1272,13 +1272,6 @@
       "Vernny Uriel Chavez Ccajma"
     ]
   },
-  "João Fernando da Cunha Nariyoshi": {
-    "grupo": "filho",
-    "grande-area": "Ciências Exatas e da Terra / Matemática",
-    "universidade": "Universidade De São Paulo",
-    "ascendentes": "Hermano Frid Neto",
-    "descendentes": []
-  },
   "Juan Andres Gonzalez Marin": {
     "grupo": "filho",
     "grande-area": "Ciências Exatas e da Terra / Matemática",
@@ -1316,7 +1309,7 @@
       "Vernny Uriel Chavez Ccajma"
     ]
   },
-  "Joao Henrique Santos de Andrade": {
+  "João Henrique Santos de Andrade": {
     "grupo": "pivo",
     "grande-area": "Ciências Exatas e da Terra / Matemática",
     "universidade": "Universidade De São Paulo",
@@ -1340,13 +1333,6 @@
     "ascendentes": "Fernando Coda Marques",
     "descendentes": []
   },
-  "João Henrique Santos de Andrade": {
-    "grupo": "filho",
-    "grande-area": "Ciências Exatas e da Terra / Matemática",
-    "universidade": "Universidade De São Paulo",
-    "ascendentes": "Fernando Coda Marques",
-    "descendentes": []
-  },
   "Jorge Tadashi Hiratuka": {
     "grupo": "pivo",
     "grande-area": "Ciências Exatas e da Terra / Matemática",
@@ -1363,7 +1349,7 @@
       "Jorge Tadashi Hiratuka"
     ]
   },
-  "Jose Luis Vilca Rodriguez": {
+  "José Luis Vilca Rodríguez": {
     "grupo": "pivo",
     "grande-area": "Ciências Exatas e da Terra / Matemática",
     "universidade": "Universidade De São Paulo",
@@ -1426,7 +1412,7 @@
     "ascendentes": "Csaba Schneider",
     "descendentes": []
   },
-  "Julio Cesar Augusto do Valle": {
+  "Júlio César Augusto do Valle": {
     "grupo": "pivo",
     "grande-area": "Ciências Humanas / Educação",
     "universidade": "",
@@ -1556,13 +1542,6 @@
       "Sidineia Kaneko Sasso",
       "Solange Santiago Ferreira"
     ]
-  },
-  "Júlio César Augusto do Valle": {
-    "grupo": "filho",
-    "grande-area": "Ciências Humanas / Educação",
-    "universidade": "",
-    "ascendentes": "Lisete Regina Gomes Arelaro",
-    "descendentes": []
   },
   "Lizandra Guedes Baptista": {
     "grupo": "filho",
@@ -2344,7 +2323,7 @@
     "ascendentes": "Ricardo Dos Santos Freire Júnior",
     "descendentes": []
   },
-  "Rita Santos Guimaraes": {
+  "Rita Santos Guimarães": {
     "grupo": "pivo",
     "grande-area": "Ciências Humanas / Educação",
     "universidade": "Universidade De São Paulo",
@@ -2366,13 +2345,6 @@
     "grupo": "filho",
     "grande-area": "Ciências da Saúde / Saúde Coletiva",
     "universidade": "De Montfort University",
-    "ascendentes": "Peter Gates",
-    "descendentes": []
-  },
-  "Rita Santos Guimarães": {
-    "grupo": "filho",
-    "grande-area": "Ciências Humanas / Educação",
-    "universidade": "Universidade De São Paulo",
     "ascendentes": "Peter Gates",
     "descendentes": []
   },
@@ -2417,7 +2389,7 @@
     "ascendentes": "Artur Hideyuki Tomita",
     "descendentes": []
   },
-  "Vinicius Morelli Cortes": {
+  "Vinícius Morelli Cortes": {
     "grupo": "pivo",
     "grande-area": "Ciências Exatas e da Terra / Matemática",
     "universidade": "",

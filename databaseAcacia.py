@@ -27,7 +27,7 @@ def cria_relacao(tx, nome1, nome2, relacao):
     tx.run(query, nome1=nome1, nome2=nome2)
 
 def main():
-    with open("pesquisadores-extraidos.json", "r", encoding="utf-8") as f:
+    with open("pesquisadores-extraidos-usp.json", "r", encoding="utf-8") as f:
         pesquisadores = json.load(f)
 
     with driver.session() as session:
